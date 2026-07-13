@@ -1,0 +1,7 @@
+13-07-2026 10:06:20 - COPYRIGHT (C) B&R Industrial Automation GmbH
+13-07-2026 10:06:20 - No ARsim registration found!
+13-07-2026 10:06:20 - InstanceName: 0000017b95783733
+13-07-2026 10:06:20 - WorkingDirectory: C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Temp\Simulation\X20CP1684\X20CP1684\
+13-07-2026 10:06:20 - COMMAND_COLDSTART
+13-07-2026 10:06:23 - Version: 6.7.6
+13-07-2026 10:06:23 - Build: 1

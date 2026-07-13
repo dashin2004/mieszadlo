@@ -1,0 +1,38 @@
+
+
+Marcel Krausert
+krausertm
+
+6
+Jul 2024
+Below the content for an AFAIK complete .gitignore file for AS projects.
+
+ATTENTION: I updated the file, since in the mappSafety CPU folder the file GLOBAL_VARIABLESTranslation_SF.xml seems to be required!
+
+## Automation Studio
+# Ignore AR versions as those are not considered part of the project
+/AS/System/
+
+# Ignore build results
+/Binaries/
+
+# Ignore debugging configurations (Watch,...)
+/Diagnosis/
+
+# But save the watch windows and task trace configurations (if it should stay in the repository) - optional, uncomment if needed
+#!/Diagnosis/**/
+#!/Diagnosis/**/*.PVM
+#!/Diagnosis/**/*.tc
+
+# mappSafety
+#------------------
+# Ignore DLFiles
+/Physical/*/*/mappSafety/*/DLFiles/*
+
+# Ignore CPU folder in mappSafety - ..\{ASprojectName}\Physical\{ConfigName}\{PLCname}\mappSafety\{SafetyProjectName}\C\PLC\R\CPU
+/Physical/*/*/mappSafety/*/C/PLC/R/CPU/*
+!/Physical/*/*/mappSafety/*/C/PLC/R/CPU/*.xml
+
+# But include the required binary files
+!/Physical/*/*/mappSafety/*/C/PLC/R/CPU/src.st1
+!/Physical/*/*/mappSafety/*/C/PLC/R/CPU/tmp.sto

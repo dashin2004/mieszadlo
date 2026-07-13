@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="6.0"?>
+<OpcUaSource FileVersion="10" ArVersion="E4.93">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases>
+      <EURanges Id="1">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">100</High>
+        </EURange>
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases />
+  </Aliases>
+  <Module Name="&lt;Default&gt;">
+    <GlobalVariables>
+      <Variable Name="gMieszadlo" />
+      <Variable Name="gZb1_poziom" />
+      <Variable Name="gZb1_zawor" />
+      <Variable Name="gZb2_poziom" />
+      <Variable Name="gZb2_zawor" />
+      <Variable Name="gZb3_poziom" />
+      <Variable Name="gZb3_zawor_glowny" />
+      <Variable Name="gZb3_zawor_lewy" EURangesId="1" />
+      <Variable Name="gZb3_zawor_prawy" EURangesId="1" />
+    </GlobalVariables>
+    <Task Name="ClockSigna">
+      <Variable Name="Clock" />
+      <Variable Name="Mixer" />
+    </Task>
+  </Module>
+</OpcUaSource>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="6.7.0.187"?>
+<ProjectSettings xmlns="http://br-automation.co.at/AS/ProjectSettings">
+  <ConfigurationManager ActiveConfigurationName="X20CP1684" />
+  <Deployment Value="ActiveCpu" />
+  <ExportProject ExportFilePath="C:\Projects\Praktyki2026\Zbiorniki_AS6.zip" />
+  <Print Footer="%cPage: %p" Header="%lProject: %n%c%x" />
+</ProjectSettings>

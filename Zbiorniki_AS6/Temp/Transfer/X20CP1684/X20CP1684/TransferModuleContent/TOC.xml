@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toc Version="2" MinorVersion="0">
+	<Application>
+		<Class Name="Os">
+			<Folder Name="BRM" ProjectDependent="1" IgnoreDifference="0">
+				<File Name="@cfAR000.br" Size="4072" HashValue="8E479254E01BF6D33B7D5E029A527ED7" ProjectDependent="1" IgnoreDifference="0" />
+				<File Name="@sbAR000.br" Size="1624" HashValue="A9AED3241E1468924841FEB33855D1BC" ProjectDependent="1" IgnoreDifference="0" />
+			</Folder>
+			<Folder Name="SYSTEM" ProjectDependent="1" IgnoreDifference="0">
+				<Folder Name="BASE" ProjectDependent="1" IgnoreDifference="0">
+					<Folder Name="COMPONENTS" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="ArLcTextP.br" Size="315672" HashValue="9C5E88FB55616634FA6BC50E60E936E3" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="ArUnitSys.br" Size="282052" HashValue="CE2E94DB8C2145F19CDFE8A4FC5D2074" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="UaCore.br" Size="2121672" HashValue="39B1F4C65D08FF6FEA2D826E11AFE4E4" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+					<Folder Name="HWD" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="AsHwdSimulation.xml.gz" Size="12568" HashValue="E3A0006D30B9913DDFEA7F74F2E2CAC9" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="AsHwdhw_upl.xml.gz" Size="11758" HashValue="829CD79528FF51CB1C69C47180F4E0C9" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+				</Folder>
+				<Folder Name="SDM" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="arsdm.tar.gz" Size="534450" HashValue="E052D8A86109497C15FFBDA8051C3B59" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="TOC" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ftoc.xml" Size="520" HashValue="6666A1BC1FDC9BBCF7B22FC833143FB5" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="WEBSERV" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ArWebServ.br" Size="60136" HashValue="48662B9583054B63BE0D09F9035CBA13" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+			</Folder>
+		</Class>
+	</Application>
+</Toc>
