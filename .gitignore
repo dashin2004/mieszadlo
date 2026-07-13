@@ -11,13 +11,15 @@ ATTENTION: I updated the file, since in the mappSafety CPU folder the file GLOBA
 
 ## Automation Studio
 # Ignore AR versions as those are not considered part of the project
-/AS/System/
+/Zbiorniki_AS6/AS/System/
 
 # Ignore build results
-/Binaries/
+
+/Zbiorniki_AS6/Binaries/
 
 # Ignore debugging configurations (Watch,...)
-/Diagnosis/
+
+/Zbiorniki_AS6/Diagnosis/
 
 # But save the watch windows and task trace configurations (if it should stay in the repository) - optional, uncomment if needed
 #!/Diagnosis/**/
@@ -27,12 +29,14 @@ ATTENTION: I updated the file, since in the mappSafety CPU folder the file GLOBA
 # mappSafety
 #------------------
 # Ignore DLFiles
-/Physical/*/*/mappSafety/*/DLFiles/*
+
+/Zbiorniki_AS6/Physical/*/*/mappSafety/*/DLFiles/*
 
 # Ignore CPU folder in mappSafety - ..\{ASprojectName}\Physical\{ConfigName}\{PLCname}\mappSafety\{SafetyProjectName}\C\PLC\R\CPU
-/Physical/*/*/mappSafety/*/C/PLC/R/CPU/*
-!/Physical/*/*/mappSafety/*/C/PLC/R/CPU/*.xml
+
+/Zbiorniki_AS6/Physical/*/*/mappSafety/*/C/PLC/R/CPU/*
+!/Zbiorniki_AS6/Physical/*/*/mappSafety/*/C/PLC/R/CPU/*.xml
 
 # But include the required binary files
-!/Physical/*/*/mappSafety/*/C/PLC/R/CPU/src.st1
-!/Physical/*/*/mappSafety/*/C/PLC/R/CPU/tmp.sto
+!/Zbiorniki_AS6/Physical/*/*/mappSafety/*/C/PLC/R/CPU/src.st1
+!/Zbiorniki_AS6/Physical/*/*/mappSafety/*/C/PLC/R/CPU/tmp.sto
