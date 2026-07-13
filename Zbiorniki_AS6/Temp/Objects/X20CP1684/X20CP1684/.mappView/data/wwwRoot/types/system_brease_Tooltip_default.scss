@@ -1,0 +1,4 @@
+@use "system_brease_Tooltip_base.scss" as system_brease_Tooltip;
+.system_brease_Tooltip_style_default {
+@include system_brease_Tooltip.base 
+}

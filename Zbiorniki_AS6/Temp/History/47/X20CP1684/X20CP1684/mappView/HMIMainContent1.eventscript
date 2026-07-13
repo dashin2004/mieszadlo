@@ -1,0 +1,8 @@
+/**
+* @eventScriptSetId HMIMainContent1
+* @contentId HMIMainContent
+*/
+ 
+widgets.ButtonStart.click(function(e){
+      
+});

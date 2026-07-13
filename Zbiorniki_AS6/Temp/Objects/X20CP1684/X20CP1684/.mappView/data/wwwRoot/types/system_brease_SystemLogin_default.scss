@@ -1,0 +1,4 @@
+@use "system_brease_SystemLogin_base.scss" as system_brease_SystemLogin;
+.system_brease_SystemLogin_style_default {
+@include system_brease_SystemLogin.base 
+}

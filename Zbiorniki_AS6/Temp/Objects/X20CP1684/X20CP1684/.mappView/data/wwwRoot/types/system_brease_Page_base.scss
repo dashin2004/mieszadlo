@@ -1,0 +1,13 @@
+@use "mixins.scss";
+
+@mixin prop_backGround {
+	@include mixins.noRepeatBackgroundImage('../');
+}
+@mixin prop_sizeMode {
+	@include mixins.backgroundSize(fill);
+}
+@mixin base {
+  @include prop_backGround;
+  @include prop_sizeMode;
+}
+

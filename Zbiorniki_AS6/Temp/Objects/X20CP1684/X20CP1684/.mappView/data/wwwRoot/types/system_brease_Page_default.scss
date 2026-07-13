@@ -1,0 +1,4 @@
+@use "system_brease_Page_base.scss" as system_brease_Page;
+.system_brease_Page_style_default {
+@include system_brease_Page.base 
+}

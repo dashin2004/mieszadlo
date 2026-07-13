@@ -1,5 +1,19 @@
 VAR
-	Start : BOOL;
 	krok : USINT;
-	stop : BOOL;
+	Maszyna : StanZb;
+	MieszanieBtn : BOOL;
+	Start : BOOL;
+	TrybPracyStr : STRING[80];
+	StopBtn : BOOL;
+	test : BOOL;
+	TON_0 : TON;
+	TrybPracy : BOOL;
+	Zb1_zawor_view : BOOL;
+	Zb2_zawor_view : BOOL;
+	Zb3_zawor_glowny_view : BOOL;
+	Zb3_zawor_prawy_view : INT;
+	StopStan : STRING[80];
+	Zb3_zawor_lewy_view : INT;
+	MieszanieStr : STRING[80];
+	StartStan : STRING[80];
 END_VAR

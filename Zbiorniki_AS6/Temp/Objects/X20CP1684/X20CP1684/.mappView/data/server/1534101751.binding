@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+	
+		<Visualization><Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb1_poziom" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gZb1_poziom" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+
+		<Visualization><Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb2_poziom" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gZb2_poziom" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+
+		<Visualization><Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb3_poziom" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gZb3_poziom" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+
+		<Visualization><Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb3_zawor_lewy" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gZb3_zawor_lewy" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+
+		<Visualization><Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb3_zawor_prawy" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gZb3_zawor_prawy" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+
+		<Visualization><Binding mode="oneWayToSource">
+			<Source xsi:type="variable" refId="Zb1_zawor" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+
+		<Visualization><Binding mode="oneWayToSource">
+			<Source xsi:type="variable" refId="Zb2_zawor" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gZb2_zawor" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+		
+		<Visualization><Binding mode="oneWayToSource">
+			<Source xsi:type="variable" refId="Zb3_zawor" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gZb3_zawor_glowny" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+		
+		<Visualization><Binding mode="oneWayToSource">
+			<Source xsi:type="variable" refId="Mieszadlo" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gMieszadlo" attribute="value" samplingRate="fast" />
+		</Binding></Visualization>
+		
+		<Visualization><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::ClockSigna:Clock" attribute="value" samplingRate="fast" />
+			<Target xsi:type="variable" refId="ClockSignal" attribute="value" />
+		</Binding></Visualization>
+		
+		<Visualization><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::ClockSigna:Mixer" attribute="value" samplingRate="fast" />
+			<Target xsi:type="variable" refId="MixerClockSignal" attribute="value" />
+		</Binding></Visualization>
+		
+	
+</BindingDefinition>

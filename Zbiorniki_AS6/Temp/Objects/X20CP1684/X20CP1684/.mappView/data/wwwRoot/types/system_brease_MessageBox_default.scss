@@ -1,0 +1,4 @@
+@use "system_brease_MessageBox_base.scss" as system_brease_MessageBox;
+.system_brease_MessageBox_style_default {
+@include system_brease_MessageBox.base 
+}

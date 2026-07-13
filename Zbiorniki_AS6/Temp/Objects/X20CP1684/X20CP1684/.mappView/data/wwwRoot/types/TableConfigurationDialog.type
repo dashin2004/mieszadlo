@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TableConfigurationDialog xmlns="http://www.br-automation.com/iat2014/widget" >
+  <StyleProperties>
+
+    <!-- main dialogue style definition -->
+    <StyleProperty name="closeImage" category="Appearance" type="ImagePath" default="">
+      <Description>Bild für den Button (x) im Header des DialogWindows zum Schließen des Dialogs.</Description>
+      <StyleElement selector=".breaseDialogWindowHeader .breaseWindowClose" attribute="@include backGroundImage('../$value');background-position: center center;background-repeat:no-repeat"></StyleElement>
+      <StyleElement selector=".breaseDialogWindowHeader .breaseWindowClose:after" attribute="@include useCharacterifNoImage('$value')"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="showCloseButton" category="Appearance" type="Boolean" default="true">
+      <Description>Sichtbarkeit des Buttons im Header des DialogWindows zum Schließen des Dialogs.</Description>
+      <StyleElement selector=".breaseWindowClose" attribute="@include display($value)"></StyleElement>
+    </StyleProperty>
+
+    <StyleProperty name="cornerRadius" category="Appearance" type="PixelValCollection" default="0px">
+      <StyleElement attribute="@include border-radius($value)"></StyleElement>
+      <StyleElement selector="header" attribute="@include border-radius($value)"></StyleElement>
+      <StyleElement selector=".generic-dialog-content-footer-container" attribute="@include border-radius($value)"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="backColor" category="Appearance" type="Color" default="#FFFFFF" >
+      <StyleElement selector=".generic-dialog-content-footer-container" attribute="background-color"></StyleElement>
+      <StyleElement attribute="background-color"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="backGroundGradient" category="Appearance" type="Gradient" default="">
+      <StyleElement selector=".generic-dialog-content-footer-container" attribute="@include backGroundGradient('$value')"></StyleElement>
+      <StyleElement attribute="@include backGroundGradient('$value')"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="borderColor" category="Appearance" type="ColorCollection" default="#333333" >
+      <StyleElement attribute="border-color"></StyleElement>
+      <StyleElement selector=".arrowLeft .breaseWindowArrow" attribute="border-right-color"></StyleElement>
+      <StyleElement selector=".arrowRight .breaseWindowArrow" attribute="border-left-color"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="borderWidth" category="Appearance" type="PixelVal" default="9px">
+      <Description>Breite des Rahmens für den Dialog.</Description>
+      <StyleElement selector="header" attribute="@include reverseMargin($value)"></StyleElement>
+      <StyleElement attribute="border-bottom-width"></StyleElement>
+      <StyleElement attribute="border-left-width"></StyleElement>
+      <StyleElement attribute="border-right-width"></StyleElement>
+      <StyleElement attribute="@include static-top-border($value)" ></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="borderStyle" category="Appearance" type="BorderStyle" default="solid">
+      <Description>Stil des Rahmens für den Dialog.</Description>
+      <StyleElement attribute="border-bottom-style"></StyleElement>
+      <StyleElement attribute="border-left-style"></StyleElement>
+      <StyleElement attribute="border-right-style"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="opacity" category="Appearance" type="Opacity" default="1">
+      <StyleElement attribute="opacity"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="shadow" type="Shadow" default="none">
+      <StyleElement attribute="@include box-shadow($value)"></StyleElement>
+    </StyleProperty>
+
+    
+    <!-- header -->
+    <StyleProperty name="headerTextColor" category="Header" type="Color" default="#FFF" >
+      <Description>Farbe des Textes der Kopfzeile.</Description>
+      <StyleElement selector="header div" attribute="color"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerFontName" category="Header" type="FontName" default="Arial">
+      <Description>Name der Schriftart des Textes der Kopfzeile.</Description>
+      <StyleElement selector="header div" attribute="font-family"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerFontSize" category="Header" type="PixelVal" default="16px" >
+      <Description>Schriftgröße des Textes der Kopfzeile.</Description>
+      <StyleElement selector="header div" attribute="font-size"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerBold" category="Header" type="Boolean" default="false" >
+      <Description>Der Wert true bewirkt die Verwendung der Schriftstärke "bold" im Text der Kopfzeile des Dialogs.</Description>
+      <StyleElement selector="header div" attribute="@include font-weight-bold($value)"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerItalic" category="Header" type="Boolean" default="false" >
+      <Description>Der Wert true bewirkt die Verwendung des Schriftstils "italic" im Text der Kopfzeile des Dialogs.</Description>
+      <StyleElement selector="header div" attribute="@include font-style-italic($value)"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerGradient" category="Header" type="Gradient" default="">
+      <Description>Hintergrund der Kopfzeile als Farb-Gradient.</Description>
+      <StyleElement selector="header" attribute="@include backGroundGradient('$value')"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerBackColor" category="Header" type="Color" default="#333">
+      <Description>Hintergrundfarbe der Kopfzeile.</Description>
+      <StyleElement selector="header" attribute="background-color"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerBorderColor" category="Header" type="ColorCollection" default="#333">
+      <Description>Farbe des Rahmens der Kopfzeile.</Description>
+      <StyleElement selector="header" attribute="border-color"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerBorderWidth" category="Header" type="PixelValCollection" default="0px">
+      <Description>Breite des Rahmens der Kopfzeile.</Description>
+      <StyleElement selector="header" attribute="border-width"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerBorderStyle" category="Header" type="BorderStyle" default="none" >
+      <Description>Stil des Rahmens der Kopfzeile.</Description>
+      <StyleElement selector="header" attribute="border-style"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="headerHeight" category="Header" type="PixelVal" default="42px" >
+      <Description>Höhe der Kopfzeile.</Description>
+      <StyleElement selector="header" attribute="height"></StyleElement>
+      <StyleElement selector="header .breaseWindowClose" attribute="height"></StyleElement>
+      <StyleElement selector="header .breaseWindowClose" attribute="line-height"></StyleElement>
+    </StyleProperty>
+
+    <!-- Password Policies -->
+    <StyleProperty name="policySuccessTextColor" category="Policy" type="Color" default="#008000" >
+      <Description>Farbe des Textes der Passwort Richtlinie, wenn das Passwort der Richtlinie entspricht.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Label_style_default.policy.success span" attribute="color"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policyFailTextColor" category="Policy" type="Color" default="#FF0000" >
+      <Description>Farbe des Textes der Passwort Richtlinie, wenn das Passwort der Richtlinie nicht entspricht.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Label_style_default.policy.fail span" attribute="color"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policyFontName" category="Policy" type="FontName" default="Arial">
+      <Description>Name der Schriftart des Textes der Passwort Richtlinien.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Label_style_default.policy span" attribute="font-family"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policyFontSize" category="Policy" type="PixelVal" default="14px" >
+      <Description>Schriftgröße des Textes der Passwort Richtlinien.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Label_style_default.policy span" attribute="font-size"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policyBold" category="Policy" type="Boolean" default="false" >
+      <Description>Der Wert true bewirkt die Verwendung der Schriftstärke "bold" im Text der Passwort Richtlinien.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Label_style_default.policy span" attribute="@include font-weight-bold($value)"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policyItalic" category="Policy" type="Boolean" default="false" >
+      <Description>Der Wert true bewirkt die Verwendung des Schriftstils "italic" im Text der Passwort Richtlinien.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Label_style_default.policy span" attribute="@include font-style-italic($value)"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policySuccessImageColor" category="Policy" type="Color" default="#008000" >
+      <Description>Farbe des Symbols der Passwort Richtlinie, wenn das Passwort der Richtlinie entspricht.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Image_style_default.policy.success svg" attribute="fill"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policySuccessImageSize" category="Policy" type="PixelVal" default="16px" >
+      <Description>Größe des Symbols der Passwort Richtlinie, wenn das Passwort der Richtlinie entspricht.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Image_style_default.policy.success" attribute="width"></StyleElement>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Image_style_default.policy.success" attribute="height"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policyFailImageColor" category="Policy" type="Color" default="#FF0000" >
+      <Description>Farbe des Symbols der Passwort Richtlinie, wenn das Passwort der Richtlinie nicht entspricht.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Image_style_default.policy.fail svg" attribute="fill"></StyleElement>
+    </StyleProperty>
+    <StyleProperty name="policyFailImageSize" category="Policy" type="PixelVal" default="16px" >
+      <Description>Größe des Symbols der Passwort Richtlinie, wenn das Passwort der Richtlinie nicht entspricht.</Description>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Image_style_default.policy.fail" attribute="width"></StyleElement>
+      <StyleElement selector="&amp;.breaseUserListGenericDialog .widgets_brease_Image_style_default.policy.fail" attribute="height"></StyleElement>
+    </StyleProperty>
+
+  </StyleProperties>
+</TableConfigurationDialog>

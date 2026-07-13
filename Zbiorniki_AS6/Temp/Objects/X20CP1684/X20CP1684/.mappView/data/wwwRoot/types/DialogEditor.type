@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog xmlns="http://www.br-automation.com/iat2014/widget">
+  <!-- 
+  This type is used to generate the SCSS for displaying the dialog in the page editor. 
+  It contains only a subset of the properties that are used at runtime.
+  In page editor we need different CSS statements for a dialog than at runtime.
+  There is no need for a corresponding .meta file, as Dialog.meta contains all properties needed for the property grid in the page editor.
+  -->
+  <StyleProperties>
+    <StyleProperty name="backGround" type="ImagePath" category="StyleProperty" default="">
+      <StyleElement attribute="@include noRepeatBackgroundImage('../$value')" />
+    </StyleProperty>
+    <StyleProperty name="sizeMode" type="brease.enum.SizeMode" category="StyleProperty" default="fill">
+      <StyleElement attribute="@include backgroundSize($value)" />
+    </StyleProperty>
+    <StyleProperty name="backColor" category="Appearance" type="Color" default="#ebebeb">
+      <StyleElement attribute="background-color" />
+    </StyleProperty>
+    <StyleProperty name="backGroundGradient" category="Appearance" type="Gradient" default="">
+      <StyleElement attribute="@include backGroundGradient('$value')" />
+    </StyleProperty>
+  </StyleProperties>
+</Dialog>

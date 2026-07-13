@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mappings>
+<Mapping parameter="opcUa.NodeAction.SetValueNumber.value" type="ANY_REAL" />
+<Mapping parameter="opcUa.NodeAction.SetValueBool.value" type="BOOL" />
+<Mapping parameter="opcUa.NodeAction.SetValueString.value" type="ANY_STRING" />
+<Mapping parameter="opcUa.NodeAction.SetValueDateTime.value" type="DATE_AND_TIME" />
+<Mapping parameter="opcUa.NodeAction.AddValue.value" type="ANY_REAL" />
+<Mapping parameter="opcUa.SystemAction.GetServerStatus.serverAlias" type="ANY_STRING" />
+<Mapping parameter="session.VariableAction.SetValueBool.value" type="BOOL" />
+<Mapping parameter="session.VariableAction.SetValueNumber.value" type="ANY_REAL" />
+<Mapping parameter="session.VariableAction.SetValueString.value" type="ANY_STRING" />
+<Mapping parameter="session.VariableAction.SetValueDateTime.value" type="DATE_AND_TIME" />
+<Mapping parameter="session.VariableAction.AddValue.value" type="ANY_REAL" />
+<Mapping parameter="session.TimerAction.Start.interval" type="ANY_INT" />
+<Mapping parameter="clientSystem.Action.OpenDialog.dialogId" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.OpenDialog.mode" type="ANY_STRING" index="1" />
+<Mapping parameter="clientSystem.Action.OpenDialog.horizontalPos" type="ANY_STRING" index="2" />
+<Mapping parameter="clientSystem.Action.OpenDialog.verticalPos" type="ANY_STRING" index="3" />
+<Mapping parameter="clientSystem.Action.OpenDialog.headerText" type="ANY_STRING" index="4" />
+<Mapping parameter="clientSystem.Action.OpenDialog.autoClose" type="BOOL" index="5" />
+<Mapping parameter="clientSystem.Action.OpenDialog.autoRaise" type="ANY_STRING" index="6" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.dialogId" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.target" type="ANY_STRING" index="1" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.mode" type="ANY_STRING" index="2" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.horizontalPos" type="ANY_STRING" index="3" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.verticalPos" type="ANY_STRING" index="4" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.headerText" type="ANY_STRING" index="5" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.autoClose" type="BOOL" index="6" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.horizontalDialogAlignment" type="ANY_STRING" index="7" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.verticalDialogAlignment" type="ANY_STRING" index="8" />
+<Mapping parameter="clientSystem.Action.OpenDialogAtTarget.autoRaise" type="ANY_STRING" index="9" />
+<Mapping parameter="clientSystem.Action.CloseDialog.dialogId" type="ANY_STRING" />
+<Mapping parameter="clientSystem.Action.Login.userName" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.Login.password" type="ANY_STRING" index="1" />
+<Mapping parameter="clientSystem.Action.ShowMessageBox.type" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.ShowMessageBox.message" type="ANY_STRING" index="1" />
+<Mapping parameter="clientSystem.Action.ShowMessageBox.header" type="ANY_STRING" index="2" />
+<Mapping parameter="clientSystem.Action.ShowMessageBox.icon" type="ANY_STRING" index="3" />
+<Mapping parameter="clientSystem.Action.ShowMessageBox.style" type="ANY_STRING" index="4" />
+<Mapping parameter="clientSystem.Action.Navigate.pageId" type="ANY_STRING" />
+<Mapping parameter="clientSystem.Action.ChangeTheme.theme" type="ANY_STRING" />
+<Mapping parameter="clientSystem.Action.SetLanguage.value" type="ANY_STRING" />
+<Mapping parameter="clientSystem.Action.SetMeasurementSystem.value" type="ANY_STRING" />
+<Mapping parameter="clientSystem.Action.LoadContentInArea.contentId" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.LoadContentInArea.areaId" type="ANY_STRING" index="1" />
+<Mapping parameter="clientSystem.Action.LoadContentInArea.pageId" type="ANY_STRING" index="2" />
+<Mapping parameter="clientSystem.Action.LoadContentInDialogArea.contentId" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.LoadContentInDialogArea.areaId" type="ANY_STRING" index="1" />
+<Mapping parameter="clientSystem.Action.LoadContentInDialogArea.dialogId" type="ANY_STRING" index="2" />
+<Mapping parameter="clientSystem.Action.ScrollContent.contentId" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.ScrollContent.position" type="ANY_STRING" index="1" />
+<Mapping parameter="clientSystem.Action.ScrollContent.duration" type="ANY_STRING" index="2" />
+<Mapping parameter="clientSystem.Action.ShowTooltips.value" type="BOOL" />
+<Mapping parameter="clientSystem.Action.ChangePassword.oldPassword" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.ChangePassword.newPassword" type="ANY_STRING" index="1" />
+<Mapping parameter="clientSystem.Action.ChangePassword.userName" type="ANY_STRING" index="2" />
+<Mapping parameter="clientSystem.Action.OpenChangePasswordDialog.userName" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.OpenChangePasswordDialog.showPolicy" type="BOOL" index="1" />
+<Mapping parameter="clientSystem.Action.SaveScreenshotOnClient.fileName" type="ANY_STRING" />
+<Mapping parameter="clientSystem.Action.SaveScreenshotToServer.fileDevice" type="ANY_STRING" index="0" />
+<Mapping parameter="clientSystem.Action.SaveScreenshotToServer.fileName" type="ANY_STRING" index="1" />
+<Mapping parameter="mappSystem.Action.mpalarmxcore.GetRootCause.eventId" type="ANY_INT" />
+</Mappings>

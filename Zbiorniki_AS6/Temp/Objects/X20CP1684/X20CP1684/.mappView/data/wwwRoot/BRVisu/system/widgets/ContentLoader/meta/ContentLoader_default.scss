@@ -1,0 +1,4 @@
+@use "ContentLoader_base.scss" as system_widgets_ContentLoader;
+.system_widgets_ContentLoader_style_default {
+  @include system_widgets_ContentLoader.base
+}

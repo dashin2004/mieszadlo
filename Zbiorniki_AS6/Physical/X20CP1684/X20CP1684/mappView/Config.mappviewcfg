@@ -46,7 +46,7 @@
         <Selector ID="renderingPolicy" Value="1" />
         <Selector ID="securityPolicy" Value="1" />
       </Group>
-      <Selector ID="EventbindingExecution" Value="1" />
+      <Selector ID="EventbindingExecution" Value="2" />
     </Group>
   </Element>
 </Configuration>

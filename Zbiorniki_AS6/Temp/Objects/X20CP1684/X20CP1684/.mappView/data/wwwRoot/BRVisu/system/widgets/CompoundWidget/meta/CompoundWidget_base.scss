@@ -1,0 +1,23 @@
+@use "mixins.scss";
+@use "sass:list";
+@use "sass:string";
+@mixin prop_width {
+	@include mixins.elemWidth(400);
+
+}
+@mixin prop_height {
+	@include mixins.elemHeight(300);
+
+}
+@mixin prop_margin {
+	margin: 0px;
+
+}
+
+@mixin base {
+  @include prop_width;
+  @include prop_height;
+  @include prop_margin;
+
+}
+

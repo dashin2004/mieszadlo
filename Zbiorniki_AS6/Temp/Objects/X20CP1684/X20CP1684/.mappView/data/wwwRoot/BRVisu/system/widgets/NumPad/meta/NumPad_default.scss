@@ -1,0 +1,4 @@
+@use "NumPad_base.scss" as system_widgets_NumPad;
+.system_widgets_NumPad_style_default {
+  @include system_widgets_NumPad.base
+}

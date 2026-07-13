@@ -1,0 +1,336 @@
+@use "mixins.scss";
+
+@mixin prop_cornerRadius {
+.breaseMessageBoxHeader {
+	border-radius: 0px;
+}
+.messageBoxFooter {
+	border-radius: 0px;
+}
+	border-radius: 0px;
+}
+@mixin prop_opacity {
+	opacity: 1;
+}
+@mixin prop_shadow {
+	@include mixins.box-shadow(none);
+}
+@mixin prop_margin {
+	margin: 0px;
+}
+@mixin prop_borderWidth {
+.breaseMessageBoxContentBox {
+	border-width: 5px;
+}
+}
+@mixin prop_backColor {
+.breaseMessageBoxContentBox {
+	background-color: #FFF;
+}
+}
+@mixin prop_borderColor {
+.breaseMessageBoxContentBox {
+	border-color: #333;
+}
+}
+@mixin prop_borderStyle {
+.breaseMessageBoxContentBox {
+	border-style: solid;
+}
+}
+@mixin prop_textColor {
+.breaseMessageBoxContentBox div.content {
+	color: #333;
+}
+}
+@mixin prop_fontName {
+.breaseMessageBoxContentBox div.content {
+	font-family: Arial;
+}
+}
+@mixin prop_fontSize {
+.breaseMessageBoxContentBox div.content {
+	font-size: 12px;
+}
+}
+@mixin prop_padding {
+.breaseMessageBoxContentBox {
+	padding: 0px;
+}
+}
+@mixin prop_bold {
+.breaseMessageBoxContentBox div.content {
+	@include mixins.font-weight-bold(false);
+}
+}
+@mixin prop_italic {
+.breaseMessageBoxContentBox div.content {
+	@include mixins.font-style-italic(false);
+}
+}
+@mixin prop_textAlign {
+.breaseMessageBoxContentBox {
+	@include mixins.text-alignment(center);
+}
+}
+@mixin prop_headerBackColor {
+.breaseMessageBoxHeader {
+	background-color: #333;
+}
+.messageBoxFooter {
+	background-color: #333;
+}
+}
+@mixin prop_headerGradient {
+.breaseMessageBoxHeader {
+	@include mixins.backGroundGradient('');
+}
+}
+@mixin prop_headerBorderWidth {
+.breaseMessageBoxHeader {
+	border-width: 0px;
+}
+}
+@mixin prop_headerBorderColor {
+.breaseMessageBoxHeader {
+	border-color: #333;
+}
+}
+@mixin prop_headerBorderStyle {
+.breaseMessageBoxHeader {
+	border-style: none;
+}
+}
+@mixin prop_headerTextColor {
+&.breaseMessageBox.breaseWindow header.breaseMessageBoxHeader > div {
+	color: #000;
+}
+}
+@mixin prop_headerFontName {
+&.breaseMessageBox.breaseWindow .breaseMessageBoxHeader div {
+	font-family: Arial;
+}
+}
+@mixin prop_headerFontSize {
+&.breaseMessageBox.breaseWindow .breaseMessageBoxHeader div {
+	font-size: 12px;
+}
+}
+@mixin prop_headerBold {
+&.breaseMessageBox.breaseWindow .breaseMessageBoxHeader div {
+	@include mixins.font-weight-bold(true);
+}
+}
+@mixin prop_headerItalic {
+&.breaseMessageBox.breaseWindow .breaseMessageBoxHeader div {
+	@include mixins.font-style-italic(false);
+}
+}
+@mixin prop_iconError {
+.icon.error {
+	@include mixins.importantPureBackgroundImage('../');
+}
+}
+@mixin prop_iconAsterisk {
+.icon.asterisk {
+	@include mixins.importantPureBackgroundImage('../');
+}
+}
+@mixin prop_iconExclamation {
+.icon.exclamation {
+	@include mixins.importantPureBackgroundImage('../');
+}
+}
+@mixin prop_iconHand {
+.icon.hand {
+	@include mixins.importantPureBackgroundImage('../');
+}
+}
+@mixin prop_iconInformation {
+.icon.information {
+	@include mixins.importantPureBackgroundImage('../');
+}
+}
+@mixin prop_iconQuestion {
+.icon.question {
+	@include mixins.importantPureBackgroundImage('../');
+}
+}
+@mixin prop_iconStop {
+.icon.stop {
+	@include mixins.importantPureBackgroundImage('../');
+}
+}
+@mixin prop_iconWarning {
+.icon.warning {
+	@include mixins.importantPureBackgroundImage('../');
+}
+}
+@mixin prop_buttonBorderStyle {
+.messageBoxButton {
+	border-style: none;
+}
+.messageBoxButton.active {
+	border-style: none;
+}
+.messageBoxButton:active {
+	border-style: none;
+}
+.messageBoxButton.checked {
+	border-style: none;
+}
+.messageBoxButton.disabled {
+	border-style: none;
+}
+}
+@mixin prop_buttonCornerRadius {
+.messageBoxButton {
+	@include mixins.border-radius(0px);
+}
+}
+@mixin prop_buttonFontSize {
+.messageBoxButton span {
+	font-size: 12px;
+}
+}
+@mixin prop_buttonFontName {
+.messageBoxButton span {
+	font-family: Arial;
+}
+}
+@mixin prop_buttonBorderWidth {
+.messageBoxButton {
+	border-width: 2px;
+}
+}
+@mixin prop_mouseDownButtonBorderWidth {
+.messageBoxButton:not(.disabled):not(.editMode):active {
+	border-width: 2px;
+}
+.messageBoxButton:not(.disabled):not(.editMode).active {
+	border-width: 2px;
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked {
+	border-width: 2px;
+}
+}
+@mixin prop_buttonBorderColor {
+.messageBoxButton {
+	border-color: #5B7C70;
+}
+}
+@mixin prop_mouseDownButtonBorderColor {
+.messageBoxButton:not(.disabled):not(.editMode):active {
+	border-color: #FD7B01;
+}
+.messageBoxButton:not(.disabled):not(.editMode).active {
+	border-color: #FD7B01;
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked {
+	border-color: #FD7B01;
+}
+}
+@mixin prop_buttonBackColor {
+.messageBoxButton {
+	background-color: #DBDBDB;
+}
+}
+@mixin prop_mouseDownButtonBackColor {
+.messageBoxButton:not(.disabled):not(.editMode):active {
+	background-color: #DBDBDB;
+}
+.messageBoxButton:not(.disabled):not(.editMode).active {
+	background-color: #DBDBDB;
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked {
+	background-color: #DBDBDB;
+}
+}
+@mixin prop_buttonBackGroundGradient {
+.messageBoxButton {
+	@include mixins.backGroundGradient('');
+}
+}
+@mixin prop_mouseDownButtonBackGroundGradient {
+.messageBoxButton:not(.disabled):not(.editMode):active {
+	@include mixins.backGroundGradient('');
+}
+.messageBoxButton:not(.disabled):not(.editMode).active {
+	@include mixins.backGroundGradient('');
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked {
+	@include mixins.backGroundGradient('');
+}
+}
+@mixin prop_buttonTextColor {
+.messageBoxButton span {
+	color: #000;
+}
+.messageBoxButton:not(.disabled) span {
+	color: #000;
+}
+.messageBoxButton.disabled span {
+	color: #000;
+}
+}
+@mixin prop_mouseDownButtonTextColor {
+.messageBoxButton:not(.disabled):not(.editMode):active span {
+	color: #000;
+}
+.messageBoxButton:not(.disabled):not(.editMode).active span {
+	color: #000;
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked span {
+	color: #000;
+}
+}
+@mixin base {
+  @include prop_cornerRadius;
+  @include prop_opacity;
+  @include prop_shadow;
+  @include prop_margin;
+  @include prop_borderWidth;
+  @include prop_backColor;
+  @include prop_borderColor;
+  @include prop_borderStyle;
+  @include prop_textColor;
+  @include prop_fontName;
+  @include prop_fontSize;
+  @include prop_padding;
+  @include prop_bold;
+  @include prop_italic;
+  @include prop_textAlign;
+  @include prop_headerBackColor;
+  @include prop_headerGradient;
+  @include prop_headerBorderWidth;
+  @include prop_headerBorderColor;
+  @include prop_headerBorderStyle;
+  @include prop_headerTextColor;
+  @include prop_headerFontName;
+  @include prop_headerFontSize;
+  @include prop_headerBold;
+  @include prop_headerItalic;
+  @include prop_iconError;
+  @include prop_iconAsterisk;
+  @include prop_iconExclamation;
+  @include prop_iconHand;
+  @include prop_iconInformation;
+  @include prop_iconQuestion;
+  @include prop_iconStop;
+  @include prop_iconWarning;
+  @include prop_buttonBorderStyle;
+  @include prop_buttonCornerRadius;
+  @include prop_buttonFontSize;
+  @include prop_buttonFontName;
+  @include prop_buttonBorderWidth;
+  @include prop_mouseDownButtonBorderWidth;
+  @include prop_buttonBorderColor;
+  @include prop_mouseDownButtonBorderColor;
+  @include prop_buttonBackColor;
+  @include prop_mouseDownButtonBackColor;
+  @include prop_buttonBackGroundGradient;
+  @include prop_mouseDownButtonBackGroundGradient;
+  @include prop_buttonTextColor;
+  @include prop_mouseDownButtonTextColor;
+}
+

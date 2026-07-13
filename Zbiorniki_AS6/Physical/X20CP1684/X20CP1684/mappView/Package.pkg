@@ -9,5 +9,9 @@
     <Object Type="File">SessionBinding.binding</Object>
     <Object Type="File">EventBinding.eventbinding</Object>
     <Object Type="File">ExpressionBinding.binding</Object>
+    <Object Type="File">HMI.vis</Object>
+    <Object Type="File">HMIMainContent.binding</Object>
+    <Object Type="File">HMIMainContent.eventbinding</Object>
+    <Object Type="File">HMIMainContent.eventscript</Object>
   </Objects>
 </Package>

@@ -1,0 +1,17 @@
+@use "mixins.scss";
+
+@mixin prop_backColor {
+.breaseWidget input::selection {
+	background: #5E9ED6;
+}
+}
+@mixin prop_textColor {
+.breaseWidget input::selection {
+	color: #FFFFFF;
+}
+}
+@mixin base {
+  @include prop_backColor;
+  @include prop_textColor;
+}
+

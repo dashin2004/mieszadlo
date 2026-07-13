@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="6.0"?>
-<OpcUaSource FileVersion="10" ArVersion="E4.93">
+<OpcUaSource FileVersion="10">
   <Aliases>
     <ACLAliases />
     <EURangeViolationAliases />
@@ -29,6 +29,21 @@
     <Task Name="ClockSigna">
       <Variable Name="Clock" />
       <Variable Name="Mixer" />
+    </Task>
+    <Task Name="Tanks">
+      <Variable Name="Start" />
+      <Variable Name="StopBtn" />
+      <Variable Name="TrybPracyStr" />
+      <Variable Name="TrybPracy" />
+      <Variable Name="Zb1_zawor_view" />
+      <Variable Name="Zb2_zawor_view" />
+      <Variable Name="Zb3_zawor_glowny_view" />
+      <Variable Name="Zb3_zawor_lewy_view" />
+      <Variable Name="Zb3_zawor_prawy_view" />
+      <Variable Name="StartStan" />
+      <Variable Name="StopStan" />
+      <Variable Name="MieszanieBtn" />
+      <Variable Name="MieszanieStr" />
     </Task>
   </Module>
 </OpcUaSource>

@@ -1,0 +1,9 @@
+@use "mixins.scss";
+
+@mixin prop_backColor {
+	background-color: #FFF;
+}
+@mixin base {
+  @include prop_backColor;
+}
+

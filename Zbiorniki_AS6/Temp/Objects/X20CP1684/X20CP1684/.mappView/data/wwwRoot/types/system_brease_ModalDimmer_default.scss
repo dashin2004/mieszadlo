@@ -1,0 +1,4 @@
+@use "system_brease_ModalDimmer_base.scss" as system_brease_ModalDimmer;
+.system_brease_ModalDimmer_style_default {
+@include system_brease_ModalDimmer.base 
+}

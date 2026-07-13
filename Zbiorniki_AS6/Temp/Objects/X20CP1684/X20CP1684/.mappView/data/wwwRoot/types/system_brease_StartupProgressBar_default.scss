@@ -1,0 +1,4 @@
+@use "system_brease_StartupProgressBar_base.scss" as system_brease_StartupProgressBar;
+.system_brease_StartupProgressBar_style_default {
+@include system_brease_StartupProgressBar.base 
+}

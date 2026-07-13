@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- auto generated in components build with grunt task "buildGlobalStyles" -->
+<SystemLogin xmlns="http://www.br-automation.com/iat2014/widget">
+  <StyleProperties>
+    <StyleProperty name="borderWidth" category="Appearance" type="PixelValCollection" default="2px">
+      <StyleElement selector="&amp;.breaseWindow" attribute="border-width"/>
+      <Description>Sets the width of the border.</Description>
+    </StyleProperty>
+    <StyleProperty name="borderColor" category="Appearance" type="ColorCollection" default="#333">
+      <StyleElement selector="&amp;.breaseWindow" attribute="border-color"/>
+      <Description>Sets color of the border</Description>
+    </StyleProperty>
+    <StyleProperty name="borderStyle" category="Appearance" type="BorderStyle" default="solid">
+      <StyleElement selector="&amp;.breaseWindow" attribute="border-style"/>
+      <Description>Sets the style of the border</Description>
+    </StyleProperty>
+    <StyleProperty name="cornerRadius" category="Appearance" type="PixelVal" default="0px">
+      <StyleElement selector="&amp;.breaseWindow" attribute="@include border-radius($value)"/>
+      <Description>Sets the radius of the widget rounded corners. For further information, please check its type</Description>
+    </StyleProperty>
+    <StyleProperty name="backColor" category="Appearance" type="Color" default="#FFF">
+      <StyleElement selector="&amp;.breaseWindow" attribute="background-color"/>
+      <Description>Sets the background color</Description>
+    </StyleProperty>
+    <StyleProperty name="backGroundGradient" category="Appearance" type="Gradient" default="">
+      <StyleElement selector="&amp;.breaseWindow" attribute="@include backGroundGradient('$value')"/>
+      <Description>Sets the background as a gradient</Description>
+    </StyleProperty>
+    <StyleProperty name="shadow" category="Appearance" type="Shadow" default="none">
+      <StyleElement selector="&amp;.breaseWindow" attribute="@include box-shadow($value)"/>
+      <Description>Sets the shadow of the dialog</Description>
+    </StyleProperty>
+    <StyleProperty name="inputTextAlign" category="Input Fields" type="brease.enum.TextAlign" default="center">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_TextInput_style_default input" attribute="@include text-alignment($value)"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Password_style_default input" attribute="@include text-alignment($value)"/>
+      <Description>Sets the alignment of the text of input fields. For further information, please see its type</Description>
+    </StyleProperty>
+    <StyleProperty name="labelTextColor" category="Labels" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Label_style_default:not(.disabled) span" attribute="color"/>
+      <Description>Sets the color of the text displayed by the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="labelFontName" category="Labels" type="FontName" default="Arial">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Label_style_default:not(.disabled) span" attribute="font-family"/>
+      <Description>Fontname of the text</Description>
+    </StyleProperty>
+    <StyleProperty name="labelFontSize" category="Labels" type="PixelVal" default="14px">
+      <StyleElement attribute="font-size" selector="&amp;.breaseWindow .widgets_brease_Label_style_default:not(.disabled)"/>
+      <Description>Fontsize of the text in pixel</Description>
+    </StyleProperty>
+    <StyleProperty name="labelBold" category="Labels" type="Boolean" default="false">
+      <StyleElement attribute="@include font-weight-bold($value)" selector="&amp;.breaseWindow .widgets_brease_Label_style_default:not(.disabled)"/>
+      <Description>If **true** font style is bold</Description>
+    </StyleProperty>
+    <StyleProperty name="labelItalic" category="Labels" type="Boolean" default="false">
+      <StyleElement attribute="@include font-style-italic($value)" selector="&amp;.breaseWindow .widgets_brease_Label_style_default:not(.disabled)"/>
+      <Description>If **true** font style is italic</Description>
+    </StyleProperty>
+    <StyleProperty name="statusSuccessTextColor" category="Status" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Label_style_default.success:not(.disabled) span" attribute="color"/>
+      <Description>Sets the color of the text displayed by the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="statusErrorTextColor" category="Status" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Label_style_default.error:not(.disabled) span" attribute="color"/>
+      <Description>Sets the color of the text displayed by the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="statusFontName" category="Status" type="FontName" default="Arial">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Label_style_default.success:not(.disabled) span" attribute="font-family"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Label_style_default.error:not(.disabled) span" attribute="font-family"/>
+      <Description>Fontname of the text</Description>
+    </StyleProperty>
+    <StyleProperty name="statusFontSize" category="Status" type="PixelVal" default="14px">
+      <StyleElement attribute="font-size" selector="&amp;.breaseWindow .widgets_brease_Label_style_default.success:not(.disabled)"/>
+      <StyleElement attribute="font-size" selector="&amp;.breaseWindow .widgets_brease_Label_style_default.error:not(.disabled)"/>
+      <Description>Fontsize of the text in pixel</Description>
+    </StyleProperty>
+    <StyleProperty name="statusBold" category="Status" type="Boolean" default="false">
+      <StyleElement attribute="@include font-weight-bold($value)" selector="&amp;.breaseWindow .widgets_brease_Label_style_default.success:not(.disabled)"/>
+      <StyleElement attribute="@include font-weight-bold($value)" selector="&amp;.breaseWindow .widgets_brease_Label_style_default.error:not(.disabled)"/>
+      <Description>If **true** font style is bold</Description>
+    </StyleProperty>
+    <StyleProperty name="statusItalic" category="Status" type="Boolean" default="false">
+      <StyleElement attribute="@include font-style-italic($value)" selector="&amp;.breaseWindow .widgets_brease_Label_style_default.success:not(.disabled)"/>
+      <StyleElement attribute="@include font-style-italic($value)" selector="&amp;.breaseWindow .widgets_brease_Label_style_default.error:not(.disabled)"/>
+      <Description>If **true** font style is italic</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonBorderStyle" category="Buttons" type="BorderStyle" default="solid">
+      <StyleElement attribute="border-style" selector="&amp;.breaseWindow .widgets_brease_Button_style_default"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.active" attribute="border-style"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.checked" attribute="border-style"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.disabled" attribute="border-style"/>
+      <Description>Style of the Border of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonBorderWidth" category="Buttons" type="PixelValCollection" default="2px">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default:not(.active):not(.checked)" attribute="border-width"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.disabled" attribute="border-width"/>
+      <Description>Sets the width of the border. For further information, please check its type</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonCornerRadius" category="Buttons" type="PixelValCollection" default="0px">
+      <StyleElement attribute="@include border-radius($value)" selector="&amp;.breaseWindow .widgets_brease_Button_style_default"/>
+      <Description>Sets the radius of the widget rounded corners. For further information, please check its type</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonBackColor" category="Buttons" type="Color" default="#DBDBDB">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default:not(.disabled):not(.active):not(.checked)" attribute="background-color"/>
+      <Description>Sets the background color</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonBackGroundGradient" category="Buttons" type="Gradient" default="">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default:not(.disabled):not(.active):not(.checked)" attribute="@include backGroundGradient('$value')"/>
+      <Description>Background as a gradient</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonMouseDownBackGroundGradient" category="Buttons" type="Gradient" default="">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.active:not(.disabled)" attribute="@include backGroundGradient('$value')"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.checked:not(.disabled)" attribute="@include backGroundGradient('$value')"/>
+      <Description>Background as a gradient when widget is clicked</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonBorderColor" category="Buttons" type="ColorCollection" default="#5B7C70">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default:not(.disabled):not(.active):not(.checked)" attribute="border-color"/>
+      <Description>Sets the border color</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonTextColor" category="Buttons" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default:not(.disabled):not(.active):not(.checked) span" attribute="color"/>
+      <Description>Sets the color of the text when enabled</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonMouseDownBorderColor" category="Buttons" type="ColorCollection" default="#FD7B01">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.active:not(.disabled):not(.editMode)" attribute="border-color"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.checked:not(.disabled)" attribute="border-color"/>
+      <Description>border color when widget is clicked</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonMouseDownBorderWidth" category="Buttons" type="PixelValCollection" default="2px">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.active:not(.disabled):not(.editMode)" attribute="border-width"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.checked:not(.disabled)" attribute="border-width"/>
+      <Description>border width when widget is clicked</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonMouseDownBackColor" category="Buttons" type="Color" default="#DBDBDB">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.active:not(.disabled):not(.editMode)" attribute="background-color"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.checked:not(.disabled)" attribute="background-color"/>
+      <Description>back color when widget is clicked</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonMouseDownTextColor" category="Buttons" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.active:not(.disabled):not(.editMode) span" attribute="color"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default.active.checked:not(.disabled) span" attribute="color"/>
+      <Description>text color when widget is clicked</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonFontSize" category="Buttons" type="PixelVal" default="12px">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default span" attribute="font-size"/>
+      <Description>Fontsize of the text in pixel</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonFontName" category="Buttons" type="FontName" default="Arial">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default span" attribute="font-family"/>
+      <Description>Fontname of the text</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonBold" category="Buttons" type="Boolean" default="false">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default span" attribute="@include font-weight-bold($value)"/>
+      <Description>If *true* font style is bold</Description>
+    </StyleProperty>
+    <StyleProperty name="buttonItalic" category="Buttons" type="Boolean" default="false">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Button_style_default span" attribute="@include font-style-italic($value)"/>
+      <Description>If *true* font style is italic</Description>
+    </StyleProperty>
+    <StyleProperty name="inputTextColor" category="Input Fields" type="Color" default="#333333">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_TextInput_style_default:not(.disabled):not(.active) input" attribute="color"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Password_style_default:not(.disabled):not(.active) input" attribute="color"/>
+      <Description>Sets the color of the displayed text</Description>
+    </StyleProperty>
+    <StyleProperty name="inputPlaceholderTextColor" category="Input Fields" type="Color" default="#C8C8C8">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_TextInput_style_default input::placeholder" attribute="color"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Password_style_default input::placeholder" attribute="color"/>
+      <Description>Sets the color of the displayed placeholder</Description>
+    </StyleProperty>
+    <StyleProperty name="inputActiveTextColor" category="Input Fields" type="Color" default="#333333">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_TextInput_style_default:not(.disabled).active input" attribute="color"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Password_style_default:not(.disabled).active input" attribute="color"/>
+      <Description>Sets the color of the displayed text while writing</Description>
+    </StyleProperty>
+    <StyleProperty name="inputFontName" category="Input Fields" type="FontName" default="Arial">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_TextInput_style_default input" attribute="font-family"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Password_style_default input" attribute="font-family"/>
+      <Description>Sets the font name of the displayed text</Description>
+    </StyleProperty>
+    <StyleProperty name="inputFontSize" category="Input Fields" type="PixelVal" default="21px">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_TextInput_style_default input" attribute="font-size"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Password_style_default input" attribute="font-size"/>
+      <Description>Sets the font size of the displayed text in pixel</Description>
+    </StyleProperty>
+    <StyleProperty name="inputBold" category="Input Fields" type="Boolean" default="false">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_TextInput_style_default input" attribute="@include font-weight-bold($value)"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Password_style_default input" attribute="@include font-weight-bold($value)"/>
+      <Description>If **true**, it sets the font style to bold</Description>
+    </StyleProperty>
+    <StyleProperty name="inputItalic" category="Input Fields" type="Boolean" default="false">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_TextInput_style_default input" attribute="@include font-style-italic($value)"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_Password_style_default input" attribute="@include font-style-italic($value)"/>
+      <Description>If **true**, it sets the font style to italic</Description>
+    </StyleProperty>
+    <StyleProperty name="languageCornerRadius" category="Language" type="PixelValCollection" default="0px">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active).DropDownBoxView" attribute="@include border-radius($value)"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView" attribute="@include border-radius($value)"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ListView.Container" attribute="@include border-radius($value)"/>
+      <Description>Sets the radius of both widget and the drop-down list rounded corners. For further information, please check its type</Description>
+    </StyleProperty>
+    <StyleProperty name="languageBackColor" category="Language" type="Color" default="#DBDBDB">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView:not(.itemSelected):not(.itemDisabled)" attribute="background-color"/>
+      <Description>Sets the background color of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="languageMouseDownBackColor" category="Language" type="Color" default="#DBDBDB">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView.itemSelected:not(.itemDisabled)" attribute="background-color"/>
+      <Description>Sets the background color of the widget when it is clicked and the drop-down list is displayed</Description>
+    </StyleProperty>
+    <StyleProperty name="languageBackGroundGradient" category="Language" type="Gradient" default="">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView:not(.itemSelected):not(.itemDisabled)" attribute="@include backGroundGradient('$value')"/>
+      <Description>Sets the background color of the items not selected as a gradient</Description>
+    </StyleProperty>
+    <StyleProperty name="languageMouseDownBackGroundGradient" category="Language" type="Gradient" default="">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView.itemSelected:not(.itemDisabled)" attribute="@include backGroundGradient('$value')"/>
+      <Description>ets the text color of the widget when it is clicked and the drop-down list is displayed</Description>
+    </StyleProperty>
+    <StyleProperty name="languageBorderStyle" category="Language" type="BorderStyle" default="solid">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView" attribute="border-style"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView.lastItem" attribute="border-style"/>
+      <Description>Sets the border style of the widget. For further information, please see its type</Description>
+    </StyleProperty>
+    <StyleProperty name="languageBorderWidth" category="Language" type="PixelValCollection" default="2px">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView:not(.itemSelected)" attribute="border-width"/>
+      <Description>Sets the width of the border. For further information, please see its type</Description>
+    </StyleProperty>
+    <StyleProperty name="languageMouseDownBorderWidth" category="Language" type="PixelValCollection" default="2px">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView.itemSelected" attribute="border-width"/>
+      <Description>Sets the border with of the widget when it is clicked and the drop-down list is displayed</Description>
+    </StyleProperty>
+    <StyleProperty name="languageBorderColor" category="Language" type="ColorCollection" default="#5B7C70">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView:not(.itemSelected):not(.itemDisabled)" attribute="border-color"/>
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ListView.Container" attribute="border-color"/>
+      <Description>Sets the border color of both the widget and the drop-down list</Description>
+    </StyleProperty>
+    <StyleProperty name="languageMouseDownBorderColor" category="Language" type="ColorCollection" default="#FD7B01">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView.itemSelected:not(.itemDisabled)" attribute="border-color"/>
+      <Description>Sets the border color of the widget when it is clicked and the drop-down list is displayed</Description>
+    </StyleProperty>
+    <StyleProperty name="languageTextColor" category="Language" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected)" attribute="color"/>
+      <Description>Sets the color of the text displayed by the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="languageMouseDownTextColor" category="Language" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected" attribute="color"/>
+      <Description>Sets the text color of the widget when it is clicked and the drop-down list is displayed</Description>
+    </StyleProperty>
+    <StyleProperty name="languageShowOpenIndicator" category="Language" type="Boolean" default="false">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView > .ImageView.ImageIndicator" attribute="@include display($value, 'flex')"/>
+      <Description>If **true** the indicator image is displayed</Description>
+    </StyleProperty>
+    <StyleProperty name="languageOpenIndicatorColor" category="Language" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView:not(.itemSelected):not(.itemDisabled) > .ImageView.ImageIndicator svg" attribute="fill"/>
+      <Description>Color of the image to open the list</Description>
+    </StyleProperty>
+    <StyleProperty name="languageMouseDownOpenIndicatorColor" category="Language" type="Color" default="#000000">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) > .ItemView.itemSelected:not(.itemDisabled) > .ImageView.ImageIndicator svg" attribute="fill"/>
+      <Description>Color of the image to open the list during mouseDown</Description>
+    </StyleProperty>
+    <StyleProperty name="languageFontSize" category="Language" type="PixelVal" default="12px">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) .TextView" attribute="font-size"/>
+      <Description>Fontsize of the text in pixel</Description>
+    </StyleProperty>
+    <StyleProperty name="languageFontName" category="Language" type="FontName" default="Arial">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) .TextView" attribute="font-family"/>
+      <Description>Fontname of the text</Description>
+    </StyleProperty>
+    <StyleProperty name="languageBold" category="Language" type="Boolean" default="true">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) .TextView" attribute="@include font-weight-bold($value)"/>
+      <Description>If **true** font style is bold</Description>
+    </StyleProperty>
+    <StyleProperty name="languageItalic" category="Language" type="Boolean" default="false">
+      <StyleElement selector="&amp;.breaseWindow .widgets_brease_LanguageSelector_style_default:not(.disabled):not(.active) .TextView" attribute="@include font-style-italic($value)"/>
+      <Description>If **true** font style is italic</Description>
+    </StyleProperty>
+  </StyleProperties>
+</SystemLogin>

@@ -1,0 +1,29 @@
+@use "mixins.scss";
+
+@mixin prop_outlineStyle {
+.breaseWidget:focus, .focusWithin, .breaseFocusable:focus {
+	outline-style: solid;
+}
+}
+@mixin prop_outlineColor {
+.breaseWidget:focus, .focusWithin, .breaseFocusable:focus {
+	outline-color: #5E9ED6;
+}
+}
+@mixin prop_outlineWidth {
+.breaseWidget:focus, .focusWithin, .breaseFocusable:focus {
+	outline-width: 3px;
+}
+}
+@mixin prop_outlineOffset {
+.breaseWidget:focus, .focusWithin, .breaseFocusable:focus {
+	outline-offset: 2px;
+}
+}
+@mixin base {
+  @include prop_outlineStyle;
+  @include prop_outlineColor;
+  @include prop_outlineWidth;
+  @include prop_outlineOffset;
+}
+

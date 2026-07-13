@@ -1,0 +1,21 @@
+@use "mixins.scss";
+
+@mixin prop_backColor {
+	background-color: transparent;
+}
+@mixin prop_backGroundGradient {
+	@include mixins.backGroundGradient('');
+}
+@mixin prop_backGround {
+	@include mixins.noRepeatBackgroundImage('../');
+}
+@mixin prop_sizeMode {
+	@include mixins.backgroundSize(fill);
+}
+@mixin base {
+  @include prop_backColor;
+  @include prop_backGroundGradient;
+  @include prop_backGround;
+  @include prop_sizeMode;
+}
+

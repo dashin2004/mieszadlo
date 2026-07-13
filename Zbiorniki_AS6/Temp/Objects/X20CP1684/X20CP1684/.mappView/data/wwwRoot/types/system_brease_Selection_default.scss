@@ -1,0 +1,4 @@
+@use "system_brease_Selection_base.scss" as system_brease_Selection;
+.system_brease_Selection_style_default {
+@include system_brease_Selection.base 
+}

@@ -1,0 +1,25 @@
+@mixin view-css() {
+    .ListView {
+
+        box-sizing: border-box;
+        overflow: hidden;
+
+        &.Container {
+            border-style: solid;
+            border-width: 0px;
+            height: 100%;
+            width: 100%;
+            position: relative;
+            z-index: -1;
+
+            &.invisible {
+                display: none;
+            }
+        }
+
+        &.List {
+            height: auto;
+            width: auto;
+        }
+    }
+}

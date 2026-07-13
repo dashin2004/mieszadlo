@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <base href="/BRVisu/" />
+    <style>
+        #connectionFailedMsgBox {
+            z-index: 100;
+            position: fixed;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgba(0,0,0,0.18);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+            #connectionFailedMsgBox div {
+                position: absolute;
+                padding: 20px;
+                width: 400px;
+                margin-left: -220px;
+                color: red;
+                background-color: white;
+                font-size: 20px;
+                left: 50%;
+                top: 50%;
+                text-align: center;
+                white-space: pre-wrap;
+            }
+    </style>
+    <script>
+        globalThis.brEnv = {
+            mocked: false,
+            editMode: false
+        };
+        globalThis._tryReconnect = function() {
+            function tryReconnect() {
+                const xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function () {
+                    if(xhr.readyState === XMLHttpRequest.DONE) {
+                        if (xhr.status === 0) {
+                            globalThis.setTimeout(tryReconnect, 3000);
+                        } else {
+                            location.reload();
+                        }
+                    }
+                };
+                xhr.open('GET', globalThis.location.protocol + '//' + globalThis.location.hostname + ':' + globalThis.location.port + globalThis.location.pathname);
+                xhr.send();
+            };
+            globalThis.setTimeout(tryReconnect, 1000);
+        };
+        document.addEventListener("DOMContentLoaded", function () {
+            if (globalThis._scriptLoadError) {
+                globalThis._connectionErrorHandler();
+            }
+        });
+        globalThis.addEventListener('error', function (e) {
+            if (e instanceof ErrorEvent || e.srcElement.nodeName !== 'SCRIPT') {
+                return;
+            }
+            if (document.readyState === 'loading') {
+                globalThis._scriptLoadError = true;
+            } else {
+                globalThis._connectionErrorHandler();
+            }
+        }, true);
+
+        globalThis._connectionErrorHandler = function(enableInDebug, msg) {
+            if ((!enableInDebug && /debug=true/.test(globalThis.location)) || /autoReconnect=false/.test(globalThis.location)) return;
+
+            globalThis._connectionErrorHandler = function () {};
+            const nodes = document.body.childNodes;
+            for(const node of nodes) {
+                if (node.nodeName.toLowerCase() == 'div') {
+                    node.style.display = 'none';
+                }
+            }
+            const msgBoxElem = document.createElement('div');
+            msgBoxElem.setAttribute('id', 'connectionFailedMsgBox');
+            const msgBoxTextElem = document.createElement('div');
+            if (msg) {
+                msgBoxTextElem.innerHTML = msg;
+            } else {
+                msgBoxTextElem.innerHTML = 'Server connection lost,<br/> trying to reconnect ...';
+            }
+            msgBoxElem.appendChild(msgBoxTextElem);
+            document.body.appendChild(msgBoxElem);
+
+            globalThis._tryReconnect();
+        }
+    </script>
+    <script>
+        (function () {
+            function loadScript(src, onLoad) {
+                const script = document.createElement('script');
+                script.src = src;
+                document.head.appendChild(script);
+                script.onload = onLoad;
+            };
+            if (/devtool=true/.test(globalThis.location)) {
+                loadScript('libs/eruda/eruda.js', function () {
+                    eruda.init({tool: ['console', 'elements', 'network', 'resources', 'info']});
+                    eruda.position({x: 5, y: 5});
+                    loadScript('libs/eruda/eruda-timing.js', function () {
+                        eruda.add(globalThis.erudaTiming);
+                    });
+                    loadScript('libs/eruda/eruda-dom.js', function () {
+                        eruda.add(globalThis.erudaDom);
+                    });
+                });
+            }
+        })();
+    </script>
+    <script src="libs/platform.min.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/lodash.min.js"></script>
+    <script src="libs/path-data-polyfill.min.js"></script>
+    <script src="libs/d3.min.js"></script>
+    <title>mapp View</title>
+</head>
+
+<body>
+    <div id="splashscreen"></div>
+    <div id="appContainer"></div>
+    <script id="conditionalStart">
+        if(!globalThis._scriptLoadError) {
+            const script = document.createElement('script');
+            script.src = 'bootstrapper.min.js';
+            script.id = 'bootstrapper';
+            document.body.appendChild(script);
+        }
+    </script>
+</body>
+</html>

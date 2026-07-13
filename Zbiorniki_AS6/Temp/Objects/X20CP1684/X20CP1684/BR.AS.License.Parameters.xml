@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip</DeviceParameters>
+    <ConnectionParameters>/COMT=2500 /AM=* /SDT=5 /IP=192.168.0.3 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\CaseWeek_user.apj</ApjFullFileName>
+    <ProjectName>CaseWeek_user</ProjectName>
+    <ActiveConfigurationName>X20CP1684</ActiveConfigurationName>
+    <LicenseDataFolder>C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Temp\Objects\X20CP1684\X20CP1684</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

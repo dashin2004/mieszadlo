@@ -1,0 +1,4 @@
+@use "system_brease_Body_base.scss" as system_brease_Body;
+.system_brease_Body_style_default {
+@include system_brease_Body.base 
+}

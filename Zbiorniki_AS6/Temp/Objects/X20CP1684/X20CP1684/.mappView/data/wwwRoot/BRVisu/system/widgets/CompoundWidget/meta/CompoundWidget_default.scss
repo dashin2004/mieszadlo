@@ -1,0 +1,4 @@
+@use "CompoundWidget_base.scss" as system_widgets_CompoundWidget;
+.system_widgets_CompoundWidget_style_default {
+  @include system_widgets_CompoundWidget.base
+}
