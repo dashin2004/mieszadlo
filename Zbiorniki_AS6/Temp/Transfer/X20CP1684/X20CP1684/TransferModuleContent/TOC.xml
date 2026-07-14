@@ -5,14 +5,16 @@
 			<Folder Name="IAT_Data" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
 					<File Name="-1334471794.binding" Size="4569" HashValue="5E4F4BC15A8C9A7639B7C9205D689789" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="-1724916352.binding" Size="1015" HashValue="D02CE92E439E582DBC5EEC37058BFB83" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="-179878325.binding" Size="3405" HashValue="95EC0EACA7967B7480AAA7E1DD60EF32" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-222062230.binding" Size="10571" HashValue="2212A205BE240CEAA2ACE19AF9919B63" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="1534101751.binding" Size="3072" HashValue="ADC7222CB8F173AF794986D953FF918C" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="1625532323.binding" Size="13760" HashValue="1D407C56B1A30F7FEF0868C8B22A3D84" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="HMI.vis" Size="1175" HashValue="AF58281A85ACB21AEEA40EA91936EF70" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="HMI.vis" Size="1402" HashValue="1284DD4D2124EFF6391D1E12CF10DAAE" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Tanks_expressionsSet.expression" Size="6689" HashValue="5C8492414502DD6702B0E1CA5B9AE395" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Zbiorniki.vis" Size="1236" HashValue="214BB2EE880947D3DCF7F6DD6583D000" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="k243ja3242dkakl3fj3dka423jfdk.sessionVar" Size="3679" HashValue="47F4015152DC77A4E81EB725C733FBD6" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="svar_1.sessionVar" Size="5135" HashValue="3DD5FA269102CC26E083AFCBAF490FAD" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="svar_1.sessionVar" Size="5135" HashValue="A166602A23FE637522FE41655C31C84C" ProjectDependent="1" IgnoreDifference="0" />
 				</Folder>
 				<Folder Name="wwwRoot" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="BRVisu" ProjectDependent="1" IgnoreDifference="0">
@@ -47,7 +49,7 @@
 							<File Name="br.367.js" Size="4690438" HashValue="5DA93AC25A81F59D36C7CF0E01C8BC2F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="br.js" Size="773915" HashValue="C7825155AC6C2BACFA8714B95B7E242A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="2903" HashValue="8CDADA8BD3FE3DB9BCE3FC2DC258065D" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="429164" HashValue="84CE07177EC59AA33C00D7F366200B56" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="436262" HashValue="D1C1B38A91A89B034991FFE359A3456D" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="cwidgets.js" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="escripts.js" Size="6999" HashValue="6172857D25A145E0594EE10D657EE1E3" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1080.js" Size="5381" HashValue="EF7E4EAA91D8FFA17FD3E7EF4E735DF5" ProjectDependent="1" IgnoreDifference="0" />
@@ -273,7 +275,7 @@
 							<File Name="wi.988.js" Size="6452" HashValue="2C14CACBE36F94952F2AF24FDF2C5EC8" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9946.js" Size="1638" HashValue="43BE2DC3ED3D77CF2A1F637D02FF15A6" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9988.js" Size="6581" HashValue="1A3CBE5254AA435639FFD633BD9E76BF" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="widgets.js" Size="704160" HashValue="E39FA9DD9166C8901F72DD529E761368" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="widgets.js" Size="716074" HashValue="71D975E41B7F6551AA216C283F8383A0" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="widgets" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -889,8 +891,10 @@
 						<Folder Name="mappView" ProjectDependent="1" IgnoreDifference="0">
 							<File Name="ContentLogin.html" Size="1283" HashValue="21A8F9EC710EC19662890AA72EDB07BE" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="HMIMainContent.html" Size="6121" HashValue="7395208AD8BA0E9E04614E1484353AE4" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="LeftContent.html" Size="17" HashValue="977FD571D75951006FEE6224E29EECC7" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="MainPageContent.html" Size="48988" HashValue="D6A1577E6AB30CA5C7E1C83B299B31F8" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="InfoContent.html" Size="8158" HashValue="E81295C60EABC5F9FF2F1AFEA2BD3FAC" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="LeftContent.html" Size="1315" HashValue="B6F0B7774FA3E85846888CFB7677CD65" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="MainPageContent.html" Size="48988" HashValue="3016080EBF8D4419427B90BD3389D895" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="RecepturaContent.html" Size="452" HashValue="89092A5D9B370EED7FED12727123E215" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="TopContent.html" Size="858" HashValue="64FAFE89AEBFE641E8133FE6994628C1" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 					</Folder>
@@ -964,7 +968,7 @@
 						</Folder>
 					</Folder>
 					<File Name="0_visulist.json" Size="19" HashValue="2594BB542D02A8AB6E6DDFE664591A15" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="HMI.json" Size="1299" HashValue="37AC58A7F870959D60D4F1AC128FFF33" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="HMI.json" Size="2068" HashValue="C22A896975C5B623453D89937D379A16" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Zbiorniki.json" Size="439" HashValue="714F8F39E7C3599216FB9AF21AF21623" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="favicon.ico" Size="9062" HashValue="C96A8C677EDBD3464A0936F216D735DD" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="index.html" Size="5373" HashValue="30C0C2E87F4A5F9216B118AB41FBDB3F" ProjectDependent="1" IgnoreDifference="0" />
@@ -973,7 +977,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="3605" HashValue="EE43A23BCEADD66F42E52444960BB122" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="3690" HashValue="EC1DCE056FC95494B2BC4225CB959DDC" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="OpcUaCsPlc.uanodeset" Size="281735" HashValue="11961BCD60F7FF41FA59CDFCF5467DC4" ProjectDependent="1" IgnoreDifference="0" />
@@ -1084,19 +1088,21 @@
 			<Module Name="::ArUser" Type="18" Size="7588" Modified="2026-06-15 07:57:21" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::AsIecCon" Type="18" Size="6664" Modified="2026-06-15 08:16:41" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::BRRole" Type="136" Size="1364" Modified="2026-07-13 10:08:05" Version="1.0.0.0" ProjectDependent="1" />
-			<Module Name="::ClockSigna" Type="17" Size="3424" Modified="2026-07-13 15:19:29" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::ClockSigna" Type="17" Size="3424" Modified="2026-07-14 12:56:23" Version="1.0.0.0" ProjectDependent="1" />
 			<Module Name="::Config" Type="136" Size="1360" Modified="2026-07-14 10:53:15" Version="6.7.0.0" ProjectDependent="1" />
-			<Module Name="::Config_1" Type="136" Size="6092" Modified="2026-07-14 10:00:30" Version="6.7.0.0" ProjectDependent="1" />
+			<Module Name="::Config_1" Type="136" Size="6096" Modified="2026-07-14 13:40:51" Version="6.7.0.0" ProjectDependent="1" />
 			<Module Name="::Config_2" Type="136" Size="1532" Modified="2026-07-14 09:37:13" Version="6.7.0.0" ProjectDependent="1" />
+			<Module Name="::Config_3" Type="136" Size="7688" Modified="2026-07-14 12:56:30" Version="6.7.0.0" ProjectDependent="1" />
 			<Module Name="::DataObj" Type="18" Size="7088" Modified="2026-06-15 08:02:24" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="34280" Modified="2026-06-15 08:07:14" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::MpAlarmX" Type="18" Size="624664" Modified="2026-05-12 07:33:50" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
 			<Module Name="::MpBase" Type="18" Size="802732" Modified="2026-05-11 11:42:03" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::MpRecipe" Type="18" Size="457440" Modified="2026-05-12 10:15:53" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
 			<Module Name="::MpServer" Type="18" Size="195396" Modified="2026-05-11 11:57:56" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
 			<Module Name="::OpcUaSrv" Type="136" Size="1092" Modified="2026-07-13 10:08:05" Version="6.7.0.0" ProjectDependent="1" />
 			<Module Name="::Role" Type="136" Size="872" Modified="2026-07-14 10:29:36" Version="1.0.0.0" ProjectDependent="1" />
 			<Module Name="::TCLang" Type="136" Size="2324" Modified="2026-07-13 10:08:05" Version="1.0.0.0" ProjectDependent="1" />
-			<Module Name="::Tanks" Type="17" Size="8812" Modified="2026-07-14 10:53:10" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::Tanks" Type="17" Size="13296" Modified="2026-07-14 14:12:23" Version="1.0.0.0" ProjectDependent="1" />
 			<Module Name="::UaCoal" Type="18" Size="56688" Modified="2026-03-19 12:42:49" Version="6.7.0.0" ProjectDependent="1" />
 			<Module Name="::UaCoalPrv" Type="18" Size="469820" Modified="2026-06-01 17:04:07" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
 			<Module Name="::UaCore" Type="18" Size="2755616" Modified="2026-06-01 16:41:41" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />

@@ -21,8 +21,8 @@
 		<Variable name="Mieszadlo" xsi:type="BOOL" value="0" />
 		<Variable name="Zb3_lewy_przeplyw" xsi:type="BOOL" value="0" />
 		<Variable name="Zb3_prawy_przeplyw" xsi:type="BOOL" value="0" />
-		<Variable name="Zawory_dwustanowe" xsi:type="BOOL" value="1" />
-		<Variable name="Zawory_analogowe" xsi:type="BOOL" value="0" />
+		<Variable name="Zawory_dwustanowe" xsi:type="BOOL" value="0" />
+		<Variable name="Zawory_analogowe" xsi:type="BOOL" value="1" />
 		<Variable name="Mieszadlo_Mruganie" xsi:type="BOOL" value="0" />
 		<Variable name="Zb3_prawy_przeplyw_expression_result" xsi:type="BOOL" value="0" />
 		<Variable name="Zb3_lewy_przeplyw_expression_result" xsi:type="BOOL" value="0" />

@@ -44,7 +44,7 @@
         <Property ID="AdditionalInformation2" />
       </Group>
       <Group ID="[1]">
-        <Property ID="Name" Value="Prze;anieZbiornika2" />
+        <Property ID="Name" Value="PrzeanieZbiornika2" />
         <Property ID="Message" Value="Zbyt duza ilosc wody w zbiorniku nr2" />
         <Property ID="Code" Value="1" />
         <Property ID="Severity" Value="1" />

@@ -4,15 +4,19 @@
   <Pages>
     <Page refId="HMIMainPage" />
     <Page refId="InfoPage" />
+    <Page refId="RecepturaPage" />
   </Pages>
   <Navigations />
   <BindingsSets>
     <BindingsSet refId="HMIMainContent" />
+    <BindingsSet refId="InfoContent" />
+    <BindingsSet refId="RecepturaContent" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="HMIMainContent" />
     <EventBindingsSet refId="TopContent" />
     <EventBindingsSet refId="ContentLogin" />
+    <EventBindingsSet refId="RecepturaContent" />
   </EventBindingsSets>
   <EventScriptsSets />
   <Dialogs>
@@ -24,6 +28,7 @@
     <Content refId="TopContent" />
     <Content refId="LeftContent" />
     <Content refId="InfoContent" />
+    <Content refId="RecepturaContent" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />

@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20260714112038_
-#define _LIBRARIES_20260714112038_
+#ifndef _LIBRARIES_20260714141219_
+#define _LIBRARIES_20260714141219_
 
 __asm__(".section \".plc\"");
 
@@ -32,6 +32,13 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.fun\\\" scope \\\"
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpServer/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpServer/Types.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpServer/MpServer.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpRecipe/MpRecipe.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpRecipe/MpRecipeAlarm.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpRecipe/MpRecipeError.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpRecipe/MpRecipe.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.var\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 #ifdef _OPERATOR_EXPORT
@@ -514,9 +521,50 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpServer/MpServer.fun\\\" scope 
 	__asm__(".ascii \"plcexport \\\"MpAlarmXQuery\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"MpAlarmXAlarmControl\\\" FUB\\n\"");
 #endif
+#ifdef _MPRECIPE_EXPORT
+	__asm__(".ascii \"plcexport \\\"MpRecipeRegParSync\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpRecipeRegPar\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpRecipeXml\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpRecipeUI\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpRecipeCsv\\\" FUB\\n\"");
+#endif
+#ifdef _SYS_LIB_EXPORT
+	__asm__(".ascii \"plcexport \\\"Byte2Bit\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"Bit2Byte\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERRxfatal\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERR_fatal\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERR_warning\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERRxwarning\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"TIM_ticks\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"TIM_musec\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTC_settime\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTC_gettime\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"TMP_free\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"TMP_alloc\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_name\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_info\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_allsuspend\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_tmp_resume\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_tmp_suspend\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_ident\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_ver\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_list\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_info\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_versionMajor\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_versionMinor\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_versionPatch\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_versionBuild\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SYSreset\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_xlist\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_ninfo\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_item\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_xgetadr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_lkaddr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"slMoList\\\" FUB\\n\"");
+#endif
 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20260714112038_ */
+#endif /* _LIBRARIES_20260714141219_ */
 

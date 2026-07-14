@@ -26,6 +26,12 @@
     UseAsStatic="false"
     Version="6.7.0" />
   <Library
+    Name="MpRecipe"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="6.7.0" />
+  <Library
     Name="MpServer"
     IsDeployed="true"
     IsStatic="false"
@@ -45,6 +51,12 @@
     Version="" />
   <Library
     Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="sys_lib"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"

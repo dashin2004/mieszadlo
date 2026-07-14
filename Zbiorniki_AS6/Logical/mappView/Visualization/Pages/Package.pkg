@@ -6,5 +6,6 @@
     <Object Type="Package">MainPage</Object>
     <Object Type="Package">HMIMainPage</Object>
     <Object Type="Package">InfoPage</Object>
+    <Object Type="Package">RecepturaPage</Object>
   </Objects>
 </Package>

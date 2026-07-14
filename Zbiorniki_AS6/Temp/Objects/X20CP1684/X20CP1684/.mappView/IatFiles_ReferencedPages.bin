@@ -1,1 +1,1 @@
-[{"Id":"MainPage","LayoutId":"Layout","AreaIds":["area1"]},{"Id":"HMIMainPage","LayoutId":"HMILayout","AreaIds":["area1","area2"]}]
+[{"Id":"MainPage","LayoutId":"Layout","AreaIds":["area1"]},{"Id":"HMIMainPage","LayoutId":"HMILayout","AreaIds":["area1","area2","area3"]},{"Id":"InfoPage","LayoutId":"HMILayout","AreaIds":["area1","area2","area3"]},{"Id":"RecepturaPage","LayoutId":"HMILayout","AreaIds":["area1","area2","area3"]}]

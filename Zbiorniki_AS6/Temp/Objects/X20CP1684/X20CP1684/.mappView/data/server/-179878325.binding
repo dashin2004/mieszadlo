@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="InfoContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb3_zawor_lewy" attribute="node" />
+<Target xsi:type="brease" refId="InfoContent_NumericOutputZawrorAnal1" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="InfoContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_poziom" attribute="node" />
+<Target xsi:type="brease" refId="InfoContent_NumericOutputZb1" attribute="node" />
+</Binding></Content>
+
+
+
+
+<Content id="InfoContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb3_zawor_prawy" attribute="node" />
+<Target xsi:type="brease" refId="InfoContent_NumericOutputZaworAnal2" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="InfoContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb3_poziom" attribute="node" />
+<Target xsi:type="brease" refId="InfoContent_NumericOutputZb3" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="InfoContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb2_poziom" attribute="node" />
+<Target xsi:type="brease" refId="InfoContent_NumericOutputZb2" attribute="node" />
+</Binding></Content>
+
+
+
+
+
+
+
+<Content id="InfoContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" />
+<Target xsi:type="brease" refId="InfoContent_ToggleButtonValveTank1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="editable" />
+<Target xsi:type="brease" refId="InfoContent_ToggleButtonValveTank1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="InfoContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb2_zawor" attribute="value" />
+<Target xsi:type="brease" refId="InfoContent_ToggleButtonValveTank2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb2_zawor" attribute="editable" />
+<Target xsi:type="brease" refId="InfoContent_ToggleButtonValveTank2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="InfoContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gMieszadlo" attribute="value" />
+<Target xsi:type="brease" refId="InfoContent_ToggleButtonValveTank3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gMieszadlo" attribute="editable" />
+<Target xsi:type="brease" refId="InfoContent_ToggleButtonValveTank3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="InfoContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb3_zawor_glowny" attribute="value" />
+<Target xsi:type="brease" refId="InfoContent_ToggleButtonValveTank4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb3_zawor_glowny" attribute="editable" />
+<Target xsi:type="brease" refId="InfoContent_ToggleButtonValveTank4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

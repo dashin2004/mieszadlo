@@ -3,10 +3,14 @@
   <StartPage pageRefId="HMIMainPage" />
   <Pages>
     <Page refId="HMIMainPage" />
+    <Page refId="InfoPage" />
+    <Page refId="RecepturaPage" />
   </Pages>
   <Navigations />
   <BindingsSets>
     <BindingsSet refId="-1334471794" />
+    <BindingsSet refId="-179878325" />
+    <BindingsSet refId="-1724916352" />
   </BindingsSets>
   <EventBindingsSets />
   <EventScriptsSets />
@@ -18,6 +22,8 @@
     <Content refId="ContentLogin" />
     <Content refId="TopContent" />
     <Content refId="LeftContent" />
+    <Content refId="InfoContent" />
+    <Content refId="RecepturaContent" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />

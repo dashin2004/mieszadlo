@@ -14,5 +14,8 @@
     <Object Type="File">HMIMainContent.eventbinding</Object>
     <Object Type="File">TopContent.eventbinding</Object>
     <Object Type="File">ContentLogin.eventbinding</Object>
+    <Object Type="File">InfoContent.binding</Object>
+    <Object Type="File">RecepturaContent.eventbinding</Object>
+    <Object Type="File">RecepturaContent.binding</Object>
   </Objects>
 </Package>

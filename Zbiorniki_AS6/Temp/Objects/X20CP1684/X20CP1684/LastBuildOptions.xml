@@ -3,17 +3,17 @@
 <RuleSetOptions UsesUTCTime="True">
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\opcuamap\opcuamap.uar">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\connectivity\opcuacs\uadvconfig.uadcfg" LastWriteTime="2026-07-14 08:32:18" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\connectivity\opcuacs\opcuamap.uad" LastWriteTime="2026-07-14 07:20:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\connectivity\opcuacs\opcuamap.uad" LastWriteTime="2026-07-14 12:04:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 07:15:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\wizualizacja\clocksignal\variables.var" LastWriteTime="2019-04-08 07:10:58" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\cpu.sw" LastWriteTime="2026-07-13 13:17:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 07:37:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\cpu.sw" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 11:56:58" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\Connectivity\OpcUaCs\OpcUaMap.uad&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\OpcUaMap\OpcUaMap.uar&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot; -B 6.7.6 -c X20CP1684 -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -UseBaseObjectTypeForStructures -Model 2 " />
   </Rule>
   <Rule ID=".mappView_Build">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\type_sass._markerfile" LastWriteTime="2026-07-13 08:07:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\transformations\eventbinding\parametertypemappingmerged.xml" LastWriteTime="2026-07-14 09:20:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\transformations\eventbinding\parametertypemappingmerged.xml" LastWriteTime="2026-07-14 12:05:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2026-07-14 09:19:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\alarmlist\assets\assets._markerfile" LastWriteTime="2026-07-14 09:19:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\tablewidget\assets\assets._markerfile" LastWriteTime="2026-07-13 13:19:28" />
@@ -23,34 +23,34 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\assets\assets._markerfile" LastWriteTime="2026-07-13 08:07:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\assets\assets._markerfile" LastWriteTime="2026-07-13 08:07:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\languageselector\assets\assets._markerfile" LastWriteTime="2026-07-13 08:07:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job" LastWriteTime="2026-07-14 09:20:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job" LastWriteTime="2026-07-14 12:12:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job._markerfile" LastWriteTime="2026-07-14 09:10:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_visualization._markerfile" LastWriteTime="2026-07-14 08:29:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\zbiorniki.json" LastWriteTime="2026-07-14 09:20:44" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\hmi.json" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_visualization._markerfile" LastWriteTime="2026-07-14 11:51:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\zbiorniki.json" LastWriteTime="2026-07-14 12:05:52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\hmi.json" LastWriteTime="2026-07-14 12:05:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\0_visulist.json" LastWriteTime="2026-07-13 10:50:28" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile" LastWriteTime="2026-07-14 09:20:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_sass._markerfile" LastWriteTime="2026-07-14 09:20:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\binding_trans._markerfile" LastWriteTime="2026-07-14 09:20:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile" LastWriteTime="2026-07-14 12:05:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_sass._markerfile" LastWriteTime="2026-07-14 12:05:52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\binding_trans._markerfile" LastWriteTime="2026-07-14 12:05:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\bindinglist_trans._markerfile" LastWriteTime="2026-07-13 08:07:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validateeventbindings._markerfile" LastWriteTime="2026-07-14 09:20:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbinding_trans._markerfile" LastWriteTime="2026-07-14 09:20:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validateeventbindings._markerfile" LastWriteTime="2026-07-14 11:33:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbinding_trans._markerfile" LastWriteTime="2026-07-14 12:05:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_exp_t_set._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\transformations\expression\merged.expressiontype" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\tanks_expressionsset.expression" LastWriteTime="2026-07-13 08:07:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_themes._markerfile" LastWriteTime="2026-07-13 11:29:08" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_keywordsets._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_stylessets._markerfile" LastWriteTime="2026-07-13 11:29:08" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\svar_1.sessionvar" LastWriteTime="2026-07-13 08:07:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\svar_1.sessionvar" LastWriteTime="2026-07-14 09:45:14" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\k243ja3242dkakl3fj3dka423jfdk.sessionvar" LastWriteTime="2026-07-13 08:07:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\zbiorniki.vis" LastWriteTime="2026-07-14 08:58:10" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\hmi.vis" LastWriteTime="2026-07-14 08:58:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\hmi.vis" LastWriteTime="2026-07-14 11:51:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2026-07-14 09:19:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\grunt.breasecsso._markerfile" LastWriteTime="2026-07-14 09:20:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\grunt.breaserelease._markerfile" LastWriteTime="2026-07-14 09:19:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbindingbuild.json._markerfile" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\grunt.breasecsso._markerfile" LastWriteTime="2026-07-14 12:05:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\grunt.breaserelease._markerfile" LastWriteTime="2026-07-14 09:29:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbindingbuild.json._markerfile" LastWriteTime="2026-07-14 12:05:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\themecssbuild.json._markerfile" LastWriteTime="2026-07-13 11:29:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2026-07-14 09:20:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2026-07-14 12:05:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\transfer\x20cp1684\x20cp1684\filestotransfer\addonsdata\mappcockpit\packages\mappview\.mco\manifest.json" LastWriteTime="2026-07-13 10:50:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\transfer\x20cp1684\x20cp1684\filestotransfer\addonsdata\mappcockpit\packages\mappview\.mco\assets\mappviewpackage.png" LastWriteTime="2026-06-03 06:57:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\transfer\x20cp1684\x20cp1684\filestotransfer\addonsdata\mappcockpit\packages\mappview\.mco\assets\vis.png" LastWriteTime="2026-06-03 06:57:00" />
@@ -96,11 +96,13 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\transformations\eventbinding\parametertypemapping.xml" LastWriteTime="2026-06-03 06:53:46" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\widgetlibrary.mapping" LastWriteTime="2026-06-03 06:00:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" LastWriteTime="2026-07-14 09:20:32" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\topcontent.content" LastWriteTime="2026-07-14 09:10:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\leftcontent.content" LastWriteTime="2026-07-14 11:35:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infocontent.content" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturacontent.content" LastWriteTime="2026-07-14 12:05:32" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\logindialog\contentlogin.content" LastWriteTime="2026-07-14 08:08:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\leftcontent.content" LastWriteTime="2026-07-14 08:10:48" />
     <CommandLine Parameter=" -be &quot;MergeBuilder&quot; -category &quot;MappingMerge&quot; -i &quot;&quot;'$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0\Transformations\eventbinding\ParameterTypeMapping.xml;$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0\Widgets\brease\WidgetLibrary.mapping'&quot;&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot/Transformations/eventbinding/ParameterTypeMappingMerged.xml&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile">
@@ -168,43 +170,47 @@
     <CommandLine Parameter="-category CopyAll -i &quot;$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0\Widgets\brease\LanguageSelector\assets&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot/BRVisu\Widgets\brease\LanguageSelector\assets&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot/BRVisu\Widgets\brease\LanguageSelector\assets\assets._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job._markerfile">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job" LastWriteTime="2026-07-14 09:20:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job" LastWriteTime="2026-07-14 12:12:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\media\icon-7797704_640.png" LastWriteTime="2026-07-14 09:06:20" />
     <CommandLine Parameter="-category BulkCopy -i &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\IAT_MEDIA.job&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\IAT_MEDIA.job._markerfile&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\IAT_MEDIA.job._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_visualization._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\visualizat.vis" LastWriteTime="2023-06-27 06:36:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmi.vis" LastWriteTime="2026-07-14 08:24:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmi.vis" LastWriteTime="2026-07-14 11:50:34" />
     <CommandLine Parameter=" -be &quot;ValidatorBuilder&quot; -category &quot;Vis&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\Validate_Visualization._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\zbiorniki.json">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\visualizat.vis" LastWriteTime="2023-06-27 06:36:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_visualization._markerfile" LastWriteTime="2026-07-14 08:29:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_visualization._markerfile" LastWriteTime="2026-07-14 11:51:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpage.page" LastWriteTime="2026-07-14 09:01:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\layouts\layout.layout" LastWriteTime="2026-07-14 09:01:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_pages._markerfile" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_pages._markerfile" LastWriteTime="2026-07-14 12:05:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_navs._markerfile" LastWriteTime="2026-07-13 08:07:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_layouts._markerfile" LastWriteTime="2026-07-14 09:01:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 09:20:44" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbinding_trans._markerfile" LastWriteTime="2026-07-14 09:20:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 12:05:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbinding_trans._markerfile" LastWriteTime="2026-07-14 12:05:48" />
     <CommandLine Parameter="-be &quot;JsonifierBuilder&quot; -i &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappView\Visualizat.vis&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot\Zbiorniki.json&quot; -indexFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\BR.IAT.indexfile&quot; -fileList &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\zbiorniki_json.bin&quot; -logicalDir &quot;$(AS_PROJECT_PATH)\Logical&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\hmi.json">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmi.vis" LastWriteTime="2026-07-14 08:24:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_visualization._markerfile" LastWriteTime="2026-07-14 08:29:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmi.vis" LastWriteTime="2026-07-14 11:50:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_visualization._markerfile" LastWriteTime="2026-07-14 11:51:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" LastWriteTime="2026-07-14 09:20:32" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\topcontent.content" LastWriteTime="2026-07-14 09:10:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\leftcontent.content" LastWriteTime="2026-07-14 11:35:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infocontent.content" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturacontent.content" LastWriteTime="2026-07-14 12:05:32" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\logindialog\contentlogin.content" LastWriteTime="2026-07-14 08:08:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\leftcontent.content" LastWriteTime="2026-07-14 08:10:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimainpage.page" LastWriteTime="2026-07-14 09:11:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimainpage.page" LastWriteTime="2026-07-14 09:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infopage.page" LastWriteTime="2026-07-14 09:28:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturapage.page" LastWriteTime="2026-07-14 12:05:38" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\layouts\hmilayout.layout" LastWriteTime="2026-07-13 10:49:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_pages._markerfile" LastWriteTime="2026-07-14 09:20:44" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\logindialog\logindialog_styles.scss" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_pages._markerfile" LastWriteTime="2026-07-14 12:05:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\logindialog\logindialog_styles.scss" LastWriteTime="2026-07-14 12:05:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_navs._markerfile" LastWriteTime="2026-07-13 08:07:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_layouts._markerfile" LastWriteTime="2026-07-14 09:01:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 09:20:44" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbinding_trans._markerfile" LastWriteTime="2026-07-14 09:20:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 12:05:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbinding_trans._markerfile" LastWriteTime="2026-07-14 12:05:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_themes._markerfile" LastWriteTime="2026-07-13 11:29:08" />
     <CommandLine Parameter="-be &quot;JsonifierBuilder&quot; -i &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappView\HMI.vis&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot\HMI.json&quot; -indexFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\BR.IAT.indexfile&quot; -fileList &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\hmi_json.bin&quot; -logicalDir &quot;$(AS_PROJECT_PATH)\Logical&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
@@ -215,20 +221,22 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_pages._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpage.page" LastWriteTime="2026-07-14 09:01:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimainpage.page" LastWriteTime="2026-07-14 09:11:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimainpage.page" LastWriteTime="2026-07-14 09:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infopage.page" LastWriteTime="2026-07-14 09:28:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturapage.page" LastWriteTime="2026-07-14 12:05:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 12:05:50" />
     <CommandLine Parameter=" -be &quot;ValidatorBuilder&quot; -category &quot;Page&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\Validate_Pages._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\logindialog\logindialog_styles.scss" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\logindialog\logindialog_styles.scss" LastWriteTime="2026-07-14 12:05:50" />
     <CommandLine Parameter="-be &quot;SassBuilder&quot; -category &quot;BuildStyleableProperties&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\Dialog_Sass._markerfile&quot; -workingDir &quot;.&quot; -fileBuildStepType &quot;DialogSass&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\logindialog\logindialog_styles.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\logindialog\logindialog.dialog" LastWriteTime="2026-07-14 08:08:38" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_layouts._markerfile" LastWriteTime="2026-07-14 09:01:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 12:05:50" />
     <CommandLine Parameter=" -be &quot;TransformationBuilder&quot; -i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Visualization\Dialogs\LoginDialog\LoginDialog.dialog&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot/BRVisu/css/pages\mappView\Visualization\Dialogs\LoginDialog\LoginDialog_Styles.scss&quot; -schemaset &quot;$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0/Schemas/dialog/engineering/DialogDefinition.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot/Transformations/dialog/StyleBuilder.xsl&quot; -ta &quot;&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_navs._markerfile">
@@ -244,7 +252,7 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\progressbar\meta\progressbar.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\line\meta\line.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\rectangle\meta\rectangle.widget" LastWriteTime="2026-06-03 06:00:30" />
@@ -269,17 +277,22 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\image\meta\image.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\logininfo\meta\logininfo.widget" LastWriteTime="2026-06-03 06:00:36" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\loginbutton\meta\loginbutton.widget" LastWriteTime="2026-06-03 06:00:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\leftcontent.content" LastWriteTime="2026-07-14 11:35:32" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\navigationbar\meta\navigationbar.widget" LastWriteTime="2026-06-03 06:00:40" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\navigationbutton\meta\navigationbutton.widget" LastWriteTime="2026-06-03 06:00:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infocontent.content" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturacontent.content" LastWriteTime="2026-07-14 12:05:32" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\dropdownbox\meta\dropdownbox.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\logindialog\contentlogin.content" LastWriteTime="2026-07-14 08:08:36" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\login\meta\login.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\textinput\meta\textinput.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\password\meta\password.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\busyindicator\meta\busyindicator.widget" LastWriteTime="2026-06-03 06:00:26" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\leftcontent.content" LastWriteTime="2026-07-14 08:10:48" />
     <CommandLine Parameter="-infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\Content_Trans._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_sass._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 12:05:50" />
     <CommandLine Parameter="-be &quot;SassBuilder&quot; -category &quot;BuildStyleableProperties&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\Content_Sass._markerfile&quot; -workingDir &quot;.&quot; -fileBuildStepType &quot;ContentSass&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validatebindings._markerfile">
@@ -287,8 +300,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2026-07-14 09:19:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\opcuaserver.uaserver" LastWriteTime="2026-07-01 13:35:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\mainpage.binding" LastWriteTime="2023-06-27 04:59:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\variables\sessionvar.svar" LastWriteTime="2019-03-22 09:48:58" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\variables\sessionvar.svar" LastWriteTime="2026-07-14 09:33:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\radiobutton\meta\radiobutton.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\progressbar\meta\progressbar.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\numericoutput\meta\numericoutput.widget" LastWriteTime="2026-06-03 06:00:36" />
@@ -304,14 +317,19 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\button\meta\button.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\basicslider\meta\basicslider.widget" LastWriteTime="2026-06-03 06:00:26" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\alarmlist\meta\alarmlist.widget" LastWriteTime="2026-06-03 06:00:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\infocontent.binding" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infocontent.content" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\recepturacontent.binding" LastWriteTime="2026-07-14 12:05:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturacontent.content" LastWriteTime="2026-07-14 12:05:32" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\dropdownbox\meta\dropdownbox.widget" LastWriteTime="2026-06-03 06:00:28" />
     <CommandLine Parameter="-category &quot;Bindings&quot; -iatFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\IatFiles.bin&quot; -opcUaFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\opcUaFileList.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\ValidateBindings._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\duplicatebindingsfinder._markerfile">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validatebindings._markerfile" LastWriteTime="2026-07-14 09:20:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validatebindings._markerfile" LastWriteTime="2026-07-14 12:05:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2026-07-14 09:19:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\mainpage.binding" LastWriteTime="2023-06-27 04:59:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\variables\sessionvar.svar" LastWriteTime="2019-03-22 09:48:58" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\variables\sessionvar.svar" LastWriteTime="2026-07-14 09:33:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\radiobutton\meta\radiobutton.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\progressbar\meta\progressbar.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\numericoutput\meta\numericoutput.widget" LastWriteTime="2026-06-03 06:00:36" />
@@ -327,6 +345,11 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\button\meta\button.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\basicslider\meta\basicslider.widget" LastWriteTime="2026-06-03 06:00:26" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\alarmlist\meta\alarmlist.widget" LastWriteTime="2026-06-03 06:00:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\infocontent.binding" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infocontent.content" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\recepturacontent.binding" LastWriteTime="2026-07-14 12:05:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturacontent.content" LastWriteTime="2026-07-14 12:05:32" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\dropdownbox\meta\dropdownbox.widget" LastWriteTime="2026-06-03 06:00:28" />
     <CommandLine Parameter="-iatFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\IatFiles.bin&quot; -category &quot;Bindings&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\DuplicateBindingsFinder._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\binding_trans._markerfile">
@@ -334,8 +357,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\transformations_copy._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2026-07-14 09:19:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\mainpage.binding" LastWriteTime="2023-06-27 04:59:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\variables\sessionvar.svar" LastWriteTime="2019-03-22 09:48:58" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\variables\sessionvar.svar" LastWriteTime="2026-07-14 09:33:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\radiobutton\meta\radiobutton.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\progressbar\meta\progressbar.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\numericoutput\meta\numericoutput.widget" LastWriteTime="2026-06-03 06:00:36" />
@@ -351,6 +374,11 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\button\meta\button.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\basicslider\meta\basicslider.widget" LastWriteTime="2026-06-03 06:00:26" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\alarmlist\meta\alarmlist.widget" LastWriteTime="2026-06-03 06:00:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\infocontent.binding" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infocontent.content" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\recepturacontent.binding" LastWriteTime="2026-07-14 12:05:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturacontent.content" LastWriteTime="2026-07-14 12:05:32" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\dropdownbox\meta\dropdownbox.widget" LastWriteTime="2026-06-03 06:00:28" />
     <CommandLine Parameter="-category &quot;Bindings&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\Binding_Trans._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\duplicatebindingslistsetsfinder._markerfile">
@@ -366,7 +394,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmimaincontent.eventbinding" LastWriteTime="2026-07-13 13:00:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\topcontent.eventbinding" LastWriteTime="2026-07-14 09:10:04" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\contentlogin.eventbinding" LastWriteTime="2026-07-14 08:22:16" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\recepturacontent.eventbinding" LastWriteTime="2026-07-14 11:32:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\progressbar\meta\progressbar.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\numericoutput\meta\numericoutput.widget" LastWriteTime="2026-06-03 06:00:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" LastWriteTime="2026-07-14 09:20:32" />
@@ -382,9 +411,9 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbinding_trans._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2026-07-14 09:19:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\transformations\eventbinding\parametertypemappingmerged.xml" LastWriteTime="2026-07-14 09:20:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\transformations\eventbinding\parametertypemappingmerged.xml" LastWriteTime="2026-07-14 12:05:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\config.mappviewcfg" LastWriteTime="2026-07-14 08:56:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\progressbar\meta\progressbar.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\numericoutput\meta\numericoutput.widget" LastWriteTime="2026-06-03 06:00:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" LastWriteTime="2026-07-14 09:20:32" />
@@ -436,7 +465,7 @@
     <CommandLine Parameter=" -be &quot;ValidatorBuilder&quot; -category &quot;StylesSet&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\Validate_StylesSets._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\duplicatestylesfinder._markerfile">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\br.iat.widgetsfile" LastWriteTime="2026-07-14 09:18:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\br.iat.widgetsfile" LastWriteTime="2026-07-14 09:28:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burthemeflatlight\breaseflatlight\burthemeflatlightdefaultstyles.styles" LastWriteTime="2026-07-13 11:20:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burthemeflatlight\breaseflatlight\burthemeflatlightsystemstyles.styles" LastWriteTime="2026-07-13 11:20:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burthemeflatlight\breaseflatlight\burthemeflatlightbuttonsstyles.styles" LastWriteTime="2026-07-13 11:20:36" />
@@ -452,7 +481,7 @@
     <CommandLine Parameter="-iatFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\IatFiles.bin&quot; -category &quot;Styles&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot\DuplicateStylesFinder._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\svar_1.sessionvar">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\variables\sessionvar.svar" LastWriteTime="2019-03-22 09:48:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\variables\sessionvar.svar" LastWriteTime="2026-07-14 09:33:42" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <CommandLine Parameter=" -be &quot;TransformationBuilder&quot; -i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Visualization\Variables\sessionvar.svar&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/server\svar_1.sessionVar&quot; -schemaset &quot;$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0/Schemas/session/engineering/VariablesSet.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot/Transformations/session/SessionVarBuilder.xsl&quot; -ta &quot;&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
@@ -468,7 +497,7 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\server\hmi.vis">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\config.mappviewcfg" LastWriteTime="2026-07-14 08:56:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmi.vis" LastWriteTime="2026-07-14 08:24:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmi.vis" LastWriteTime="2026-07-14 11:50:34" />
     <CommandLine Parameter="-be &quot;VisRuntimeBuilder&quot; -i &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappView\HMI.vis&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/server\HMI.vis&quot; -eventBindingsSets  &quot;&quot; -iatFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\IatFiles.bin&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
@@ -505,6 +534,8 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\tablecolumnwidget\meta\tablecolumnwidget.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\logininfo\meta\logininfo.widget" LastWriteTime="2026-06-03 06:00:36" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\loginbutton\meta\loginbutton.widget" LastWriteTime="2026-06-03 06:00:36" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\navigationbar\meta\navigationbar.widget" LastWriteTime="2026-06-03 06:00:40" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\navigationbutton\meta\navigationbutton.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\login\meta\login.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\password\meta\password.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\messagebox\meta\messagebox.widget" LastWriteTime="2026-06-03 06:00:36" />
@@ -521,14 +552,14 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2026-07-14 09:19:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2026-07-14 09:19:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\type_sass._markerfile" LastWriteTime="2026-07-13 08:07:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile" LastWriteTime="2026-07-14 09:20:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_sass._markerfile" LastWriteTime="2026-07-14 09:20:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2026-07-14 09:20:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile" LastWriteTime="2026-07-14 12:05:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_sass._markerfile" LastWriteTime="2026-07-14 12:05:52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2026-07-14 12:05:54" />
     <CommandLine Parameter="-be &quot;GruntBuilder&quot; -workingDir &quot;$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0\IATC\jsBuild\node_modules\.bin&quot; -gruntCommand &quot;breaseCsso:&quot;'$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot/BRVisu'&quot; --buildpath=&quot;&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot&quot;&quot;&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot\grunt.breaseCsso._markerfile&quot; -infrastructure &quot;&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\grunt.breaserelease._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\br.iat.widgetsfile" LastWriteTime="2026-07-14 09:18:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\br.iat.widgetsfile" LastWriteTime="2026-07-14 09:28:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2026-07-14 09:19:00" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\progressbar\meta\progressbar.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\line\meta\line.widget" LastWriteTime="2026-06-03 06:00:28" />
@@ -561,6 +592,8 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\tablecolumnwidget\meta\tablecolumnwidget.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\logininfo\meta\logininfo.widget" LastWriteTime="2026-06-03 06:00:36" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\loginbutton\meta\loginbutton.widget" LastWriteTime="2026-06-03 06:00:36" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\navigationbar\meta\navigationbar.widget" LastWriteTime="2026-06-03 06:00:40" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\navigationbutton\meta\navigationbutton.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\login\meta\login.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\password\meta\password.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\messagebox\meta\messagebox.widget" LastWriteTime="2026-06-03 06:00:36" />
@@ -573,17 +606,20 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbindingbuild.json._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2026-07-13 08:07:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\br.iat.widgetsfile" LastWriteTime="2026-07-14 09:18:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\br.iat.widgetsfile" LastWriteTime="2026-07-14 09:28:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2026-07-14 09:19:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\eventbinding.eventbinding" LastWriteTime="2019-04-08 07:07:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmimaincontent.eventbinding" LastWriteTime="2026-07-13 13:00:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\topcontent.eventbinding" LastWriteTime="2026-07-14 09:10:04" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\contentlogin.eventbinding" LastWriteTime="2026-07-14 08:22:16" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-01 13:41:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\recepturacontent.eventbinding" LastWriteTime="2026-07-14 11:32:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2026-07-14 09:34:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" LastWriteTime="2026-07-14 09:20:32" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\topcontent.content" LastWriteTime="2026-07-14 09:10:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\leftcontent.content" LastWriteTime="2026-07-14 11:35:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\infopage\infocontent.content" LastWriteTime="2026-07-14 09:57:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\recepturapage\recepturacontent.content" LastWriteTime="2026-07-14 12:05:32" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\logindialog\contentlogin.content" LastWriteTime="2026-07-14 08:08:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\areacontents\leftcontent.content" LastWriteTime="2026-07-14 08:10:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\config.mappviewcfg" LastWriteTime="2026-07-14 08:56:46" />
     <CommandLine Parameter="-be &quot;GruntBuilder&quot; -workingDir &quot;$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0\IATC\jsBuild\node_modules\.bin&quot; -gruntCommand &quot;eventBindingBuild:&quot;'$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\eventBindingBuild.json'&quot; --buildpath=&quot;&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot&quot;&quot;&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\eventBindingBuild.json._markerfile&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
@@ -605,8 +641,8 @@
     <CommandLine Parameter="-be &quot;GruntBuilder&quot; -workingDir &quot;$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0\IATC\jsBuild\node_modules\.bin&quot; -gruntCommand &quot;themeCSSBuild:&quot;'$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\themeCSSBuild.json'&quot; --buildpath=&quot;&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot&quot;&quot;&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\themeCSSBuild.json._markerfile&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\brease_core.css">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\br.iat.concatfile" LastWriteTime="2026-07-14 09:11:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 09:20:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\br.iat.concatfile" LastWriteTime="2026-07-14 11:27:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" LastWriteTime="2026-07-14 12:05:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\type_sass._markerfile" LastWriteTime="2026-07-13 08:07:54" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\progressbar\meta\progressbar.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\line\meta\line.widget" LastWriteTime="2026-06-03 06:00:28" />
@@ -639,6 +675,8 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\tablecolumnwidget\meta\tablecolumnwidget.widget" LastWriteTime="2026-06-03 06:00:30" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\logininfo\meta\logininfo.widget" LastWriteTime="2026-06-03 06:00:36" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\loginbutton\meta\loginbutton.widget" LastWriteTime="2026-06-03 06:00:36" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\navigationbar\meta\navigationbar.widget" LastWriteTime="2026-06-03 06:00:40" />
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\navigationbutton\meta\navigationbutton.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\login\meta\login.widget" LastWriteTime="2026-06-03 06:00:28" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\password\meta\password.widget" LastWriteTime="2026-06-03 06:00:40" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\messagebox\meta\messagebox.widget" LastWriteTime="2026-06-03 06:00:36" />
@@ -647,14 +685,14 @@
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\keyboard\meta\keyboard.widget" LastWriteTime="2026-06-03 06:00:42" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\systemlogin\meta\systemlogin.widget" LastWriteTime="2026-06-03 06:00:42" />
     <Prerequisite ID="$(AS_PATH)\as\technologypackages\mappview\6.7.0\widgets\brease\languageselector\meta\languageselector.widget" LastWriteTime="2026-06-03 06:00:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile" LastWriteTime="2026-07-14 09:20:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_sass._markerfile" LastWriteTime="2026-07-14 09:20:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile" LastWriteTime="2026-07-14 12:05:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_sass._markerfile" LastWriteTime="2026-07-14 12:05:52" />
     <CommandLine Parameter="-be &quot;SassBuilder&quot; -category &quot;Concat&quot; -i &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\BR.IAT.concatfile&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView/data/wwwRoot/BRVisu/css\brease_core.css&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\mappViewBuildInfrastructure.bin&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\transfer\x20cp1684\x20cp1684\filestotransfer\addonsdata\mappcockpit\packages\mappview\.mco\manifest.json">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\config.mappviewcfg" LastWriteTime="2026-07-14 08:56:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\visualizat.vis" LastWriteTime="2023-06-27 06:36:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmi.vis" LastWriteTime="2026-07-14 08:24:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\hmi.vis" LastWriteTime="2026-07-14 11:50:34" />
     <CommandLine Parameter="-category CopyFile -i &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\.mappView\manifest.json&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Transfer\X20CP1684\X20CP1684\FilesToTransfer\AddonsData\mappCockpit\packages\mappView\.mco\manifest.json&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Transfer\X20CP1684\X20CP1684\FilesToTransfer\AddonsData\mappCockpit\packages\mappView\.mco\manifest.json&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\transfer\x20cp1684\x20cp1684\filestotransfer\addonsdata\mappcockpit\packages\mappview\.mco\assets\mappviewpackage.png">
@@ -664,23 +702,23 @@
     <CommandLine Parameter="-category CopyFile -i &quot;$(AS_PATH)\AS\TechnologyPackages\mappView\6.7.0\ObjectCatalog\shelf\vis.png&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Transfer\X20CP1684\X20CP1684\FilesToTransfer\AddonsData\mappCockpit\packages\mappView\.mco\assets\vis.png&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Transfer\X20CP1684\X20CP1684\FilesToTransfer\AddonsData\mappCockpit\packages\mappView\.mco\assets\vis.png&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\ashwac.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-13 10:24:32" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ashwac.br&quot; -L &quot;AsIecCon: V*, astime: V*, MpAlarmX: V6.7.0, MpBase: V6.7.0, MpServer: V6.7.0, operator: V*, runtime: V*, standard: V*&quot; -c &quot;X20CP1684&quot; -B 6.7.6 -P &quot;$(AS_PROJECT_PATH)&quot; -v 1.0.0 " />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-14 11:36:18" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ashwac.br&quot; -L &quot;AsIecCon: V*, astime: V*, MpAlarmX: V6.7.0, MpBase: V6.7.0, MpRecipe: V6.7.0, MpServer: V6.7.0, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -c &quot;X20CP1684&quot; -B 6.7.6 -P &quot;$(AS_PROJECT_PATH)&quot; -v 1.0.0 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\sysconf.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-13 10:24:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-14 11:36:18" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0 -c &quot;X20CP1684&quot; -sysconf -Z &quot;OpcUaCs: 6.7.0, mappView: 6.7.0, mappServices: 6.7.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\sysconf.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;X20CP1684&quot; -B 6.7.6 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\asfw.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-13 10:24:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-14 11:36:18" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0 -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\asfw.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -zip -s &quot;X20CP1684&quot; -firmware -Z &quot;OpcUaCs: 6.7.0, mappView: 6.7.0, mappServices: 6.7.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -B 6.7.6 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\ashwd.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-13 10:24:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-14 11:36:18" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0 -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ashwd.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -zip -s &quot;X20CP1684&quot; -hwd -Z &quot;OpcUaCs: 6.7.0, mappView: 6.7.0, mappServices: 6.7.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -B 6.7.6 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\arconfig.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-13 10:24:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-14 11:36:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\iomap.iom" LastWriteTime="2019-04-08 07:02:02" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\IoMap.iom&quot;  -arconfig -C &quot;/COMT=2500 /AM=* /SDT=5 /IP=192.168.0.3 /PT=11169&quot; -D &quot;/IF=tcpip&quot; -c &quot;X20CP1684&quot; -v 1.0.0 -Z &quot;OpcUaCs: 6.7.0, mappView: 6.7.0, mappServices: 6.7.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ReActionTechnologyConfiguration.xml&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;X20CP1684&quot; -B 6.7.6 " />
   </Rule>
@@ -699,8 +737,8 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\iomap.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\iomap.iom" LastWriteTime="2019-04-08 07:02:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\pvmap.vvm" LastWriteTime="2019-04-08 07:02:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-13 10:24:32" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\cpu.sw" LastWriteTime="2026-07-13 13:17:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\hardware.hw" LastWriteTime="2026-07-14 11:36:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\cpu.sw" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\channelconfiguration.xml" LastWriteTime="2026-07-13 08:08:04" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ChannelConfiguration.xml&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\iomap.br&quot; -B 6.7.6 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;X20CP1684.X20CP1684&quot;" />
   </Rule>
@@ -744,16 +782,20 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config.mpalarmxcore" LastWriteTime="2026-07-14 08:53:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_1.mpalarmxlist" LastWriteTime="2026-07-14 08:00:16" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappServices\Config.mpalarmxcore&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Config.br&quot; -zip -B 6.7.6 -L &quot;MpAlarmX: V6.7.0&quot; -z 6.7.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_1.mpalarmxlist" LastWriteTime="2026-07-14 11:40:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappServices\Config.mpalarmxcore&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Config.br&quot; -zip -B 6.7.6 -L &quot;MpAlarmX: V6.7.0, MpRecipe: V6.7.0&quot; -z 6.7.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config_1.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_1.mpalarmxlist" LastWriteTime="2026-07-14 08:00:16" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappServices\Config_1.mpalarmxlist&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Config_1.br&quot; -zip -B 6.7.6 -L &quot;MpAlarmX: V6.7.0&quot; -z 6.7.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_1.mpalarmxlist" LastWriteTime="2026-07-14 11:40:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappServices\Config_1.mpalarmxlist&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Config_1.br&quot; -zip -B 6.7.6 -L &quot;MpAlarmX: V6.7.0, MpRecipe: V6.7.0&quot; -z 6.7.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config_2.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_2.mpalarmxhistory" LastWriteTime="2026-07-14 07:31:12" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappServices\Config_2.mpalarmxhistory&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Config_2.br&quot; -zip -B 6.7.6 -L &quot;MpAlarmX: V6.7.0&quot; -z 6.7.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappServices\Config_2.mpalarmxhistory&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Config_2.br&quot; -zip -B 6.7.6 -L &quot;MpAlarmX: V6.7.0, MpRecipe: V6.7.0&quot; -z 6.7.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config_3.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_3.mprecipexml" LastWriteTime="2026-07-14 10:50:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\mappServices\Config_3.mprecipexml&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Config_3.br&quot; -zip -B 6.7.6 -L &quot;MpAlarmX: V6.7.0, MpRecipe: V6.7.0&quot; -z 6.7.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1684&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\Hardware.hw&quot;  -v 1.0.0" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\opcuasrv.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappview\opcuaserver.uaserver" LastWriteTime="2026-07-01 13:35:02" />
@@ -769,7 +811,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\cpu.per" LastWriteTime="2019-04-08 07:02:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2026-06-15 07:44:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\wizualizacja\clocksignal\variables.var" LastWriteTime="2019-04-08 07:10:58" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\ClockSigna.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\X20CP1684\X20CP1684\LT.ofs&quot; -M IA32 -B 6.7.6 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic1 -p 2 -s &quot;Wizualizacja.ClockSignal&quot; -L &quot;AsIecCon: V*, astime: V*, MpAlarmX: V6.7.0, MpBase: V6.7.0, MpServer: V6.7.0, operator: V*, runtime: V*, standard: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\ClockSigna.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\X20CP1684\X20CP1684\LT.ofs&quot; -M IA32 -B 6.7.6 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic1 -p 2 -s &quot;Wizualizacja.ClockSignal&quot; -L &quot;AsIecCon: V*, astime: V*, MpAlarmX: V6.7.0, MpBase: V6.7.0, MpRecipe: V6.7.0, MpServer: V6.7.0, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
     <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
     <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
@@ -780,13 +822,13 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\clocksigna\_bur_pvdef.st.o" LastWriteTime="2026-07-13 08:07:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2026-06-15 07:44:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\wizualizacja\clocksignal\variables.var" LastWriteTime="2019-04-08 07:10:58" />
-    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\ClockSigna.ox&quot; -G V11.3.0  -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\SG4\Ia32\libMpAlarmX.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libastime.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\SG4\Ia32\libMpServer.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\SG4\Ia32\libMpBase.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -nostdlib -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\ClockSigna.ox&quot; -G V11.3.0  -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\SG4\Ia32\libMpRecipe.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\SG4\Ia32\libMpAlarmX.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libastime.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\SG4\Ia32\libMpServer.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\SG4\Ia32\libMpBase.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -nostdlib -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\clocksigna\main.st.o">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\wizualizacja\clocksignal\main.st" LastWriteTime="2019-04-08 07:10:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2026-06-15 07:44:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\wizualizacja\clocksignal\variables.var" LastWriteTime="2019-04-08 07:10:58" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\Main.st.o&quot; -T SG4 -M IA32 -B 6.7.6 -G V11.3.0  -s &quot;Wizualizacja.ClockSignal&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\MpServer.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\AS_TempDecl\X20CP1684\GlobalComponents\MpComponents.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Constants.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\Main.st.o&quot; -T SG4 -M IA32 -B 6.7.6 -G V11.3.0  -s &quot;Wizualizacja.ClockSignal&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipe.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipeError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\MpServer.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipe.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\AS_TempDecl\X20CP1684\GlobalComponents\MpComponents.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\clocksigna\_bur_pvdef.st.o">
@@ -794,72 +836,88 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\clocksigna\main.st.o" LastWriteTime="2026-07-13 08:07:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2026-06-15 07:44:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\wizualizacja\clocksignal\variables.var" LastWriteTime="2019-04-08 07:10:58" />
-    <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B 6.7.6 -G V11.3.0  -s &quot;Wizualizacja.ClockSignal&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\MpServer.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\AS_TempDecl\X20CP1684\GlobalComponents\MpComponents.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Constants.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\ClockSigna\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B 6.7.6 -G V11.3.0  -s &quot;Wizualizacja.ClockSignal&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Wizualizacja\ClockSignal\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipe.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipeError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\MpServer.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipe.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\AS_TempDecl\X20CP1684\GlobalComponents\MpComponents.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\tanks.ox" LastWriteTime="2026-07-14 08:53:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\tanks.ox" LastWriteTime="2026-07-14 12:12:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\cpu.per" LastWriteTime="2019-04-08 07:02:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmx.fun" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpbase\mpbase.typ" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmxerror.typ" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmx.typ" LastWriteTime="2026-07-13 13:14:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipe.fun" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipeerror.typ" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipe.typ" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2026-06-15 07:44:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\types.typ" LastWriteTime="2026-07-13 10:44:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 07:37:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\types.typ" LastWriteTime="2026-07-14 12:12:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 11:56:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 07:15:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config.mpalarmxcore" LastWriteTime="2026-07-14 08:53:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_3.mprecipexml" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_2.mpalarmxhistory" LastWriteTime="2026-07-14 07:31:12" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\Tanks.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\X20CP1684\X20CP1684\LT.ofs&quot; -M IA32 -B 6.7.6 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic4 -p 2 -s &quot;Sterowanie.Tanks&quot; -L &quot;AsIecCon: V*, astime: V*, MpAlarmX: V6.7.0, MpBase: V6.7.0, MpServer: V6.7.0, operator: V*, runtime: V*, standard: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\Tanks.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\X20CP1684\X20CP1684\LT.ofs&quot; -M IA32 -B 6.7.6 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic4 -p 2 -s &quot;Sterowanie.Tanks&quot; -L &quot;AsIecCon: V*, astime: V*, MpAlarmX: V6.7.0, MpBase: V6.7.0, MpRecipe: V6.7.0, MpServer: V6.7.0, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
     <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
     <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
     <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\tanks.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\main.st.o" LastWriteTime="2026-07-14 08:53:08" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\_bur_pvdef.st.o" LastWriteTime="2026-07-14 08:53:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\main.st.o" LastWriteTime="2026-07-14 12:12:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\_bur_pvdef.st.o" LastWriteTime="2026-07-14 12:12:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmx.fun" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpbase\mpbase.typ" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmxerror.typ" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmx.typ" LastWriteTime="2026-07-13 13:14:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipe.fun" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipeerror.typ" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipe.typ" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2026-06-15 07:44:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\types.typ" LastWriteTime="2026-07-13 10:44:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 07:37:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\types.typ" LastWriteTime="2026-07-14 12:12:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 11:56:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 07:15:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config.mpalarmxcore" LastWriteTime="2026-07-14 08:53:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_3.mprecipexml" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_2.mpalarmxhistory" LastWriteTime="2026-07-14 07:31:12" />
-    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\Tanks.ox&quot; -G V11.3.0  -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\SG4\Ia32\libMpAlarmX.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libastime.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\SG4\Ia32\libMpServer.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\SG4\Ia32\libMpBase.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -nostdlib -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\Tanks.ox&quot; -G V11.3.0  -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\SG4\Ia32\libMpRecipe.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\SG4\Ia32\libMpAlarmX.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libastime.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\SG4\Ia32\libMpServer.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\SG4\Ia32\libMpBase.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -nostdlib -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\main.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\main.st" LastWriteTime="2026-07-14 07:43:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\main.st" LastWriteTime="2026-07-14 12:12:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmx.fun" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpbase\mpbase.typ" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmxerror.typ" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmx.typ" LastWriteTime="2026-07-13 13:14:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipe.fun" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipeerror.typ" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipe.typ" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2026-06-15 07:44:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\types.typ" LastWriteTime="2026-07-13 10:44:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 07:37:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\types.typ" LastWriteTime="2026-07-14 12:12:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 11:56:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 07:15:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config.mpalarmxcore" LastWriteTime="2026-07-14 08:53:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_3.mprecipexml" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_2.mpalarmxhistory" LastWriteTime="2026-07-14 07:31:12" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\Main.st.o&quot; -T SG4 -M IA32 -B 6.7.6 -G V11.3.0  -s &quot;Sterowanie.Tanks&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\MpServer.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\AS_TempDecl\X20CP1684\GlobalComponents\MpComponents.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Constants.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\Main.st.o&quot; -T SG4 -M IA32 -B 6.7.6 -G V11.3.0  -s &quot;Sterowanie.Tanks&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipe.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipeError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\MpServer.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipe.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\AS_TempDecl\X20CP1684\GlobalComponents\MpComponents.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\_bur_pvdef.st.o">
     <Prerequisite ID="$(AS_PATH)\as\gnuinst\v11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st" LastWriteTime="2026-06-16 12:25:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\main.st.o" LastWriteTime="2026-07-14 08:53:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks\main.st.o" LastWriteTime="2026-07-14 12:12:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmx.fun" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpbase\mpbase.typ" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmxerror.typ" LastWriteTime="2026-07-13 13:14:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\mpalarmx.typ" LastWriteTime="2026-07-13 13:14:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipe.fun" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipeerror.typ" LastWriteTime="2026-07-14 10:50:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\mprecipe.typ" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2026-06-15 07:44:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\types.typ" LastWriteTime="2026-07-13 10:44:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 07:37:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\types.typ" LastWriteTime="2026-07-14 12:12:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\tanks\variables.var" LastWriteTime="2026-07-14 11:56:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 07:15:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config.mpalarmxcore" LastWriteTime="2026-07-14 08:53:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_3.mprecipexml" LastWriteTime="2026-07-14 10:50:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\mappservices\config_2.mpalarmxhistory" LastWriteTime="2026-07-14 07:31:12" />
-    <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B 6.7.6 -G V11.3.0  -s &quot;Sterowanie.Tanks&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\MpServer.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\AS_TempDecl\X20CP1684\GlobalComponents\MpComponents.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Constants.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\Tanks\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B 6.7.6 -G V11.3.0  -s &quot;Sterowanie.Tanks&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmXCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipe.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipeError.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpAlarmX\MpAlarmX.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\MpServer.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\MpRecipe.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\AS_TempDecl\X20CP1684\GlobalComponents\MpComponents.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpBase\MpBase.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\standard.br">
@@ -886,6 +944,14 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mpserver\sg4\ia32\mpserver.br" LastWriteTime="2026-06-03 06:57:10" />
     <CommandLine Parameter="$(AS_PROJECT_PATH)\Logical\Libraries\MpServer\SG4\Ia32\MpServer.br, $(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\MpServer.br" />
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\mprecipe.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mprecipe\sg4\ia32\mprecipe.br" LastWriteTime="2026-05-12 08:17:30" />
+    <CommandLine Parameter="$(AS_PROJECT_PATH)\Logical\Libraries\MpRecipe\SG4\Ia32\MpRecipe.br, $(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\MpRecipe.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\sys_lib.br">
+    <Prerequisite ID="$(AS_PATH)\as\system\6.7.6\sg4\ia32\sys_lib.br" LastWriteTime="2026-06-15 07:44:36" />
+    <CommandLine Parameter="$(AS_PATH)\AS\System\6.7.6\SG4\Ia32\sys_lib.br, $(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\sys_lib.br" />
+  </Rule>
   <Rule ID="#cpu_tp.mak">
     <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1684\X20CP1684\#cpu_tp.mak&quot; -k" />
   </Rule>
@@ -906,19 +972,22 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\user.br" LastWriteTime="2026-07-14 08:29:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\role.br" LastWriteTime="2026-07-14 08:29:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config.br" LastWriteTime="2026-07-14 08:53:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config_1.br" LastWriteTime="2026-07-14 08:00:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config_1.br" LastWriteTime="2026-07-14 11:40:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config_2.br" LastWriteTime="2026-07-14 07:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\config_3.br" LastWriteTime="2026-07-14 10:56:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\opcuasrv.br" LastWriteTime="2026-07-13 08:08:04" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\mvconfig.br" LastWriteTime="2026-07-14 08:58:16" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\clocksigna.br" LastWriteTime="2026-07-13 13:19:28" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks.br" LastWriteTime="2026-07-14 08:53:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\clocksigna.br" LastWriteTime="2026-07-14 10:56:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\tanks.br" LastWriteTime="2026-07-14 12:12:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\standard.br" LastWriteTime="2026-06-15 07:44:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\mpalarmx.br" LastWriteTime="2026-05-12 05:35:42" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\astime.br" LastWriteTime="2026-06-15 07:44:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\runtime.br" LastWriteTime="2026-06-15 07:44:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\mpbase.br" LastWriteTime="2026-05-11 09:43:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\mpserver.br" LastWriteTime="2026-06-03 06:57:10" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\cpu.sw" LastWriteTime="2026-07-13 13:17:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\mprecipe.br" LastWriteTime="2026-05-12 08:17:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\sys_lib.br" LastWriteTime="2026-06-15 07:44:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1684\x20cp1684\cpu.sw" LastWriteTime="2026-07-14 10:50:50" />
     <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\CaseWeek_user.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;X20CP1684&quot; -i &quot;$(AS_PATH)&quot; -S &quot;X20CP1684&quot; -A &quot;X20CPx68x&quot; -swFiles &quot;$(AS_PROJECT_PATH)\Physical\X20CP1684\X20CP1684\Cpu.sw&quot; -Z &quot;OpcUaCs: 6.7.0, mappView: 6.7.0, mappServices: 6.7.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /AM=* /SDT=5 /IP=192.168.0.3 /PT=11169&quot; -D &quot;/IF=tcpip&quot; -M IA32 -T SG4" />
   </Rule>
 </RuleSetOptions>

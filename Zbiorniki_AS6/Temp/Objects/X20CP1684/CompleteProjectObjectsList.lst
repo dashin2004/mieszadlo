@@ -10,7 +10,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Temp\Includes\AS_TempDecl\MpComponents.var"
     LogicalPath="MpComponents.var"
     Type="File"
-    LastWriteTime="134284882237061193"
+    LastWriteTime="134285001791129510"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Global.typ"
@@ -28,7 +28,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="134284222552172984" />
+    LastWriteTime="134284998515497364" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\operator\Binary.lby"
     LogicalPath="Libraries.operator"
@@ -232,6 +232,58 @@
     LastWriteTime="134284222552071399"
     Private="false" />
   <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\MpRecipe\Binary.lby"
+    LogicalPath="Libraries.MpRecipe"
+    Type="Library"
+    LastWriteTime="134284998509444737" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\MpRecipe\MpRecipe.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.typ"
+    Type="File"
+    LastWriteTime="134284998509374659"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeAlarm.typ"
+    Type="File"
+    LastWriteTime="134284998509394667"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\MpRecipe\MpRecipeError.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeError.typ"
+    Type="File"
+    LastWriteTime="134284998509414746"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\MpRecipe\MpRecipe.fun"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.fun"
+    Type="File"
+    LastWriteTime="134284998509434759"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\sys_lib\binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="134284998515205573" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="134284998515075531"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="134284998515095520"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="134284998515115544"
+    Private="false" />
+  <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Wizualizacja\Package.pkg"
     LogicalPath="Wizualizacja"
     Type="Package"
@@ -402,7 +454,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\Package.pkg"
     LogicalPath="mappView.Visualization.Pages"
     Type="Package"
-    LastWriteTime="134284128896492010" />
+    LastWriteTime="134285025320924956" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.AreaContents"
@@ -418,7 +470,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\AreaContents\LeftContent.content"
     LogicalPath="mappView.Visualization.Pages.AreaContents.LeftContent.content"
     Type="File"
-    LastWriteTime="134284902487523685"
+    LastWriteTime="134285025323362321"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\MainPage\Package.pkg"
@@ -435,7 +487,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\MainPage\MainPageContent.content"
     LogicalPath="mappView.Visualization.Pages.MainPage.MainPageContent.content"
     Type="File"
-    LastWriteTime="134273869080000000"
+    LastWriteTime="134284952522197827"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\HMIMainPage\Package.pkg"
@@ -446,13 +498,47 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\HMIMainPage\HMIMainPage.page"
     LogicalPath="mappView.Visualization.Pages.HMIMainPage.HMIMainPage.page"
     Type="File"
-    LastWriteTime="134284938663684991"
+    LastWriteTime="134284950026262535"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\HMIMainPage\HMIMainContent.content"
     LogicalPath="mappView.Visualization.Pages.HMIMainPage.HMIMainContent.content"
     Type="File"
     LastWriteTime="134284944336139601"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\InfoPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.InfoPage"
+    Type="Package"
+    LastWriteTime="134284948779943557" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\InfoPage\InfoPage.page"
+    LogicalPath="mappView.Visualization.Pages.InfoPage.InfoPage.page"
+    Type="File"
+    LastWriteTime="134284948845039517"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\InfoPage\InfoContent.content"
+    LogicalPath="mappView.Visualization.Pages.InfoPage.InfoContent.content"
+    Type="File"
+    LastWriteTime="134284966613854578"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\RecepturaPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.RecepturaPage"
+    Type="Package"
+    LastWriteTime="134285025321164651" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\RecepturaPage\RecepturaPage.page"
+    LogicalPath="mappView.Visualization.Pages.RecepturaPage.RecepturaPage.page"
+    Type="File"
+    LastWriteTime="134285043390226649"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\RecepturaPage\RecepturaContent.content"
+    LogicalPath="mappView.Visualization.Pages.RecepturaPage.RecepturaContent.content"
+    Type="File"
+    LastWriteTime="134285043326052880"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Variables\Package.pkg"
@@ -463,7 +549,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Variables\sessionvar.svar"
     LogicalPath="mappView.Visualization.Variables.sessionvar.svar"
     Type="File"
-    LastWriteTime="131977217380000000"
+    LastWriteTime="134284952225252689"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Expressions\Package.pkg"
@@ -567,19 +653,19 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Sterowanie\Tanks\Main.st"
     LogicalPath="Sterowanie.Tanks.Main.st"
     Type="File"
-    LastWriteTime="134284886285306344"
+    LastWriteTime="134285047339470724"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Sterowanie\Tanks\Types.typ"
     LogicalPath="Sterowanie.Tanks.Types.typ"
     Type="File"
-    LastWriteTime="134284130926634002"
+    LastWriteTime="134285047339596015"
     Private="true" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\Sterowanie\Tanks\Variables.var"
     LogicalPath="Sterowanie.Tanks.Variables.var"
     Type="File"
-    LastWriteTime="134284882758114977"
+    LastWriteTime="134285038188315128"
     Private="true" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\Config.pkg"
@@ -590,13 +676,13 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\Hardware.hw"
     LogicalPath="X20CP1684.Hardware.hw"
     Type="File"
-    LastWriteTime="134284118735219734"
+    LastWriteTime="134285025795860459"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\Hardware.hwl"
     LogicalPath="X20CP1684.Hardware.hwl"
     Type="File"
-    LastWriteTime="134284913335172488"
+    LastWriteTime="134285025890883677"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\Cpu.pkg"
@@ -607,7 +693,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\Cpu.sw"
     LogicalPath="X20CP1684.X20CP1684.Cpu.sw"
     Type="File"
-    LastWriteTime="134284222553148122"
+    LastWriteTime="134284998516197743"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\Cpu.per"
@@ -653,7 +739,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\Connectivity\OpcUaCs\OpcUaMap.uad"
     LogicalPath="X20CP1684.X20CP1684.Connectivity.OpcUaCs.OpcUaMap.uad"
     Type="File"
-    LastWriteTime="134284872301645377"
+    LastWriteTime="134285042976983270"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\TextSystem\Package.pkg"
@@ -752,7 +838,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappServices\Package.pkg"
     LogicalPath="X20CP1684.X20CP1684.mappServices"
     Type="Package"
-    LastWriteTime="134284878729187819" />
+    LastWriteTime="134284998504662507" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappServices\Config.mpalarmxcore"
     LogicalPath="X20CP1684.X20CP1684.mappServices.Config.mpalarmxcore"
@@ -763,7 +849,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappServices\Config_1.mpalarmxlist"
     LogicalPath="X20CP1684.X20CP1684.mappServices.Config_1.mpalarmxlist"
     Type="File"
-    LastWriteTime="134284896169945727"
+    LastWriteTime="134285028373297377"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappServices\Config_2.mpalarmxhistory"
@@ -772,10 +858,16 @@
     LastWriteTime="134284878729167815"
     Private="false" />
   <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappServices\Config_3.mprecipexml"
+    LogicalPath="X20CP1684.X20CP1684.mappServices.Config_3.mprecipexml"
+    Type="File"
+    LastWriteTime="134284998504662507"
+    Private="false" />
+  <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\Package.pkg"
     LogicalPath="X20CP1684.X20CP1684.mappView"
     Type="Package"
-    LastWriteTime="134284910974588258" />
+    LastWriteTime="134285034337501548" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\OpcUaServer.uaserver"
     LogicalPath="X20CP1684.X20CP1684.mappView.OpcUaServer.uaserver"
@@ -822,7 +914,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\HMI.vis"
     LogicalPath="X20CP1684.X20CP1684.mappView.HMI.vis"
     Type="File"
-    LastWriteTime="134284910977173109"
+    LastWriteTime="134285034340529957"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\HMIMainContent.binding"
@@ -849,6 +941,24 @@
     LastWriteTime="134284909370429372"
     Private="false" />
   <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\InfoContent.binding"
+    LogicalPath="X20CP1684.X20CP1684.mappView.InfoContent.binding"
+    Type="File"
+    LastWriteTime="134284966613798830"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\RecepturaContent.eventbinding"
+    LogicalPath="X20CP1684.X20CP1684.mappView.RecepturaContent.eventbinding"
+    Type="File"
+    LastWriteTime="134285023598304864"
+    Private="false" />
+  <Object
+    Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\RecepturaContent.binding"
+    LogicalPath="X20CP1684.X20CP1684.mappView.RecepturaContent.binding"
+    Type="File"
+    LastWriteTime="134285043326042518"
+    Private="false" />
+  <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappCockpit\Package.pkg"
     LogicalPath="X20CP1684.X20CP1684.mappCockpit"
     Type="Package"
@@ -857,6 +967,6 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\Hardware.jpg"
     LogicalPath="X20CP1684.Hardware.jpg"
     Type="File"
-    LastWriteTime="134284913335497924"
+    LastWriteTime="134285025890971741"
     Private="false" />
 </Objects>

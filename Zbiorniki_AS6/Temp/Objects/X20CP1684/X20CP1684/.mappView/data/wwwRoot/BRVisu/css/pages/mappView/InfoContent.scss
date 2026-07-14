@@ -1,0 +1,477 @@
+@use "mixins.scss";
+@use "sass:list";
+@use "sass:string";
+#InfoContent_NumericOutputZb1 {	@include mixins.elemTop(240);
+}
+#InfoContent_NumericOutputZb1 {	@include mixins.elemLeft(380);
+}
+#InfoContent_NumericOutputZb1 {	@include mixins.elemAutoWidth(200);
+}
+#InfoContent_NumericOutputZb1 {	@include mixins.elemAutoHeight(90);
+}
+#InfoContent_NumericOutputZb1 {	z-index: 0;
+}
+#InfoContent_NumericOutputZb1 {	input {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZb1 {	.breaseNumericOutput_unit {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZb1 {	.breaseNumericOutput_unit {
+		@include mixins.font-weight-bold(true);
+	}
+}
+#InfoContent_NumericOutputZaworAnal2 {	@include mixins.elemTop(420);
+}
+#InfoContent_NumericOutputZaworAnal2 {	@include mixins.elemLeft(760);
+}
+#InfoContent_NumericOutputZaworAnal2 {	@include mixins.elemAutoWidth(200);
+}
+#InfoContent_NumericOutputZaworAnal2 {	@include mixins.elemAutoHeight(90);
+}
+#InfoContent_NumericOutputZaworAnal2 {	z-index: 1;
+}
+#InfoContent_NumericOutputZaworAnal2 {	input {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZaworAnal2 {	.breaseNumericOutput_unit {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZaworAnal2 {	.breaseNumericOutput_unit {
+		@include mixins.font-weight-bold(true);
+	}
+}
+#InfoContent_NumericOutputZawrorAnal1 {	@include mixins.elemTop(420);
+}
+#InfoContent_NumericOutputZawrorAnal1 {	@include mixins.elemLeft(380);
+}
+#InfoContent_NumericOutputZawrorAnal1 {	@include mixins.elemAutoWidth(200);
+}
+#InfoContent_NumericOutputZawrorAnal1 {	@include mixins.elemAutoHeight(90);
+}
+#InfoContent_NumericOutputZawrorAnal1 {	z-index: 2;
+}
+#InfoContent_NumericOutputZawrorAnal1 {	input {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZawrorAnal1 {	.breaseNumericOutput_unit {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZawrorAnal1 {	.breaseNumericOutput_unit {
+		@include mixins.font-weight-bold(true);
+	}
+}
+#InfoContent_NumericOutputZb2 {	@include mixins.elemTop(240);
+}
+#InfoContent_NumericOutputZb2 {	@include mixins.elemLeft(760);
+}
+#InfoContent_NumericOutputZb2 {	@include mixins.elemAutoWidth(200);
+}
+#InfoContent_NumericOutputZb2 {	@include mixins.elemAutoHeight(90);
+}
+#InfoContent_NumericOutputZb2 {	z-index: 3;
+}
+#InfoContent_NumericOutputZb2 {	input {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZb2 {	.breaseNumericOutput_unit {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZb2 {	.breaseNumericOutput_unit {
+		@include mixins.font-weight-bold(true);
+	}
+}
+#InfoContent_NumericOutputZb3 {	@include mixins.elemTop(600);
+}
+#InfoContent_NumericOutputZb3 {	@include mixins.elemLeft(580);
+}
+#InfoContent_NumericOutputZb3 {	@include mixins.elemAutoWidth(200);
+}
+#InfoContent_NumericOutputZb3 {	@include mixins.elemAutoHeight(90);
+}
+#InfoContent_NumericOutputZb3 {	z-index: 4;
+}
+#InfoContent_NumericOutputZb3 {	input {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZb3 {	.breaseNumericOutput_unit {
+		font-size: 32px;
+	}
+}
+#InfoContent_NumericOutputZb3 {	.breaseNumericOutput_unit {
+		@include mixins.font-weight-bold(true);
+	}
+}
+#InfoContent_LabelZb1 {	@include mixins.elemTop(160);
+}
+#InfoContent_LabelZb1 {	@include mixins.elemLeft(460);
+}
+#InfoContent_LabelZb1 {	@include mixins.elemAutoWidth(220);
+}
+#InfoContent_LabelZb1 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_LabelZb1 {	z-index: 5;
+}
+#InfoContent_LabelZb1 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_LabelZb1 {	font-size: 32px;
+}
+#InfoContent_LabelZb1 {	@include mixins.font-weight-bold(true);
+}
+#InfoContent_Label2 {	@include mixins.elemTop(360);
+}
+#InfoContent_Label2 {	@include mixins.elemLeft(720);
+}
+#InfoContent_Label2 {	@include mixins.elemAutoWidth(560);
+}
+#InfoContent_Label2 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_Label2 {	z-index: 6;
+}
+#InfoContent_Label2 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_Label2 {	font-size: 32px;
+}
+#InfoContent_Label2 {	@include mixins.font-weight-bold(true);
+}
+#InfoContent_LabelZb2 {	@include mixins.elemTop(160);
+}
+#InfoContent_LabelZb2 {	@include mixins.elemLeft(820);
+}
+#InfoContent_LabelZb2 {	@include mixins.elemAutoWidth(220);
+}
+#InfoContent_LabelZb2 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_LabelZb2 {	z-index: 7;
+}
+#InfoContent_LabelZb2 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_LabelZb2 {	font-size: 32px;
+}
+#InfoContent_LabelZb2 {	@include mixins.font-weight-bold(true);
+}
+#InfoContent_Label4 {	@include mixins.elemTop(360);
+}
+#InfoContent_Label4 {	@include mixins.elemLeft(220);
+}
+#InfoContent_Label4 {	@include mixins.elemAutoWidth(500);
+}
+#InfoContent_Label4 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_Label4 {	z-index: 8;
+}
+#InfoContent_Label4 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_Label4 {	font-size: 32px;
+}
+#InfoContent_Label4 {	@include mixins.font-weight-bold(true);
+}
+#InfoContent_Label5 {	@include mixins.elemTop(540);
+}
+#InfoContent_Label5 {	@include mixins.elemLeft(600);
+}
+#InfoContent_Label5 {	@include mixins.elemAutoWidth(280);
+}
+#InfoContent_Label5 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_Label5 {	z-index: 9;
+}
+#InfoContent_Label5 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_Label5 {	font-size: 32px;
+}
+#InfoContent_Label5 {	@include mixins.font-weight-bold(true);
+}
+#InfoContent_Label6 {	@include mixins.elemAutoWidth(80);
+}
+#InfoContent_Label6 {	@include mixins.elemAutoHeight(30);
+}
+#InfoContent_Label6 {	@include mixins.elemTop(280);
+}
+#InfoContent_Label6 {	@include mixins.elemLeft(620);
+}
+#InfoContent_Label6 {	z-index: 10;
+}
+#InfoContent_Label6 {	font-size: 30px;
+}
+#InfoContent_ToggleButtonValveTank1 {	@include mixins.elemTop(80);
+}
+#InfoContent_ToggleButtonValveTank1 {	@include mixins.elemLeft(520);
+}
+#InfoContent_ToggleButtonValveTank1 {	@include mixins.elemAutoWidth(60);
+}
+#InfoContent_ToggleButtonValveTank1 {	@include mixins.elemAutoHeight(60);
+}
+#InfoContent_ToggleButtonValveTank1 {	z-index: 11;
+}
+#InfoContent_ToggleButtonValveTank1 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	@include mixins.border-radius(30px);
+}
+#InfoContent_ToggleButtonValveTank1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	&.disabled:not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	&.disabled:not(.active):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	&.checked:not(.active):not(.disabled) {
+		border-color: rgba(211, 211, 211, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	&.disabled.checked {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank1 {	&.disabled.checked {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	@include mixins.elemTop(80);
+}
+#InfoContent_ToggleButtonValveTank2 {	@include mixins.elemLeft(880);
+}
+#InfoContent_ToggleButtonValveTank2 {	@include mixins.elemAutoWidth(60);
+}
+#InfoContent_ToggleButtonValveTank2 {	@include mixins.elemAutoHeight(60);
+}
+#InfoContent_ToggleButtonValveTank2 {	z-index: 12;
+}
+#InfoContent_ToggleButtonValveTank2 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	@include mixins.border-radius(30px);
+}
+#InfoContent_ToggleButtonValveTank2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	&.disabled:not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	&.disabled:not(.active):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	&.checked:not(.active):not(.disabled) {
+		border-color: rgba(211, 211, 211, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	&.disabled.checked {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank2 {	&.disabled.checked {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	@include mixins.elemTop(680);
+}
+#InfoContent_ToggleButtonValveTank3 {	@include mixins.elemLeft(680);
+}
+#InfoContent_ToggleButtonValveTank3 {	@include mixins.elemAutoWidth(60);
+}
+#InfoContent_ToggleButtonValveTank3 {	@include mixins.elemAutoHeight(60);
+}
+#InfoContent_ToggleButtonValveTank3 {	z-index: 13;
+}
+#InfoContent_ToggleButtonValveTank3 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	@include mixins.border-radius(30px);
+}
+#InfoContent_ToggleButtonValveTank3 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	&.disabled:not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	&.disabled:not(.active):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	&.checked:not(.active):not(.disabled) {
+		border-color: rgba(211, 211, 211, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	&.disabled.checked {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank3 {	&.disabled.checked {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	@include mixins.elemTop(780);
+}
+#InfoContent_ToggleButtonValveTank4 {	@include mixins.elemLeft(680);
+}
+#InfoContent_ToggleButtonValveTank4 {	@include mixins.elemAutoWidth(60);
+}
+#InfoContent_ToggleButtonValveTank4 {	@include mixins.elemAutoHeight(60);
+}
+#InfoContent_ToggleButtonValveTank4 {	z-index: 14;
+}
+#InfoContent_ToggleButtonValveTank4 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	@include mixins.border-radius(30px);
+}
+#InfoContent_ToggleButtonValveTank4 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	&.disabled:not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	&.disabled:not(.active):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	&.checked:not(.active):not(.disabled) {
+		border-color: rgba(211, 211, 211, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	&.disabled.checked {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#InfoContent_ToggleButtonValveTank4 {	&.disabled.checked {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#InfoContent_LabelZb3 {	@include mixins.elemTop(0);
+}
+#InfoContent_LabelZb3 {	@include mixins.elemLeft(400);
+}
+#InfoContent_LabelZb3 {	@include mixins.elemAutoWidth(300);
+}
+#InfoContent_LabelZb3 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_LabelZb3 {	z-index: 15;
+}
+#InfoContent_LabelZb3 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_LabelZb3 {	font-size: 32px;
+}
+#InfoContent_LabelZb3 {	@include mixins.font-weight-bold(true);
+}
+#InfoContent_LabelZb4 {	@include mixins.elemTop(0);
+}
+#InfoContent_LabelZb4 {	@include mixins.elemLeft(740);
+}
+#InfoContent_LabelZb4 {	@include mixins.elemAutoWidth(340);
+}
+#InfoContent_LabelZb4 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_LabelZb4 {	z-index: 16;
+}
+#InfoContent_LabelZb4 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_LabelZb4 {	font-size: 32px;
+}
+#InfoContent_LabelZb4 {	@include mixins.font-weight-bold(true);
+}
+#InfoContent_LabelZb5 {	@include mixins.elemTop(660);
+}
+#InfoContent_LabelZb5 {	@include mixins.elemLeft(780);
+}
+#InfoContent_LabelZb5 {	@include mixins.elemAutoWidth(220);
+}
+#InfoContent_LabelZb5 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_LabelZb5 {	z-index: 17;
+}
+#InfoContent_LabelZb5 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_LabelZb5 {	font-size: 32px;
+}
+#InfoContent_LabelZb5 {	@include mixins.font-weight-bold(true);
+}
+#InfoContent_LabelZb6 {	@include mixins.elemTop(760);
+}
+#InfoContent_LabelZb6 {	@include mixins.elemLeft(780);
+}
+#InfoContent_LabelZb6 {	@include mixins.elemAutoWidth(460);
+}
+#InfoContent_LabelZb6 {	@include mixins.elemAutoHeight(80);
+}
+#InfoContent_LabelZb6 {	z-index: 18;
+}
+#InfoContent_LabelZb6 {	@include mixins.text-alignment-all('center');
+}
+#InfoContent_LabelZb6 {	font-size: 32px;
+}
+#InfoContent_LabelZb6 {	@include mixins.font-weight-bold(true);
+}

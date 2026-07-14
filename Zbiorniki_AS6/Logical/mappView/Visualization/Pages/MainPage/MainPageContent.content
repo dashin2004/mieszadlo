@@ -83,8 +83,8 @@
     <Widget xsi:type="widgets.brease.Label" id="Label2" top="140" left="760" width="300" zIndex="79" text="Wybierz wariant symulacji" textAlign="center" fontSize="20px" bold="true" padding="0px" />
     <Widget xsi:type="widgets.brease.RadioButtonGroup" id="RadioButtonGroupValvesVariant" top="160" left="780" width="260" height="160" zIndex="80" childPositioning="relative">
       <Widgets>
-        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonBooleanValves" top="20" left="10" width="250" height="45" zIndex="0" boxSize="40" text="Zawory dwustanowe" value="true" textAlign="left" fontSize="18px" />
-        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonAnalogValves" top="40" left="10" width="250" height="45" zIndex="1" boxSize="40" text="Zawory analogowe" textAlign="left" fontSize="18px" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonBooleanValves" top="20" left="10" width="250" height="45" zIndex="0" boxSize="40" text="Zawory dwustanowe" textAlign="left" fontSize="18px" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonAnalogValves" top="40" left="10" width="250" height="45" zIndex="1" boxSize="40" text="Zawory analogowe" value="true" textAlign="left" fontSize="18px" />
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputTank1Level" top="700" left="745" width="140" height="40" zIndex="81" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'LTR','imperial':'LTR','imperial-us':'LTR'}" unitAlign="right" unitTextAlign="right" unitFontSize="20px" />

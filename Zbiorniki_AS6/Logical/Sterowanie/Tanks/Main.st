@@ -22,6 +22,17 @@ PROGRAM _INIT
 	MpAlarmXCore_0(); 
 	MpAlarmXHistory_0(); 
 	 
+
+	MpRecipeXml_0.MpLink := ADR(gRecipeXml); 
+	MpRecipeXml_0.Enable := TRUE; 
+	MpRecipeXml_0.DeviceName := ADR('CF'); 
+	MpRecipeXml_0.FileName := ADR('MyFile'); 
+ 
+	MpRecipeRegPar_0.MpLink := ADR(gRecipeXml); 
+	MpRecipeRegPar_0.Enable := TRUE; 
+	MpRecipeRegPar_0.PVName := ADR('Przepis'); 
+ 
+	MpRecipeXml_0();  
 END_PROGRAM
 
 PROGRAM _CYCLIC
@@ -48,12 +59,38 @@ PROGRAM _CYCLIC
 	END_IF
 	IF MieszanieBtn=TRUE THEN
 		MieszanieStr:='Mieszanie = TRUE';
+		Przepis.Mix:=TRUE;
 	ELSE
 		MieszanieStr:='Mieszanie = FALSE';
+		Przepis.Mix:=FALSE;
 	END_IF
 	
-		
-	TON_0(IN :=gMieszadlo , PT := T#5s);
+	
+	IF RecepturaWybrana=0 THEN
+		Przepis.Mix:=TRUE;
+		Przepis.NapelnienieZb1:=3000;
+		Przepis.NapelnienieZb2:=4000;
+		Przepis.NapelnienieZb3:=6000;
+		Przepis.ZaworLewy:=60;
+		Przepis.ZaworPrawy:=80;
+	END_IF
+	IF RecepturaWybrana=1 THEN
+		Przepis.Mix:=TRUE;
+		Przepis.NapelnienieZb1:=4000;
+		Przepis.NapelnienieZb2:=2000;
+		Przepis.NapelnienieZb3:=5000;
+		Przepis.ZaworLewy:=90;
+		Przepis.ZaworPrawy:=30;
+	END_IF
+	IF RecepturaWybrana=2 THEN
+		Przepis.Mix:=FALSE;
+		Przepis.NapelnienieZb1:=1000;
+		Przepis.NapelnienieZb2:=5000;
+		Przepis.NapelnienieZb3:=5500;
+		Przepis.ZaworLewy:=100;
+		Przepis.ZaworPrawy:=80;
+	END_IF
+		TON_0(IN :=gMieszadlo , PT := T#5s);
 	CASE Maszyna OF
 		Stop:
 			KrokMaszyny:='Stop';
@@ -67,6 +104,11 @@ PROGRAM _CYCLIC
 			ELSIF StopBtn=FALSE AND TrybPracy=TRUE THEN
 				Maszyna:=TrybManual;
 			END_IF
+			IF  gZb1_poziom=0 AND gZb2_poziom=0 AND gZb3_poziom=0 THEN
+				EnableZmianeReceptury:=TRUE;
+			ELSE
+				EnableZmianeReceptury:=FALSE;
+			END_IF
 		TrybManual:
 			KrokMaszyny:='Tryb Manual';
 			gZb1_zawor:=Zb1_zawor_view;
@@ -74,6 +116,7 @@ PROGRAM _CYCLIC
 			gZb3_zawor_glowny:=Zb3_zawor_glowny_view;
 			gZb3_zawor_lewy:=Zb3_zawor_lewy_view;
 			gZb3_zawor_prawy:=Zb3_zawor_prawy_view;
+			EnableZmianeReceptury:=FALSE;
 			IF TrybPracy=FALSE THEN
 				Maszyna:=Stop;
 			END_IF
@@ -82,28 +125,29 @@ PROGRAM _CYCLIC
 			
 		NapelnianieZb12:
 			KrokMaszyny:='Napelnianie zbiorników 1 i 2';
-			IF gZb1_poziom<8000 THEN
+			EnableZmianeReceptury:=FALSE;
+			IF gZb1_poziom<Przepis.NapelnienieZb1 THEN
 				gZb1_zawor:=TRUE;
 			ELSE 
 				gZb1_zawor:=FALSE;
 			END_IF
-			IF gZb2_poziom<8000 THEN
+			IF gZb2_poziom<Przepis.NapelnienieZb2 THEN
 				gZb2_zawor:=TRUE;
 			ELSE 
 				gZb2_zawor:=FALSE;
 			END_IF
-			IF gZb1_poziom >=8000 AND gZb2_poziom >=8000 THEN
+			IF gZb1_poziom >=Przepis.NapelnienieZb1 AND gZb2_poziom >=Przepis.NapelnienieZb2 THEN
 				Maszyna:=NapelnianieZb3;
 			END_IF			
 		NapelnianieZb3:
 			KrokMaszyny:='Napelnianie zbiornika 3';
-			IF gZb3_poziom<9000 THEN
-				gZb3_zawor_lewy:=100;
-				gZb3_zawor_prawy:=100;
+			IF gZb3_poziom<Przepis.NapelnienieZb3 THEN
+				gZb3_zawor_lewy:=Przepis.ZaworLewy;
+				gZb3_zawor_prawy:=Przepis.ZaworPrawy;
 			ELSE
 				gZb3_zawor_lewy:=0;
 				gZb3_zawor_prawy:=0;
-				IF MieszanieBtn=FALSE THEN
+				IF Przepis.Mix=FALSE THEN
 					Maszyna:=OproznianieZb3;
 				ELSE
 					Maszyna:=Mieszanie;
@@ -116,7 +160,6 @@ PROGRAM _CYCLIC
 
 			IF TON_0.Q=TRUE THEN
 				gMieszadlo:=FALSE;
-				test:=TRUE;
 				Maszyna:=OproznianieZb3;
 			END_IF
 			
@@ -132,7 +175,10 @@ PROGRAM _CYCLIC
 	END_CASE
 	
 	MpAlarmXCore_0(); 
-	MpAlarmXHistory_0(); 
+	MpAlarmXHistory_0();
+	MpRecipeXml_0(); 
+	MpRecipeRegPar_0();
+
 	 
 END_PROGRAM
 

@@ -1,1 +1,1 @@
-{"Pages":["HMIMainPage"],"Dialogs":["LoginDialog"],"Navigations":[],"Layouts":[],"Contents":["HMIMainContent","TopContent","ContentLogin","LeftContent"],"ReferencedKeyboards":[]}
+{"Pages":["HMIMainPage","InfoPage","RecepturaPage"],"Dialogs":["LoginDialog"],"Navigations":[],"Layouts":[],"Contents":["HMIMainContent","TopContent","LeftContent","InfoContent","RecepturaContent","ContentLogin"],"ReferencedKeyboards":[]}

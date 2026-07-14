@@ -23,6 +23,8 @@
   <widget name="widgets.brease.LoginButton" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/LoginButton" />
   <widget name="widgets.brease.LoginInfo" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/LoginInfo" />
   <widget name="widgets.brease.MessageBox" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/MessageBox" />
+  <widget name="widgets.brease.NavigationBar" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/NavigationBar" />
+  <widget name="widgets.brease.NavigationButton" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/NavigationButton" />
   <widget name="widgets.brease.NumericInput" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/NumericInput" />
   <widget name="widgets.brease.NumericOutput" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/NumericOutput" />
   <widget name="widgets.brease.NumPad" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/NumPad" />

@@ -1,3 +1,43 @@
 @use "mixins.scss";
 @use "sass:list";
 @use "sass:string";
+#LeftContent_NavigationBar1 {	@include mixins.elemTop(0);
+}
+#LeftContent_NavigationBar1 {	@include mixins.elemLeft(0);
+}
+#LeftContent_NavigationBar1 {	@include mixins.elemWidth(200);
+}
+#LeftContent_NavigationBar1 {	@include mixins.elemHeight(380);
+}
+#LeftContent_NavigationBar1 {	z-index: 0;
+}
+#LeftContent_NavigationButtonHMI {	@include mixins.elemTop(0);
+}
+#LeftContent_NavigationButtonHMI {	@include mixins.elemLeft(0);
+}
+#LeftContent_NavigationButtonHMI {	@include mixins.elemAutoWidth(200);
+}
+#LeftContent_NavigationButtonHMI {	@include mixins.elemAutoHeight(100);
+}
+#LeftContent_NavigationButtonHMI {	z-index: 0;
+}
+#LeftContent_NavigationButtonInfo {	@include mixins.elemTop(100);
+}
+#LeftContent_NavigationButtonInfo {	@include mixins.elemLeft(0);
+}
+#LeftContent_NavigationButtonInfo {	@include mixins.elemAutoWidth(200);
+}
+#LeftContent_NavigationButtonInfo {	@include mixins.elemAutoHeight(100);
+}
+#LeftContent_NavigationButtonInfo {	z-index: 1;
+}
+#LeftContent_NavigationButtonReceptura {	@include mixins.elemTop(200);
+}
+#LeftContent_NavigationButtonReceptura {	@include mixins.elemLeft(0);
+}
+#LeftContent_NavigationButtonReceptura {	@include mixins.elemAutoWidth(200);
+}
+#LeftContent_NavigationButtonReceptura {	@include mixins.elemAutoHeight(120);
+}
+#LeftContent_NavigationButtonReceptura {	z-index: 2;
+}

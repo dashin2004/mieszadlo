@@ -3,5 +3,6 @@
   <Assignments>
     <Assignment type="Content" baseContentRefId="HMIMainContent" areaRefId="area1" sizeMode="fill" />
     <Assignment type="Content" baseContentRefId="TopContent" areaRefId="area2" />
+    <Assignment type="Content" baseContentRefId="LeftContent" areaRefId="area3" />
   </Assignments>
 </pdef:Page>

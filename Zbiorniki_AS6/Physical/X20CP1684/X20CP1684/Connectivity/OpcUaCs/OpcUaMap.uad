@@ -45,6 +45,8 @@
       <Variable Name="MieszanieBtn" />
       <Variable Name="MieszanieStr" />
       <Variable Name="KrokMaszyny" />
+      <Variable Name="RecepturaWybrana" />
+      <Variable Name="EnableZmianeReceptury" />
     </Task>
   </Module>
 </OpcUaSource>

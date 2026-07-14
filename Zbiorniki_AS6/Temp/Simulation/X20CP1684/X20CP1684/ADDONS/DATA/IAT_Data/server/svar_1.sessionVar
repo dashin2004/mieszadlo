@@ -34,10 +34,10 @@
     <Variable name="Zb3_prawy_przeplyw" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </Session>
   <Session>
-    <Variable name="Zawory_dwustanowe" xsi:type="BOOL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <Variable name="Zawory_dwustanowe" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </Session>
   <Session>
-    <Variable name="Zawory_analogowe" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <Variable name="Zawory_analogowe" xsi:type="BOOL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </Session>
   <Session>
     <Variable name="Mieszadlo_Mruganie" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
