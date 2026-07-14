@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="TopContent" guid="d7d1dac8-dcd2-4ebc-a2c5-9cd98d72ac42" height="200" width="1600" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.Image" id="LoginImage" top="20" left="280" zIndex="0" />
+    <Widget xsi:type="widgets.brease.Image" id="LoginImage" top="20" left="280" zIndex="0" image="Media/icon-7797704_640.png" />
+    <Widget xsi:type="widgets.brease.LoginInfo" id="LoginInfo1" top="60" left="460" zIndex="1" />
+    <Widget xsi:type="widgets.brease.LoginButton" id="LogoutButton" top="60" left="640" zIndex="2" text="Log out" />
   </Widgets>
 </Content>

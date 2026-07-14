@@ -4,7 +4,7 @@
 		<Class Name="AddonsData">
 			<Folder Name="IAT_Data" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
-					<File Name="-1334471794.binding" Size="4570" HashValue="2F6B52D08E8165D2C8FE312FDD41A685" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="-1334471794.binding" Size="4569" HashValue="5E4F4BC15A8C9A7639B7C9205D689789" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-222062230.binding" Size="10571" HashValue="2212A205BE240CEAA2ACE19AF9919B63" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="1534101751.binding" Size="3072" HashValue="ADC7222CB8F173AF794986D953FF918C" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="1625532323.binding" Size="13760" HashValue="1D407C56B1A30F7FEF0868C8B22A3D84" ProjectDependent="1" IgnoreDifference="0" />
@@ -16,6 +16,9 @@
 				</Folder>
 				<Folder Name="wwwRoot" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="BRVisu" ProjectDependent="1" IgnoreDifference="0">
+						<Folder Name="Media" ProjectDependent="1" IgnoreDifference="0">
+							<File Name="icon-7797704_640.png" Size="15494" HashValue="6703B1ED954F4AD810EAE80D37D00C05" ProjectDependent="1" IgnoreDifference="0" />
+						</Folder>
 						<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="img" ProjectDependent="1" IgnoreDifference="0">
 								<File Name="br_logo.png" Size="8399" HashValue="6346818D0D20CABB5F866CAF8B99B2AA" ProjectDependent="1" IgnoreDifference="0" />
@@ -44,9 +47,9 @@
 							<File Name="br.367.js" Size="4690438" HashValue="5DA93AC25A81F59D36C7CF0E01C8BC2F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="br.js" Size="773915" HashValue="C7825155AC6C2BACFA8714B95B7E242A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="2903" HashValue="8CDADA8BD3FE3DB9BCE3FC2DC258065D" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="428985" HashValue="38A5A459598334DEBADC3B95AB60EACF" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="429164" HashValue="84CE07177EC59AA33C00D7F366200B56" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="cwidgets.js" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="escripts.js" Size="6961" HashValue="A88739748334A6D620B9B460EC0F9606" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="escripts.js" Size="6999" HashValue="6172857D25A145E0594EE10D657EE1E3" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1080.js" Size="5381" HashValue="EF7E4EAA91D8FFA17FD3E7EF4E735DF5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1141.js" Size="1055" HashValue="0BC5599756574DC8A392AA31FFABB8A5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1224.js" Size="11161" HashValue="1E0C9BD49B5A6AA46D16A06371C4164F" ProjectDependent="1" IgnoreDifference="0" />
@@ -270,7 +273,7 @@
 							<File Name="wi.988.js" Size="6452" HashValue="2C14CACBE36F94952F2AF24FDF2C5EC8" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9946.js" Size="1638" HashValue="43BE2DC3ED3D77CF2A1F637D02FF15A6" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9988.js" Size="6581" HashValue="1A3CBE5254AA435639FFD633BD9E76BF" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="widgets.js" Size="692201" HashValue="7C09F2A6D6216E38C6A459E3AE28E604" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="widgets.js" Size="704160" HashValue="E39FA9DD9166C8901F72DD529E761368" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="widgets" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -286,6 +289,26 @@
 										<File Name="inact.svg" Size="4626" HashValue="06E87A48AFAE96B16AEE46EAB4BABD58" ProjectDependent="1" IgnoreDifference="0" />
 										<File Name="unack.svg" Size="3024" HashValue="8BCF111A8091874E062BE1804800970E" ProjectDependent="1" IgnoreDifference="0" />
 										<File Name="unconf.svg" Size="1092" HashValue="BFD96B7F1F2C0380665BAD280D9A98EF" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+								</Folder>
+								<Folder Name="AlarmList" ProjectDependent="1" IgnoreDifference="0">
+									<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="act_ack.svg" Size="5018" HashValue="4FD46E633D9453451C5499B3986E2BFA" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="act_ack_con.svg" Size="5948" HashValue="ADBE802BCAC19F46B25EBDF160B09E30" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="act_ack_ncon.svg" Size="6037" HashValue="DC5C197447D9FA3C9E6F365E88F13CEC" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="act_nack.svg" Size="5018" HashValue="5DBE3314BB8F62B0AD4AF4DE7A05F86C" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="act_nack_con.svg" Size="6037" HashValue="66FDBB51F7B54A20BB173A6ED3036992" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="act_nack_ncon.svg" Size="5998" HashValue="2EF3DB1955381F9642097866DC757FE0" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="assets._markerfile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="cat0.svg" Size="637" HashValue="609EA593C1C63F184FAA0C0EA4C2AE30" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="cat1.svg" Size="605" HashValue="507CC95603B589D1FACF7A8D435BB88C" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="cat2.svg" Size="1137" HashValue="20A57C1259BAF75D54468691548FAF04" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="nact_ack.svg" Size="4997" HashValue="A2A18D3BEAB4E088012E085F66FA3C0A" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="nact_ack_con.svg" Size="6016" HashValue="1007F5C64E6B5AA76DAC525C5F6364DE" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="nact_ack_ncon.svg" Size="6015" HashValue="EE5C06B1AB20AE186347E6825B3EBCC3" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="nact_nack.svg" Size="4997" HashValue="9210EA1E437D0467BE0C6BCBFE350533" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="nact_nack_con.svg" Size="6013" HashValue="F8C5D8EF09AEA4663A556EDDED14D888" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="nact_nack_ncon.svg" Size="6018" HashValue="6D674E9766E71E24A1058168569606AC" ProjectDependent="1" IgnoreDifference="0" />
 									</Folder>
 								</Folder>
 								<Folder Name="BusyIndicator" ProjectDependent="1" IgnoreDifference="0">
@@ -865,10 +888,10 @@
 					<Folder Name="contents" ProjectDependent="1" IgnoreDifference="0">
 						<Folder Name="mappView" ProjectDependent="1" IgnoreDifference="0">
 							<File Name="ContentLogin.html" Size="1283" HashValue="21A8F9EC710EC19662890AA72EDB07BE" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="HMIMainContent.html" Size="6189" HashValue="C457CC17A047F8A2B6FA06D6CAB86019" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="HMIMainContent.html" Size="6121" HashValue="7395208AD8BA0E9E04614E1484353AE4" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="LeftContent.html" Size="17" HashValue="977FD571D75951006FEE6224E29EECC7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="MainPageContent.html" Size="48988" HashValue="D6A1577E6AB30CA5C7E1C83B299B31F8" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="TopContent.html" Size="270" HashValue="A6D048296F688A2C20568A4A372BC375" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="TopContent.html" Size="858" HashValue="64FAFE89AEBFE641E8133FE6994628C1" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 					</Folder>
 					<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
@@ -941,7 +964,7 @@
 						</Folder>
 					</Folder>
 					<File Name="0_visulist.json" Size="19" HashValue="2594BB542D02A8AB6E6DDFE664591A15" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="HMI.json" Size="1238" HashValue="ED634637AA57C456219F57F7A0806350" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="HMI.json" Size="1299" HashValue="37AC58A7F870959D60D4F1AC128FFF33" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Zbiorniki.json" Size="439" HashValue="714F8F39E7C3599216FB9AF21AF21623" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="favicon.ico" Size="9062" HashValue="C96A8C677EDBD3464A0936F216D735DD" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="index.html" Size="5373" HashValue="30C0C2E87F4A5F9216B118AB41FBDB3F" ProjectDependent="1" IgnoreDifference="0" />

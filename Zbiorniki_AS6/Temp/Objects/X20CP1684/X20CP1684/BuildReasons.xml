@@ -1,24 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job._markerfile">
-    <BuildReason>Target "iat_media.job._markerfile" does not exist</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbindingbuild.json._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" differs.
+</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_layouts._markerfile">
-    <BuildReason>Target "validate_layouts._markerfile" does not exist</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\transformations\eventbinding\parametertypemappingmerged.xml">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validateeventbindings._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\iat_media.job" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validatebindings._markerfile">
+    <BuildReason>Target "validatebindings._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\binding_trans._markerfile">
+    <BuildReason>Target "binding_trans._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile">
+    <BuildReason>Target "content_trans._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\eventbinding_trans._markerfile">
+    <BuildReason>Target "eventbinding_trans._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\duplicatebindingsfinder._markerfile">
+    <BuildReason>Target "duplicatebindingsfinder._markerfile" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_pages._markerfile">
-    <BuildReason>Target "validate_pages._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\zbiorniki.json">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpage.page" differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\logindialog\logindialog_styles.scss">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_layouts._markerfile" differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_sass._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\zbiorniki.json">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_pages._markerfile" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\hmi.json">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\validate_pages._markerfile" differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\hmimainpage\hmimaincontent.content" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile">
@@ -26,7 +56,7 @@
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\brvisu\css\brease_core.css">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\dialog_sass._markerfile" differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\content_trans._markerfile" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1684\x20cp1684\.mappview\data\wwwroot\grunt.breasecsso._markerfile">

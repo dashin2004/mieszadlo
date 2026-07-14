@@ -25,7 +25,7 @@
             <Selector ID="LowLimitEnable" Value="Disabled" />
             <Selector ID="LowLowLimitEnable" Value="Disabled" />
             <Selector ID="HighLimitEnable" Value="Static">
-              <Property ID="Limit" Value="15" />
+              <Property ID="Limit" Value="9000" />
               <Property ID="LimitText" Value="Ponad 90% zbiornika zapelnione" />
             </Selector>
             <Selector ID="HighHighLimitEnable" Value="Static">
@@ -65,11 +65,11 @@
             <Selector ID="LowLimitEnable" Value="Disabled" />
             <Selector ID="LowLowLimitEnable" Value="Disabled" />
             <Selector ID="HighLimitEnable" Value="Static">
-              <Property ID="Limit" Value="90" />
+              <Property ID="Limit" Value="9000" />
               <Property ID="LimitText" />
             </Selector>
             <Selector ID="HighHighLimitEnable" Value="Static">
-              <Property ID="Limit" Value="100" />
+              <Property ID="Limit" Value="10000" />
               <Property ID="LimitText" />
             </Selector>
             <Selector ID="Settings" Value="0">

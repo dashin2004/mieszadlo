@@ -65,9 +65,10 @@
 <Source xsi:type="opcUa" refId="::Tanks:KrokMaszyny" attribute="value" />
 <Target xsi:type="brease" contentRefId="HMIMainContent" widgetRefId="TextOutputStanow" attribute="value" />
 </Binding>
+
 <Binding mode="twoWay">
 <Source xsi:type="mapp" refId="gAlarmXCore" attribute="link" />
-<Target xsi:type="brease" contentRefId="HMIMainContent" widgetRefId="AlarmHistory1" attribute="mpLink" />
+<Target xsi:type="brease" contentRefId="HMIMainContent" widgetRefId="AlarmList1" attribute="mpLink" />
 </Binding>
 </Bindings>
 </BindingsSet>

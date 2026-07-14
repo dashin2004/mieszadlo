@@ -412,7 +412,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\AreaContents\TopContent.content"
     LogicalPath="mappView.Visualization.Pages.AreaContents.TopContent.content"
     Type="File"
-    LastWriteTime="134284909368851295"
+    LastWriteTime="134284938044568506"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\AreaContents\LeftContent.content"
@@ -446,13 +446,13 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\HMIMainPage\HMIMainPage.page"
     LogicalPath="mappView.Visualization.Pages.HMIMainPage.HMIMainPage.page"
     Type="File"
-    LastWriteTime="134284132260325916"
+    LastWriteTime="134284938663684991"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Pages\HMIMainPage\HMIMainContent.content"
     LogicalPath="mappView.Visualization.Pages.HMIMainPage.HMIMainContent.content"
     Type="File"
-    LastWriteTime="134284886284245683"
+    LastWriteTime="134284944336139601"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Logical\mappView\Visualization\Variables\Package.pkg"
@@ -828,7 +828,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\HMIMainContent.binding"
     LogicalPath="X20CP1684.X20CP1684.mappView.HMIMainContent.binding"
     Type="File"
-    LastWriteTime="134284876516994786"
+    LastWriteTime="134284944336099575"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\HMIMainContent.eventbinding"
@@ -840,7 +840,7 @@
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\TopContent.eventbinding"
     LogicalPath="X20CP1684.X20CP1684.mappView.TopContent.eventbinding"
     Type="File"
-    LastWriteTime="134284909369694708"
+    LastWriteTime="134284938044623696"
     Private="false" />
   <Object
     Path="C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Physical\X20CP1684\X20CP1684\mappView\ContentLogin.eventbinding"

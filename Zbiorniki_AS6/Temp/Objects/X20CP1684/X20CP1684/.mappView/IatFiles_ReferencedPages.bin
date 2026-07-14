@@ -1,1 +1,1 @@
-[{"Id":"MainPage","LayoutId":"Layout","AreaIds":["area1"]},{"Id":"HMIMainPage","LayoutId":"HMILayout","AreaIds":["area1"]}]
+[{"Id":"MainPage","LayoutId":"Layout","AreaIds":["area1"]},{"Id":"HMIMainPage","LayoutId":"HMILayout","AreaIds":["area1","area2"]}]

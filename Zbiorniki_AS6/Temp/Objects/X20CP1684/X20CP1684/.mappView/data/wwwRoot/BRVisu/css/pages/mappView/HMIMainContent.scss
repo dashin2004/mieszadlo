@@ -173,28 +173,6 @@
 }
 #HMIMainContent_MieszanieButton {	z-index: 11;
 }
-#HMIMainContent_AlarmHistory1 {	@include mixins.elemWidth(600);
-}
-#HMIMainContent_AlarmHistory1 {	@include mixins.elemHeight(300);
-}
-#HMIMainContent_AlarmHistory1 {	@include mixins.elemTop(240);
-}
-#HMIMainContent_AlarmHistory1 {	@include mixins.elemLeft(760);
-}
-#HMIMainContent_AlarmHistory1 {	z-index: 12;
-}
-#HMIMainContent_AlarmHistoryItem1 {	@include mixins.elemWidth(120);
-}
-#HMIMainContent_AlarmHistoryItem1 {	z-index: 0;
-}
-#HMIMainContent_AlarmHistoryItem2 {	@include mixins.elemWidth(320);
-}
-#HMIMainContent_AlarmHistoryItem2 {	z-index: 1;
-}
-#HMIMainContent_AlarmHistoryItem3 {	@include mixins.elemWidth(160);
-}
-#HMIMainContent_AlarmHistoryItem3 {	z-index: 2;
-}
 #HMIMainContent_TextOutputStanow {	@include mixins.elemAutoHeight(30);
 }
 #HMIMainContent_TextOutputStanow {	@include mixins.elemTop(40);
@@ -203,7 +181,7 @@
 }
 #HMIMainContent_TextOutputStanow {	@include mixins.elemAutoWidth(260);
 }
-#HMIMainContent_TextOutputStanow {	z-index: 13;
+#HMIMainContent_TextOutputStanow {	z-index: 12;
 }
 #HMIMainContent_LabelStanow {	@include mixins.elemAutoWidth(80);
 }
@@ -213,5 +191,27 @@
 }
 #HMIMainContent_LabelStanow {	@include mixins.elemLeft(220);
 }
-#HMIMainContent_LabelStanow {	z-index: 14;
+#HMIMainContent_LabelStanow {	z-index: 13;
+}
+#HMIMainContent_AlarmList1 {	@include mixins.elemWidth(600);
+}
+#HMIMainContent_AlarmList1 {	@include mixins.elemTop(20);
+}
+#HMIMainContent_AlarmList1 {	@include mixins.elemLeft(780);
+}
+#HMIMainContent_AlarmList1 {	@include mixins.elemHeight(340);
+}
+#HMIMainContent_AlarmList1 {	z-index: 14;
+}
+#HMIMainContent_AlarmListItem1 {	@include mixins.elemWidth(160);
+}
+#HMIMainContent_AlarmListItem1 {	z-index: 0;
+}
+#HMIMainContent_AlarmListItem2 {	@include mixins.elemWidth(360);
+}
+#HMIMainContent_AlarmListItem2 {	z-index: 1;
+}
+#HMIMainContent_AlarmListItem3 {	@include mixins.elemWidth(100);
+}
+#HMIMainContent_AlarmListItem3 {	z-index: 2;
 }

@@ -3,6 +3,9 @@ define(function () {
         widgets.LoginImage.click(e => {
     clientSystem.openDialog(`LoginDialog`, undefined, undefined, undefined, `Log in`);
 });
+widgets.LogoutButton.click(e => {
+    clientSystem.logout();
+});
 
     }
     return initEventBinding;

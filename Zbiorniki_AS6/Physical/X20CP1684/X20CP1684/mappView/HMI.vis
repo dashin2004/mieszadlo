@@ -3,6 +3,7 @@
   <StartPage pageRefId="HMIMainPage" />
   <Pages>
     <Page refId="HMIMainPage" />
+    <Page refId="InfoPage" />
   </Pages>
   <Navigations />
   <BindingsSets>
@@ -22,6 +23,7 @@
     <Content refId="ContentLogin" />
     <Content refId="TopContent" />
     <Content refId="LeftContent" />
+    <Content refId="InfoContent" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />
