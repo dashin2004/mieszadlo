@@ -1,5 +1,0 @@
-@use "boxLayout.scss";
-
-// rendered boxLayout.sass.css was added to main css previously; as this file is now empty, as it contains only a mixin, 
-//we need a workaround, to bring back this css to the global file
-@include boxLayout.view-css;
