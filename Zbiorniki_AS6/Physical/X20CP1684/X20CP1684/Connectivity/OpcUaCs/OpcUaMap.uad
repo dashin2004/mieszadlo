@@ -44,6 +44,7 @@
       <Variable Name="StopStan" />
       <Variable Name="MieszanieBtn" />
       <Variable Name="MieszanieStr" />
+      <Variable Name="KrokMaszyny" />
     </Task>
   </Module>
 </OpcUaSource>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAlarmXList" Type="mpalarmxlist">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="PrzelanieZbiornika1" />
+        <Property ID="Message" Value="Zbyt duza ilosc wody w zbiorniku nr 1" />
+        <Property ID="Code" Value="0" />
+        <Property ID="Severity" Value="1" />
+        <Selector ID="Behavior" Value="LevelMonitoring">
+          <Property ID="Confirm" Value="0" />
+          <Property ID="ReactionWhilePending" Value="TRUE" />
+          <Group ID="Recording">
+            <Property ID="InactiveToActive" Value="TRUE" />
+            <Property ID="UnacknowledgedToAcknowledged" Value="TRUE" />
+            <Property ID="AcknowledgedToUnacknowledged" Value="FALSE" />
+            <Property ID="UnconfirmedToConfirmed" Value="TRUE" />
+            <Property ID="ConfirmedToUnconfirmed" Value="FALSE" />
+            <Property ID="Update" Value="FALSE" />
+          </Group>
+          <Group ID="Monitoring">
+            <Property ID="MonitoredPV" Value="::gZb1_poziom" />
+            <Property ID="Exclusive" Value="TRUE" />
+            <Selector ID="LowLimitEnable" Value="Disabled" />
+            <Selector ID="LowLowLimitEnable" Value="Disabled" />
+            <Selector ID="HighLimitEnable" Value="Static">
+              <Property ID="Limit" Value="15" />
+              <Property ID="LimitText" Value="Ponad 90% zbiornika zapelnione" />
+            </Selector>
+            <Selector ID="HighHighLimitEnable" Value="Static">
+              <Property ID="Limit" Value="100000" />
+              <Property ID="LimitText" Value="100% zbiornika apelnione !!!" />
+            </Selector>
+            <Selector ID="Settings" Value="0">
+              <Property ID="Delay" Value="0.0" />
+              <Property ID="Hysteresis" Value="0.0" />
+            </Selector>
+          </Group>
+        </Selector>
+        <Property ID="Disable" Value="FALSE" />
+        <Property ID="InhibitPV" />
+        <Property ID="AdditionalInformation1" />
+        <Property ID="AdditionalInformation2" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="Prze;anieZbiornika2" />
+        <Property ID="Message" Value="Zbyt duza ilosc wody w zbiorniku nr2" />
+        <Property ID="Code" Value="1" />
+        <Property ID="Severity" Value="1" />
+        <Selector ID="Behavior" Value="LevelMonitoring">
+          <Property ID="Confirm" Value="0" />
+          <Property ID="ReactionWhilePending" Value="TRUE" />
+          <Group ID="Recording">
+            <Property ID="InactiveToActive" Value="TRUE" />
+            <Property ID="UnacknowledgedToAcknowledged" Value="TRUE" />
+            <Property ID="AcknowledgedToUnacknowledged" Value="FALSE" />
+            <Property ID="UnconfirmedToConfirmed" Value="TRUE" />
+            <Property ID="ConfirmedToUnconfirmed" Value="FALSE" />
+            <Property ID="Update" Value="FALSE" />
+          </Group>
+          <Group ID="Monitoring">
+            <Property ID="MonitoredPV" Value="::gZb2_poziom" />
+            <Property ID="Exclusive" Value="TRUE" />
+            <Selector ID="LowLimitEnable" Value="Disabled" />
+            <Selector ID="LowLowLimitEnable" Value="Disabled" />
+            <Selector ID="HighLimitEnable" Value="Static">
+              <Property ID="Limit" Value="90" />
+              <Property ID="LimitText" />
+            </Selector>
+            <Selector ID="HighHighLimitEnable" Value="Static">
+              <Property ID="Limit" Value="100" />
+              <Property ID="LimitText" />
+            </Selector>
+            <Selector ID="Settings" Value="0">
+              <Property ID="Delay" Value="0.0" />
+              <Property ID="Hysteresis" Value="0.0" />
+            </Selector>
+          </Group>
+        </Selector>
+        <Property ID="Disable" Value="FALSE" />
+        <Property ID="InhibitPV" />
+        <Property ID="AdditionalInformation1" />
+        <Property ID="AdditionalInformation2" />
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Snippets">
+      <Selector ID="AutoDetect" Value="1">
+        <Property ID="Language" />
+      </Selector>
+    </Group>
+  </Element>
+</Configuration>

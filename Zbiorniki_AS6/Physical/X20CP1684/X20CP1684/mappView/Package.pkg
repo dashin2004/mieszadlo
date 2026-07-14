@@ -12,6 +12,7 @@
     <Object Type="File">HMI.vis</Object>
     <Object Type="File">HMIMainContent.binding</Object>
     <Object Type="File">HMIMainContent.eventbinding</Object>
-    <Object Type="File">HMIMainContent.eventscript</Object>
+    <Object Type="File">TopContent.eventbinding</Object>
+    <Object Type="File">ContentLogin.eventbinding</Object>
   </Objects>
 </Package>

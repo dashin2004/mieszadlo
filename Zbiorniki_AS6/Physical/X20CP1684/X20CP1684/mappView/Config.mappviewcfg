@@ -8,7 +8,9 @@
       </Selector>
       <Property ID="MaxClientConnections" Value="3" />
       <Property ID="MpUserXUserPreferences" Value="FALSE" />
-      <Selector ID="StartupUser" Value="StartupUserAnonymousToken" />
+      <Selector ID="StartupUser" Value="StartupUserForcedLogin">
+        <Property ID="ForcedLoginEnableAnonymous" Value="TRUE" />
+      </Selector>
       <Group ID="TcpProxyConf">
         <Selector ID="InsecureMode" Value="1" />
       </Group>
@@ -16,6 +18,7 @@
       <Group ID="DiagnosticPageConf">
         <Selector ID="DiagnosticPageSelection" Value="2">
           <Property ID="DiagnosticPageRole[1]" Value="Administrator" />
+          <Property ID="DiagnosticPageRole[2]" Value="br" />
         </Selector>
       </Group>
       <Selector ID="Deployment" Value="DeploymentPLC" />

@@ -1,4 +1,10 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmX.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmXError.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmX.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Sterowanie/Tanks/Types.typ
 $(AS_PROJECT_PATH)/Logical/Sterowanie/Tanks/Variables.var
 $(AS_PROJECT_PATH)/Logical/Sterowanie/mappingVariables.var
+$(AS_PROJECT_PATH)/Physical/X20CP1684/X20CP1684/mappServices/Config.mpalarmxcore
+$(AS_PROJECT_PATH)/Physical/X20CP1684/X20CP1684/mappServices/Config_2.mpalarmxhistory

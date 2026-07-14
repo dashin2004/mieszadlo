@@ -1,0 +1,13 @@
+@use "mixins.scss";
+@use "sass:list";
+@use "sass:string";
+#TopContent_LoginImage {	@include mixins.elemAutoWidth(150);
+}
+#TopContent_LoginImage {	@include mixins.elemAutoHeight(100);
+}
+#TopContent_LoginImage {	@include mixins.elemTop(20);
+}
+#TopContent_LoginImage {	@include mixins.elemLeft(280);
+}
+#TopContent_LoginImage {	z-index: 0;
+}

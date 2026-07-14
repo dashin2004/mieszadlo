@@ -12,4 +12,16 @@
       <Property ID="Role[6]" Value="Administrator" />
     </Group>
   </Element>
+  <Element ID="OperatorUser" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$3qcOBnCM0IFc$XJ8sjB3Oye74/+7O2skdRmugdrlxV+W/ercZipmb3Dc" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Operator" />
+    </Group>
+  </Element>
+  <Element ID="breng" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$xcNRzMJfaHLo$mMZTASSEN4+SMnUzhqaDWSj3R+NMEw918AuUuKzmEH0" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="BR_Engineer" />
+    </Group>
+  </Element>
 </Configuration>

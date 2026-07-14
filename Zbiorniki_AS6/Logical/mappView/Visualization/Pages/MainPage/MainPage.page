@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<pdef:Page xmlns:pdef="http://www.br-automation.com/iat2015/pageDefinition/v2" id="MainPage" layoutRefId="MainLayout">
+<pdef:Page xmlns:pdef="http://www.br-automation.com/iat2015/pageDefinition/v2" id="MainPage" layoutRefId="Layout">
   <Assignments>
-    <Assignment type="Content" baseContentRefId="MainPageContent" areaRefId="AreaMain" backColor="rgba(245, 245, 245, 1)" />
+    <Assignment type="Content" baseContentRefId="MainPageContent" areaRefId="area1" />
   </Assignments>
 </pdef:Page>

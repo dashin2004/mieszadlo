@@ -11,11 +11,21 @@ PROGRAM _INIT
 	gZb3_zawor_prawy;
 	
 	gMieszadlo;
-
+	MpAlarmXCore_0.Enable := TRUE; 
+	MpAlarmXCore_0.MpLink := ADR(gAlarmXCore); 
+	 
+	MpAlarmXHistory_0.Enable := TRUE; 
+	MpAlarmXHistory_0.MpLink := ADR(gAlarmXHistory); 
+	MpAlarmXHistory_0.FileName := ADR('Alarms_%Y_%m_%d_%H_%M_%S'); 
+	MpAlarmXHistory_0.DeviceName := ADR('CF'); 
+	 
+	MpAlarmXCore_0(); 
+	MpAlarmXHistory_0(); 
 	 
 END_PROGRAM
 
 PROGRAM _CYCLIC
+	
 	
 	IF StopBtn=TRUE THEN
 		StopStan:='STOP = TRUE';
@@ -46,6 +56,7 @@ PROGRAM _CYCLIC
 	TON_0(IN :=gMieszadlo , PT := T#5s);
 	CASE Maszyna OF
 		Stop:
+			KrokMaszyny:='Stop';
 			gZb1_zawor:=FALSE;
 			gZb2_zawor:=FALSE;
 			gZb3_zawor_glowny:=FALSE;
@@ -57,18 +68,20 @@ PROGRAM _CYCLIC
 				Maszyna:=TrybManual;
 			END_IF
 		TrybManual:
+			KrokMaszyny:='Tryb Manual';
 			gZb1_zawor:=Zb1_zawor_view;
 			gZb2_zawor:=Zb2_zawor_view;
 			gZb3_zawor_glowny:=Zb3_zawor_glowny_view;
 			gZb3_zawor_lewy:=Zb3_zawor_lewy_view;
 			gZb3_zawor_prawy:=Zb3_zawor_prawy_view;
-			IF TrybPracy=TRUE THEN
+			IF TrybPracy=FALSE THEN
 				Maszyna:=Stop;
 			END_IF
 			
 			
 			
 		NapelnianieZb12:
+			KrokMaszyny:='Napelnianie zbiorników 1 i 2';
 			IF gZb1_poziom<8000 THEN
 				gZb1_zawor:=TRUE;
 			ELSE 
@@ -83,6 +96,7 @@ PROGRAM _CYCLIC
 				Maszyna:=NapelnianieZb3;
 			END_IF			
 		NapelnianieZb3:
+			KrokMaszyny:='Napelnianie zbiornika 3';
 			IF gZb3_poziom<9000 THEN
 				gZb3_zawor_lewy:=100;
 				gZb3_zawor_prawy:=100;
@@ -97,6 +111,7 @@ PROGRAM _CYCLIC
 				
 			END_IF;
 		Mieszanie:
+			KrokMaszyny:='Mieszanie';
 			gMieszadlo:=TRUE;
 
 			IF TON_0.Q=TRUE THEN
@@ -106,6 +121,7 @@ PROGRAM _CYCLIC
 			END_IF
 			
 		OproznianieZb3:
+			KrokMaszyny:='Oproznianie zbiornika 3';
 			IF gZb3_poziom >0 THEN
 				gZb3_zawor_glowny:=TRUE;
 			ELSE
@@ -115,7 +131,8 @@ PROGRAM _CYCLIC
 		
 	END_CASE
 	
-
+	MpAlarmXCore_0(); 
+	MpAlarmXHistory_0(); 
 	 
 END_PROGRAM
 

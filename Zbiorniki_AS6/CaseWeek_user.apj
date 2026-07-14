@@ -8,6 +8,7 @@
   <Project StoreRuntimeInProject="false" />
   <Variables DefaultInitValue="0" DefaultRetain="false" DefaultVolatile="true" />
   <TechnologyPackages>
+    <mappServices Version="6.7.0" />
     <mappView Version="6.7.0" />
     <OpcUaCs Version="6.7.0" />
   </TechnologyPackages>

@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="C:\projects\SEM611_GettingStarted_V6_mV61\Logical\Program1\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\projects\SEM611_GettingStarted_V6_mV61\Logical\Program\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\projects\SEM611_GettingStarted_V6_mV61\Logical\ChartData\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\projects\SEM611_GettingStarted_V6_mV61\Logical\Motor\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
   <TextEdit ID="C:\projects\SEM611_GettingStarted_V6_mV61\Logical\mappView\Visualization\Layouts\DialogLayout.layout" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
@@ -11,12 +23,6 @@
     <Bookmarks />
   </TextEdit>
   <TextEdit ID="C:\projects\SEM611_GettingStarted_V6_mV61\Physical\Config1\X20CP1684\mappView\MainContent.binding" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
-    <Bookmarks />
-  </TextEdit>
-  <TextEdit ID="C:\projects\SEM611_GettingStarted_V6_mV61\Logical\Program\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
-    <Bookmarks />
-  </TextEdit>
-  <TextEdit ID="C:\projects\SEM611_GettingStarted_V6_mV61\Logical\Program1\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
   <TreeView ID="SwConfiguration-ProjectTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">

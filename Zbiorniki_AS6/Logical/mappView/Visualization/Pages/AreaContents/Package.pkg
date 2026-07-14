@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.4.6.71 SP?>
+<?AutomationStudio FileVersion="4.9"?>
 <Package SubType="AreaContentsPackage" PackageType="AreaContentsPackage" xmlns="http://br-automation.co.at/AS/Package">
-  <Objects />
+  <Objects>
+    <Object Type="File">TopContent.content</Object>
+    <Object Type="File">LeftContent.content</Object>
+  </Objects>
 </Package>

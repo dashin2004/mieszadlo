@@ -3,7 +3,7 @@
 @use "sass:string";
 #HMIMainContent_ButtonStart {	@include mixins.elemTop(140);
 }
-#HMIMainContent_ButtonStart {	@include mixins.elemLeft(420);
+#HMIMainContent_ButtonStart {	@include mixins.elemLeft(180);
 }
 #HMIMainContent_ButtonStart {	@include mixins.elemAutoWidth(240);
 }
@@ -27,7 +27,7 @@
 }
 #HMIMainContent_Button2 {	@include mixins.elemTop(140);
 }
-#HMIMainContent_Button2 {	@include mixins.elemLeft(740);
+#HMIMainContent_Button2 {	@include mixins.elemLeft(520);
 }
 #HMIMainContent_Button2 {	@include mixins.elemAutoWidth(240);
 }
@@ -49,9 +49,9 @@
 		@include mixins.font-weight-bold(true);
 	}
 }
-#HMIMainContent_ToggleSwitch1 {	@include mixins.elemTop(300);
+#HMIMainContent_ToggleSwitch1 {	@include mixins.elemTop(280);
 }
-#HMIMainContent_ToggleSwitch1 {	@include mixins.elemLeft(600);
+#HMIMainContent_ToggleSwitch1 {	@include mixins.elemLeft(380);
 }
 #HMIMainContent_ToggleSwitch1 {	@include mixins.elemAutoWidth(180);
 }
@@ -61,9 +61,9 @@
 }
 #HMIMainContent_TrybPracyLabel {	@include mixins.elemAutoHeight(30);
 }
-#HMIMainContent_TrybPracyLabel {	@include mixins.elemTop(260);
+#HMIMainContent_TrybPracyLabel {	@include mixins.elemTop(240);
 }
-#HMIMainContent_TrybPracyLabel {	@include mixins.elemLeft(620);
+#HMIMainContent_TrybPracyLabel {	@include mixins.elemLeft(420);
 }
 #HMIMainContent_TrybPracyLabel {	@include mixins.elemAutoWidth(140);
 }
@@ -73,9 +73,9 @@
 }
 #HMIMainContent_TrybPracyLabel {	@include mixins.font-weight-bold(true);
 }
-#HMIMainContent_Zb1ZaworButton {	@include mixins.elemTop(460);
+#HMIMainContent_Zb1ZaworButton {	@include mixins.elemTop(480);
 }
-#HMIMainContent_Zb1ZaworButton {	@include mixins.elemLeft(460);
+#HMIMainContent_Zb1ZaworButton {	@include mixins.elemLeft(200);
 }
 #HMIMainContent_Zb1ZaworButton {	@include mixins.elemAutoWidth(180);
 }
@@ -87,9 +87,9 @@
 		background-color: rgba(192, 192, 255, 1);
 	}
 }
-#HMIMainContent_Zb2ZaworButton {	@include mixins.elemTop(460);
+#HMIMainContent_Zb2ZaworButton {	@include mixins.elemTop(480);
 }
-#HMIMainContent_Zb2ZaworButton {	@include mixins.elemLeft(780);
+#HMIMainContent_Zb2ZaworButton {	@include mixins.elemLeft(560);
 }
 #HMIMainContent_Zb2ZaworButton {	@include mixins.elemAutoWidth(180);
 }
@@ -103,7 +103,7 @@
 }
 #HMIMainContent_Button4 {	@include mixins.elemTop(860);
 }
-#HMIMainContent_Button4 {	@include mixins.elemLeft(580);
+#HMIMainContent_Button4 {	@include mixins.elemLeft(340);
 }
 #HMIMainContent_Button4 {	@include mixins.elemAutoWidth(280);
 }
@@ -123,9 +123,9 @@
 }
 #HMIMainContent_BasicSlider1 {	@include mixins.elemHeight(100);
 }
-#HMIMainContent_BasicSlider1 {	@include mixins.elemTop(600);
+#HMIMainContent_BasicSlider1 {	@include mixins.elemTop(620);
 }
-#HMIMainContent_BasicSlider1 {	@include mixins.elemLeft(400);
+#HMIMainContent_BasicSlider1 {	@include mixins.elemLeft(160);
 }
 #HMIMainContent_BasicSlider1 {	z-index: 7;
 }
@@ -133,15 +133,15 @@
 }
 #HMIMainContent_BasicSlider2 {	@include mixins.elemHeight(100);
 }
-#HMIMainContent_BasicSlider2 {	@include mixins.elemTop(600);
+#HMIMainContent_BasicSlider2 {	@include mixins.elemTop(620);
 }
-#HMIMainContent_BasicSlider2 {	@include mixins.elemLeft(740);
+#HMIMainContent_BasicSlider2 {	@include mixins.elemLeft(520);
 }
 #HMIMainContent_BasicSlider2 {	z-index: 8;
 }
 #HMIMainContent_Label1 {	@include mixins.elemTop(560);
 }
-#HMIMainContent_Label1 {	@include mixins.elemLeft(420);
+#HMIMainContent_Label1 {	@include mixins.elemLeft(160);
 }
 #HMIMainContent_Label1 {	@include mixins.elemAutoWidth(280);
 }
@@ -153,7 +153,7 @@
 }
 #HMIMainContent_Label2 {	@include mixins.elemTop(560);
 }
-#HMIMainContent_Label2 {	@include mixins.elemLeft(760);
+#HMIMainContent_Label2 {	@include mixins.elemLeft(520);
 }
 #HMIMainContent_Label2 {	@include mixins.elemAutoWidth(300);
 }
@@ -165,11 +165,53 @@
 }
 #HMIMainContent_MieszanieButton {	@include mixins.elemTop(740);
 }
-#HMIMainContent_MieszanieButton {	@include mixins.elemLeft(620);
+#HMIMainContent_MieszanieButton {	@include mixins.elemLeft(380);
 }
 #HMIMainContent_MieszanieButton {	@include mixins.elemAutoWidth(180);
 }
 #HMIMainContent_MieszanieButton {	@include mixins.elemAutoHeight(80);
 }
 #HMIMainContent_MieszanieButton {	z-index: 11;
+}
+#HMIMainContent_AlarmHistory1 {	@include mixins.elemWidth(600);
+}
+#HMIMainContent_AlarmHistory1 {	@include mixins.elemHeight(300);
+}
+#HMIMainContent_AlarmHistory1 {	@include mixins.elemTop(240);
+}
+#HMIMainContent_AlarmHistory1 {	@include mixins.elemLeft(760);
+}
+#HMIMainContent_AlarmHistory1 {	z-index: 12;
+}
+#HMIMainContent_AlarmHistoryItem1 {	@include mixins.elemWidth(120);
+}
+#HMIMainContent_AlarmHistoryItem1 {	z-index: 0;
+}
+#HMIMainContent_AlarmHistoryItem2 {	@include mixins.elemWidth(320);
+}
+#HMIMainContent_AlarmHistoryItem2 {	z-index: 1;
+}
+#HMIMainContent_AlarmHistoryItem3 {	@include mixins.elemWidth(160);
+}
+#HMIMainContent_AlarmHistoryItem3 {	z-index: 2;
+}
+#HMIMainContent_TextOutputStanow {	@include mixins.elemAutoHeight(30);
+}
+#HMIMainContent_TextOutputStanow {	@include mixins.elemTop(40);
+}
+#HMIMainContent_TextOutputStanow {	@include mixins.elemLeft(380);
+}
+#HMIMainContent_TextOutputStanow {	@include mixins.elemAutoWidth(260);
+}
+#HMIMainContent_TextOutputStanow {	z-index: 13;
+}
+#HMIMainContent_LabelStanow {	@include mixins.elemAutoWidth(80);
+}
+#HMIMainContent_LabelStanow {	@include mixins.elemAutoHeight(30);
+}
+#HMIMainContent_LabelStanow {	@include mixins.elemTop(40);
+}
+#HMIMainContent_LabelStanow {	@include mixins.elemLeft(220);
+}
+#HMIMainContent_LabelStanow {	z-index: 14;
 }

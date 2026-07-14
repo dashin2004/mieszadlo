@@ -1,11 +1,11 @@
-13-07-2026 12:45:44 - COPYRIGHT (C) B&R Industrial Automation GmbH
-13-07-2026 12:45:44 - No ARsim registration found!
-13-07-2026 12:45:44 - InstanceName: 00000191d9eb63b7
-13-07-2026 12:45:44 - WorkingDirectory: C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Temp\Simulation\X20CP1684\X20CP1684\
-13-07-2026 12:45:44 - COMMAND_COLDSTART
-13-07-2026 12:45:46 - Version: 6.7.6
-13-07-2026 12:45:46 - Build: 1
-13-07-2026 14:45:44 - COMMAND_TERMINATE
-13-07-2026 14:45:46 - COMMAND_COLDSTART
-13-07-2026 14:45:49 - Version: 6.7.6
-13-07-2026 14:45:49 - Build: 1
+14-07-2026 10:16:54 - COPYRIGHT (C) B&R Industrial Automation GmbH
+14-07-2026 10:16:54 - No ARsim registration found!
+14-07-2026 10:16:54 - InstanceName: 000000951c87f782
+14-07-2026 10:16:54 - WorkingDirectory: C:\Users\marko\Documents\mieszadlo\Zbiorniki_AS6\Temp\Simulation\X20CP1684\X20CP1684\
+14-07-2026 10:16:54 - COMMAND_COLDSTART
+14-07-2026 10:16:57 - Version: 6.7.6
+14-07-2026 10:16:57 - Build: 1
+14-07-2026 10:58:32 - COMMAND_TERMINATE
+14-07-2026 10:58:33 - COMMAND_COLDSTART
+14-07-2026 10:58:35 - Version: 6.7.6
+14-07-2026 10:58:35 - Build: 1

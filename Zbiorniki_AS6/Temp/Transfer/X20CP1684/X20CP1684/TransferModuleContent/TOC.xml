@@ -4,11 +4,11 @@
 		<Class Name="AddonsData">
 			<Folder Name="IAT_Data" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
-					<File Name="-1334471794.binding" Size="4090" HashValue="F4A4DD25D58F4299669F2D4D169C6D98" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="-1334471794.binding" Size="4570" HashValue="2F6B52D08E8165D2C8FE312FDD41A685" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-222062230.binding" Size="10571" HashValue="2212A205BE240CEAA2ACE19AF9919B63" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="1534101751.binding" Size="3072" HashValue="ADC7222CB8F173AF794986D953FF918C" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="1625532323.binding" Size="13760" HashValue="1D407C56B1A30F7FEF0868C8B22A3D84" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="HMI.vis" Size="1085" HashValue="6549D535EA001E0D73A6B3B25FC2A077" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="HMI.vis" Size="1175" HashValue="AF58281A85ACB21AEEA40EA91936EF70" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Tanks_expressionsSet.expression" Size="6689" HashValue="5C8492414502DD6702B0E1CA5B9AE395" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Zbiorniki.vis" Size="1236" HashValue="214BB2EE880947D3DCF7F6DD6583D000" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="k243ja3242dkakl3fj3dka423jfdk.sessionVar" Size="3679" HashValue="47F4015152DC77A4E81EB725C733FBD6" ProjectDependent="1" IgnoreDifference="0" />
@@ -39,19 +39,22 @@
 							<File Name="platform.min.js" Size="14760" HashValue="E57BDE1A9186A4522CDCD2F1E352DEFA" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="release" ProjectDependent="1" IgnoreDifference="0">
-							<File Name="BuRThemeFlatLight.min.css" Size="127744" HashValue="602F2BE14D791E755FD3C1ACBE1A1513" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="BuRThemeFlatLight.min.css" Size="126608" HashValue="D10141A3CFC19FC4142AAEF14C90A48C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="br.199.js" Size="4690948" HashValue="3E6AC8C59765592F353D717611583C8D" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="br.367.js" Size="4690438" HashValue="5DA93AC25A81F59D36C7CF0E01C8BC2F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="br.js" Size="773915" HashValue="C7825155AC6C2BACFA8714B95B7E242A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="2903" HashValue="8CDADA8BD3FE3DB9BCE3FC2DC258065D" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="428317" HashValue="B2631391AE72378CCD9759E859466440" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="428985" HashValue="38A5A459598334DEBADC3B95AB60EACF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="cwidgets.js" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="escripts.js" Size="6699" HashValue="B6D5F2AADD03F14AC8A801ABE13F7660" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="escripts.js" Size="6961" HashValue="A88739748334A6D620B9B460EC0F9606" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.1080.js" Size="5381" HashValue="EF7E4EAA91D8FFA17FD3E7EF4E735DF5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1141.js" Size="1055" HashValue="0BC5599756574DC8A392AA31FFABB8A5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1224.js" Size="11161" HashValue="1E0C9BD49B5A6AA46D16A06371C4164F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1262.js" Size="588" HashValue="4E1CB8CAA47C21D00C9691BB6543DC5D" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.1299.js" Size="6777" HashValue="062CC20FCC6A6F6750914DE9B39AC692" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1302.js" Size="2982" HashValue="9FF162A3AE79264AD34246C7B0FFBADC" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1388.js" Size="6487" HashValue="CC03571EA33CF2385B887B2623103D37" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.1460.js" Size="6527" HashValue="5C4470AC36F05ADF8091B9F9B60F2CD7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.149.js" Size="6483" HashValue="292105183CE7A5682EBAB995B03AFECF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.182.js" Size="6552" HashValue="33C28D6A9DA2E85F8563D6AA6F42E356" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.1903.js" Size="421" HashValue="7DD4FA8A6F63143C72A3D6EEC3474737" ProjectDependent="1" IgnoreDifference="0" />
@@ -60,38 +63,57 @@
 							<File Name="wi.1963.js" Size="780" HashValue="0E152C5450D35D06F534037FEB64BF9A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2042.js" Size="11213" HashValue="7DD386CF56A4A808645100C995410A0A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2067.js" Size="11191" HashValue="887F5F2EEE29DD29E76EF3954E120D5D" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2182.js" Size="6553" HashValue="562FD9A6A3546A4E7AC76B485539DDD1" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.222.js" Size="6412" HashValue="E3FBE5F4A797765B02F2DB20E678AEB7" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2222.js" Size="6413" HashValue="2D6589E7E0FB0FCC86B9764FC2217EBA" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2245.js" Size="6365" HashValue="84FC6C4563CC762EACF8EF4F910B6CBA" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2246.js" Size="504" HashValue="62F0279154078D07443F6724ACEA327F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2384.js" Size="6427" HashValue="7BA24C6C43A9BE330F1DB9366D1C9E09" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2421.js" Size="6539" HashValue="2424CB567E44F819469DB09B76EB7F30" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2435.js" Size="1140" HashValue="ED600FCD52EE5F222ABB09162F8D963A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.245.js" Size="6364" HashValue="61310A8DC7C8231F25F3AA10522D3515" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2460.js" Size="6464" HashValue="A3D9D538BE64F9ACF5BC9D33A4F2821B" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.250.js" Size="1835" HashValue="4DC7C9F8004886B108CDF6BDBA003CB4" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.252.js" Size="1702" HashValue="BEB69E15A77FE132DCEA1FC34CBFA3BD" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2529.js" Size="1580" HashValue="D202AC43DE795522BEC1A85C93365C84" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2532.js" Size="6623" HashValue="FF3769B51E3BE482115A7FB0412B9DAD" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2576.js" Size="6508" HashValue="3BBD3A82403EA58F3A74E91B9BC6D510" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2722.js" Size="2286" HashValue="0764A5C15520C06C898925DED1144BCB" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2734.js" Size="8492" HashValue="9408841C3D0B46372D2AA8E3EA36D2FA" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2846.js" Size="421" HashValue="CAAAC2AD296BFF6D0E0C106F8737F28D" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2902.js" Size="780" HashValue="8D1E7801AF6F092F9A9485A34D707F44" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2926.js" Size="6452" HashValue="32023F1A463DA52AA5878D25DB00C0C9" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.2945.js" Size="439" HashValue="40476EBBADB1AD49EDE427FD6189A250" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2982.js" Size="6411" HashValue="6344674F692AE5C8606DF137C44622EF" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.2988.js" Size="6453" HashValue="94C7339D4A64814A6BF81C4F6869ECA3" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.299.js" Size="6776" HashValue="1147CE4CE0D2A9043F83C6660AE94151" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.308.js" Size="6609" HashValue="AC181FC0DCF7F6C5F5D0039B4C9F08E1" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.309.js" Size="253499" HashValue="FBF908181F55551D3030AAEE90B8BBA5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3134.js" Size="830" HashValue="DE8490F4F5E3D238617F8EE500729263" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.318.js" Size="6421" HashValue="1B71F6AA9CE1F07057FA730B73532181" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.3195.js" Size="3346" HashValue="79BF26E508F470F7572F54FB2B8FD923" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3214.js" Size="6471" HashValue="4ADD0C0DE01F4A27A818E74EFA72B28F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3235.js" Size="11522" HashValue="5556AA26F2746A56959E706C2BE91382" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3239.js" Size="6554" HashValue="7A2409663946304796B9D584A749BDB5" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.3252.js" Size="1703" HashValue="50E6AAD951A350E3646A5B08B2E33A49" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3303.js" Size="1606" HashValue="709103959B0A91117FE158CF553EDBD1" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3328.js" Size="6379" HashValue="9E3C164628B1F541448CD6AD2DCBC590" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3339.js" Size="6611" HashValue="EDE7BE7E04106C3F7372B21AE86FEDBF" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.3351.js" Size="6553" HashValue="36C4687ADF68B253D2DF8D71254C8CA7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3471.js" Size="11289" HashValue="5E3F4804D051F9540181685FDBBD5771" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.3476.js" Size="6553" HashValue="600B0F0E6853BAF39E9F29A105F73AC2" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3508.js" Size="6519" HashValue="1B478053BC059922F9EF1748169A9F67" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.351.js" Size="6552" HashValue="37777463685F47703D4E017379092F76" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3537.js" Size="6417" HashValue="BD2FF8CA5D258778B322BCA787514425" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3581.js" Size="6548" HashValue="2AB7CFADBABF0EC15044B52D974A458F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3645.js" Size="8092" HashValue="308F2D8770E40531604E9F8FAE67B278" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.3807.js" Size="6518" HashValue="23EF47AD1B03BE0E71E6BE887E515310" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3834.js" Size="1579" HashValue="22797E5E58D75053384E8D5DFB027DBC" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.385.js" Size="6484" HashValue="313B51EBFEFA2D9632CD312950D5ABBC" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.3926.js" Size="6516" HashValue="B2798E768301040E816E4BE4D383F616" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.3946.js" Size="1257" HashValue="406AB2027F1CAA6232E97DE627C1D7C6" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.3955.js" Size="6553" HashValue="38F7241E5B53A5F02622AC35233E7C1B" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.3967.js" Size="1757" HashValue="D17CF3B665D582F64A0D9C8E210C91C5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.397.js" Size="6484" HashValue="93A2033ACAD19289FEB9884A799EFFA0" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.4021.js" Size="6517" HashValue="1F19F23E16DF959ED7D9E88C1E89DC32" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.4024.js" Size="1759" HashValue="F5057B7369CB49B699F3AAA901662463" ProjectDependent="1" IgnoreDifference="0" />
@@ -109,10 +131,14 @@
 							<File Name="wi.4429.js" Size="11156" HashValue="EE6AD312C49B6CD9D5AAFD0DFFF23761" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.45.js" Size="11159" HashValue="60C44AB463A60663722CF1757D687AFF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.451.js" Size="6344" HashValue="06E66D61063EAA24F3B10B13FA0D1751" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.4511.js" Size="6802" HashValue="4AB8893ACDD1969EC45F6221D4236E50" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.4526.js" Size="6553" HashValue="15BFA804C47F093B91492988462D7EDE" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.46.js" Size="6545" HashValue="EC9A7D66DAC0A96261681F440B1B3303" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.460.js" Size="6526" HashValue="E088BEF2B48A8BCF03E9E974A3AB6AEA" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.4618.js" Size="780" HashValue="4EF35CEF609FAADC0BC433A580C89A26" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.4683.js" Size="6426" HashValue="172CA93C70AEF4999A643A308CFEC9BF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.4723.js" Size="6545" HashValue="0CF06926EA8E64A206CC0DB453A3769C" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.4730.js" Size="6408" HashValue="FBBEF79A568FDD4B23DABFFDF412A441" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.476.js" Size="6552" HashValue="9842475D0CFF9D7CA0B88DCA575DC78C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.4772.js" Size="1033" HashValue="0362787827DF9BF19A0FF72309AD0786" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.478.js" Size="6484" HashValue="1BB7A6FFA7D15D4B8262C6B4EB07C09C" ProjectDependent="1" IgnoreDifference="0" />
@@ -121,24 +147,31 @@
 							<File Name="wi.482.js" Size="1054" HashValue="52EE9A13B13EDDB2B060A03BACD0F710" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.4861.js" Size="1667" HashValue="E4161E70FBEF3ABE5F4561C3C9411FFA" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.493.js" Size="6571" HashValue="833253C83BB34A7AE0A3A5D5DFCA018F" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.4954.js" Size="6544" HashValue="368CED2DC9BACD9BBC3D834D7EAAA5AD" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.4962.js" Size="6573" HashValue="150B6C3171F31310112AF9F75F25A8EE" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.50.js" Size="6484" HashValue="49514B07496E17C8F523E24FBCE11442" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5078.js" Size="1032" HashValue="4FDA063A78B50187FBBA1569224A83AF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.511.js" Size="6801" HashValue="17F12584EE72E11082736E3FF123B8E0" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5149.js" Size="11480" HashValue="C01A0FEDE5E57F224FAFD4B346AB1E0F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5175.js" Size="11485" HashValue="E4A67180C0D25600A3DAB7D02AE64928" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.5250.js" Size="1836" HashValue="6306795850997860A61AF1DDE9F864BF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.526.js" Size="6552" HashValue="E4DE16152E9A558C11D11108766B213C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5265.js" Size="1838" HashValue="4A27A4C976C9EBFAA7D32264E7403E64" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.529.js" Size="1579" HashValue="F6B6811EC756B2B41FFFCBCE1F409F6B" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.5309.js" Size="253500" HashValue="AA215551D6DD25A0BE3A0E1138B5EDF1" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.532.js" Size="6622" HashValue="E4CB423DA9D166779BF74EF9DF5CB30D" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.5385.js" Size="6485" HashValue="B9CC458B9215CA479D97544B1711C1B0" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5476.js" Size="1584" HashValue="D10D9C4F067C6AAC6745477185CFA0D0" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5492.js" Size="44066" HashValue="932825DBFD19EDABB1756E65AD3D36C8" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.5752.js" Size="70507" HashValue="3F2314E4362E3695A82DFD4B967BFCCD" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5789.js" Size="2812" HashValue="6EAAD0A2405FEAA5240244476A8C6C04" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5790.js" Size="11258" HashValue="09C8412C99FA586838A4E870975563DF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5801.js" Size="6554" HashValue="C4D0BBA4342266B43641C39E3FD57F9D" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.5905.js" Size="6470" HashValue="5E3B818570EC69F4F955A65677098372" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5914.js" Size="11193" HashValue="04072AEA88B90058DBE7C870980F6932" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.5985.js" Size="6412" HashValue="3F11625E8798C81F5AD172DB816947F7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.6037.js" Size="6409" HashValue="6EF715276F1366B49311B07C23A3775D" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.6046.js" Size="6547" HashValue="90BDF084D83637C5797EEC090A644076" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.605.js" Size="6778" HashValue="2A498E5A5EDCF739D4C0B2861D683697" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.6050.js" Size="1667" HashValue="FBB1AEBE1C324BDC69F58DCFC78A5AC2" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.607.js" Size="6580" HashValue="8B0C4F44A46C1AB184DDA6A262F20AED" ProjectDependent="1" IgnoreDifference="0" />
@@ -151,8 +184,12 @@
 							<File Name="wi.648.js" Size="67566" HashValue="BD0183348B585F8969842BF806BA050F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.6573.js" Size="6554" HashValue="B55BB8241B46FEEE65B7C598221DCC6C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.658.js" Size="6415" HashValue="E781D14B66B4F20BFA2FBA56C63017A5" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.6605.js" Size="6779" HashValue="D0E6B1E8D450C6ED16213591A75B2DD6" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.6623.js" Size="11615" HashValue="C90C4F5C96F7B05D0331F51D5AA059B4" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.6628.js" Size="6441" HashValue="D33D444246413AAAC7A524C351ECA64D" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.6658.js" Size="6416" HashValue="4C26C4F2FDF98A7CF7A9317BAD044EEC" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.6694.js" Size="6553" HashValue="A0FC0FFE9332E3C3C73429D1A6020F9E" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.6696.js" Size="6553" HashValue="C05698EE57678A60B4FC3206B07BED17" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.683.js" Size="6425" HashValue="5578C02800A42EFF71D710E558E78AAB" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.6833.js" Size="1033" HashValue="20C01FC6DBB22E9FFA78D4F154D8CB2E" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.6848.js" Size="780" HashValue="F522D32D3E4623A75C342DEBE009F9C6" ProjectDependent="1" IgnoreDifference="0" />
@@ -166,14 +203,17 @@
 							<File Name="wi.7250.js" Size="12537" HashValue="71F610C7C42BDAAE89C4E64394E8657B" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.7285.js" Size="5895" HashValue="529A3E0542B578D5677F694B6F74AFF5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.730.js" Size="6407" HashValue="BE3EA8D7545F512B1B33FF63AE861563" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="wi.7451.js" Size="833" HashValue="893748F362B9EDCB601A7E7FB8767E05" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.7308.js" Size="6610" HashValue="7CF7425AC025D702A17D0BB9BB42A149" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.7451.js" Size="6345" HashValue="01AD4C1134B718C89970F70127DD2C19" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.749.js" Size="6413" HashValue="B306089C0D93CF1755C1514140E043AE" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.752.js" Size="70506" HashValue="B469FB957881B3F03BF8D449005E7A86" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.7622.js" Size="11268" HashValue="244C71F2F5ED4CB77855AE65EF048186" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.7658.js" Size="6780" HashValue="2CA54FA5BA67CB9C0207DFAC915484F5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.7725.js" Size="782" HashValue="1DB736C12D407ED6129F3DEF18AB5F99" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.773.js" Size="6450" HashValue="8F102BC2E94B8D511CC63820545E886E" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.7773.js" Size="6451" HashValue="27E53FCBC411E4ADDB6A44B46DA0EE33" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.7820.js" Size="246959" HashValue="8924FB8209A0F30196A014D0DD2FE149" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.7828.js" Size="5892" HashValue="85F7282CAED2F8B35D3AC88AEBF6EFF5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.7832.js" Size="6778" HashValue="A072EFFA7B0AAD518197730244219753" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.79.js" Size="6462" HashValue="ECA65DBF4E38400A61547A4EA628AAA9" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.7922.js" Size="11494" HashValue="9479877C52D367E8B9006DA268B1367B" ProjectDependent="1" IgnoreDifference="0" />
@@ -185,17 +225,21 @@
 							<File Name="wi.807.js" Size="6517" HashValue="2D02000CE55906099A3C5A8068C38801" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.8267.js" Size="11149" HashValue="D51DCC00696EA7289004726AB8EBCB10" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.828.js" Size="5891" HashValue="2F691798D59D3E71F6A404D586F73FB0" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.8397.js" Size="6485" HashValue="3E24FB4A125C6CE931A67E7F207A5C1E" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.8404.js" Size="6354" HashValue="213827344A4B5C154D8FA331B96F4DD5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.8407.js" Size="5382" HashValue="88A100B5B7E6D89625289F0CE40BE0E5" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.8460.js" Size="6803" HashValue="EA9A509CF4F9C7A3C345847BC62420F7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.8550.js" Size="1005" HashValue="6062BE17F8630BEC56163633879E5EE1" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.8598.js" Size="6540" HashValue="BEB0663F33F98322798C8D52D07058A6" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.867.js" Size="944" HashValue="F242853DCEFAE63BDE9826DB894EE49C" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.8719.js" Size="6507" HashValue="DA9EF1CE32C5B6714F44A665BFC84C48" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.8865.js" Size="6424" HashValue="80F55A7F7AA24D4EE5197848502FB4FD" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.8888.js" Size="2858" HashValue="3C47FCAFC08128B987EABA6A776DA5D3" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.8957.js" Size="6548" HashValue="DAE37875C36A5DF60E3BDE9E58AAE37C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9019.js" Size="11392" HashValue="3F4F6A68DE8AEFC40B43AB6753D53AA1" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.905.js" Size="6469" HashValue="EE6770D99305979212EACB4779268CE8" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9074.js" Size="6366" HashValue="16523F4D62334B366978BF46B3116483" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.9149.js" Size="6484" HashValue="95CAE51F4CA79E2BBFDFBA5FD24A949E" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9210.js" Size="1005" HashValue="3C3FFE5DC60DCD31DC0B48787C0C9B92" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.926.js" Size="6515" HashValue="7215A127B5B6C5CB75D2675CEAF604E1" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9308.js" Size="3931" HashValue="30CE256B82C4013D766C4A45A3F57C50" ProjectDependent="1" IgnoreDifference="0" />
@@ -204,9 +248,11 @@
 							<File Name="wi.9381.js" Size="6553" HashValue="AE2410FDEBAE6FEBF2EBC53C387786BA" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.939.js" Size="6464" HashValue="36CA8BB0270AE99803A0D1767AAE7FC1" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9390.js" Size="6549" HashValue="C53A81E840CD00911AD3B6F9352DE670" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.9407.js" Size="6440" HashValue="9710D4BF2F6D86F0177052000EFA1645" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9433.js" Size="70510" HashValue="40C0F5C32B6D866ACD4325BCE2F71C80" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9472.js" Size="11153" HashValue="7439DFB86F6FD265AAF50E26DEC78FF7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9475.js" Size="6528" HashValue="EABC328C0E4DFAF1EA52032A008C10FE" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.9493.js" Size="6572" HashValue="444B3CF8E130074341A0536F164D1AEB" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9519.js" Size="2291" HashValue="27CFD6A37848662BF66CEE87BE83874A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9530.js" Size="6486" HashValue="D291F78EA49A9890BA94372BCFB5392D" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9532.js" Size="27793" HashValue="E93C0DCD23DD78CDD485A42C45090A10" ProjectDependent="1" IgnoreDifference="0" />
@@ -215,6 +261,7 @@
 							<File Name="wi.9565.js" Size="11252" HashValue="171BE0A16DC96DF894665995DDF08E61" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.957.js" Size="6547" HashValue="9C02FB5A3DB083805F35AF9BFEAB761F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.967.js" Size="1756" HashValue="770361108F4CF249601D2077B23704D2" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.9699.js" Size="1031" HashValue="DAFBA309A9F04DB8DA67B50936067895" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9727.js" Size="1705" HashValue="2363DB240550716C37DD81CF01C8089B" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9737.js" Size="11249" HashValue="473AB2B16278A0C9327C0EFA5E335FEF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9815.js" Size="780" HashValue="ADF8E527339231D2AFC867E87FAAA020" ProjectDependent="1" IgnoreDifference="0" />
@@ -222,10 +269,31 @@
 							<File Name="wi.9864.js" Size="11246" HashValue="0F411228F7741BE0E4E44182AC201AD7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.988.js" Size="6452" HashValue="2C14CACBE36F94952F2AF24FDF2C5EC8" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="wi.9946.js" Size="1638" HashValue="43BE2DC3ED3D77CF2A1F637D02FF15A6" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="widgets.js" Size="334236" HashValue="DD9A1BC8E4F3A397955F638FFD432411" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="wi.9988.js" Size="6581" HashValue="1A3CBE5254AA435639FFD633BD9E76BF" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="widgets.js" Size="692201" HashValue="7C09F2A6D6216E38C6A459E3AE28E604" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="widgets" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
+								<Folder Name="AlarmHistory" ProjectDependent="1" IgnoreDifference="0">
+									<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="ack.svg" Size="3021" HashValue="F1781FAA1978896823A41944B4F85F2D" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="act.svg" Size="4049" HashValue="1FE50D9F01A8F5F8DA999AA2892A96A3" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="assets._markerfile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="cat0.svg" Size="1060" HashValue="642E3041FD88413493DBE9691159DAE7" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="cat1.svg" Size="962" HashValue="2FDD29AE764DEE59E3A07875F72ED575" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="cat2.svg" Size="1713" HashValue="8DF41F661EB0C4BB1CA77B8A4787459B" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="conf.svg" Size="1094" HashValue="EA93ACF54D29A8854D736CB7EFB176C2" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="inact.svg" Size="4626" HashValue="06E87A48AFAE96B16AEE46EAB4BABD58" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="unack.svg" Size="3024" HashValue="8BCF111A8091874E062BE1804800970E" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="unconf.svg" Size="1092" HashValue="BFD96B7F1F2C0380665BAD280D9A98EF" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+								</Folder>
+								<Folder Name="BusyIndicator" ProjectDependent="1" IgnoreDifference="0">
+									<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="assets._markerfile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="busy-animated.gif" Size="115525" HashValue="00B4B40228D311A5457D5CC7282D295D" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+								</Folder>
 								<Folder Name="KeyBoard" ProjectDependent="1" IgnoreDifference="0">
 									<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
 										<Folder Name="img" ProjectDependent="1" IgnoreDifference="0">
@@ -342,6 +410,23 @@
 											<File Name="delete.svg" Size="440" HashValue="8A99EE4080CE26CF1768D9823997AE39" ProjectDependent="1" IgnoreDifference="0" />
 											<File Name="enter.svg" Size="484" HashValue="273375A442F8A55D9028FE517E2D4F83" ProjectDependent="1" IgnoreDifference="0" />
 										</Folder>
+										<File Name="assets._markerfile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+								</Folder>
+								<Folder Name="TableColumnWidget" ProjectDependent="1" IgnoreDifference="0">
+									<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="assets._markerfile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="sort_arrow.svg" Size="3283" HashValue="5EA8BE22E64196525E8D19CA9A2C55B2" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+								</Folder>
+								<Folder Name="TableWidget" ProjectDependent="1" IgnoreDifference="0">
+									<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="Add.svg" Size="928" HashValue="5CBC26775C588F00DFA5EB577B8B4764" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ArrowDown.svg" Size="721" HashValue="265986E8793F3C56D9ECACB6C273364F" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ArrowLeft.svg" Size="723" HashValue="5A2F25AF4C6417A5A6A40AAD8359CE3C" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ArrowRight.svg" Size="725" HashValue="14CABF4F491BAD4003E92C866BC32AFF" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ArrowUp.svg" Size="723" HashValue="5D345584386B597CD6B6B037A6062CF3" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Delete.svg" Size="4645" HashValue="B3F82F3CC34CF20EE0C7C6E068545B9E" ProjectDependent="1" IgnoreDifference="0" />
 										<File Name="assets._markerfile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
 									</Folder>
 								</Folder>
@@ -779,8 +864,11 @@
 					</Folder>
 					<Folder Name="contents" ProjectDependent="1" IgnoreDifference="0">
 						<Folder Name="mappView" ProjectDependent="1" IgnoreDifference="0">
-							<File Name="HMIMainContent.html" Size="4405" HashValue="693CC7FC03E7644030A9F5ACD6AB7FCB" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="ContentLogin.html" Size="1283" HashValue="21A8F9EC710EC19662890AA72EDB07BE" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="HMIMainContent.html" Size="6189" HashValue="C457CC17A047F8A2B6FA06D6CAB86019" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="LeftContent.html" Size="17" HashValue="977FD571D75951006FEE6224E29EECC7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="MainPageContent.html" Size="48988" HashValue="D6A1577E6AB30CA5C7E1C83B299B31F8" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="TopContent.html" Size="270" HashValue="A6D048296F688A2C20568A4A372BC375" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 					</Folder>
 					<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
@@ -853,8 +941,8 @@
 						</Folder>
 					</Folder>
 					<File Name="0_visulist.json" Size="19" HashValue="2594BB542D02A8AB6E6DDFE664591A15" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="HMI.json" Size="667" HashValue="24BB70C0B216F8C687BC22800F01606A" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="Zbiorniki.json" Size="479" HashValue="B0D9D6E2455181DA5ED6318E4D6783B3" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="HMI.json" Size="1238" HashValue="ED634637AA57C456219F57F7A0806350" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="Zbiorniki.json" Size="439" HashValue="714F8F39E7C3599216FB9AF21AF21623" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="favicon.ico" Size="9062" HashValue="C96A8C677EDBD3464A0936F216D735DD" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="index.html" Size="5373" HashValue="30C0C2E87F4A5F9216B118AB41FBDB3F" ProjectDependent="1" IgnoreDifference="0" />
 				</Folder>
@@ -862,7 +950,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="3503" HashValue="050CCA6BF2FB82203CE2FE1A8C3E0F07" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="3605" HashValue="EE43A23BCEADD66F42E52444960BB122" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="OpcUaCsPlc.uanodeset" Size="281735" HashValue="11961BCD60F7FF41FA59CDFCF5467DC4" ProjectDependent="1" IgnoreDifference="0" />
@@ -962,30 +1050,43 @@
 		</Class>
 		<Memory Name="SYSROM">
 			<Module Name="::$$sysconf" Type="129" Size="88900" Modified="2026-07-13 10:08:06" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
-			<Module Name="::TCData" Type="209" Size="3665988" Modified="2026-07-13 10:08:06" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::TCData" Type="209" Size="3823892" Modified="2026-07-13 15:19:37" Version="1.0.0.0" ProjectDependent="1" />
 			<Module Name="::arconfig" Type="132" Size="2996" Modified="2026-07-13 10:08:06" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
 			<Module Name="::asfw" Type="67" Size="1698704" Modified="2026-07-13 10:08:06" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
 			<Module Name="::ashwd" Type="67" Size="1700" Modified="2026-07-13 10:08:06" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
 		</Memory>
 		<Memory Name="USERROM">
 			<Module Name="::ArSsl" Type="18" Size="6680" Modified="2026-06-15 09:03:18" Version="6.7.6.0" ProjectDependent="1" />
+			<Module Name="::ArSvcReg" Type="18" Size="57816" Modified="2026-01-29 09:14:02" Version="6.6.0.0" ProjectDependent="1" />
+			<Module Name="::ArUser" Type="18" Size="7588" Modified="2026-06-15 07:57:21" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::AsIecCon" Type="18" Size="6664" Modified="2026-06-15 08:16:41" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::BRRole" Type="136" Size="1364" Modified="2026-07-13 10:08:05" Version="1.0.0.0" ProjectDependent="1" />
-			<Module Name="::ClockSigna" Type="17" Size="3424" Modified="2026-07-13 10:08:01" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::ClockSigna" Type="17" Size="3424" Modified="2026-07-13 15:19:29" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::Config" Type="136" Size="1360" Modified="2026-07-14 10:53:15" Version="6.7.0.0" ProjectDependent="1" />
+			<Module Name="::Config_1" Type="136" Size="6092" Modified="2026-07-14 10:00:30" Version="6.7.0.0" ProjectDependent="1" />
+			<Module Name="::Config_2" Type="136" Size="1532" Modified="2026-07-14 09:37:13" Version="6.7.0.0" ProjectDependent="1" />
+			<Module Name="::DataObj" Type="18" Size="7088" Modified="2026-06-15 08:02:24" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="34280" Modified="2026-06-15 08:07:14" Version="6.7.6.0" ProjectDependent="1" />
+			<Module Name="::MpAlarmX" Type="18" Size="624664" Modified="2026-05-12 07:33:50" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::MpBase" Type="18" Size="802732" Modified="2026-05-11 11:42:03" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::MpServer" Type="18" Size="195396" Modified="2026-05-11 11:57:56" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
 			<Module Name="::OpcUaSrv" Type="136" Size="1092" Modified="2026-07-13 10:08:05" Version="6.7.0.0" ProjectDependent="1" />
-			<Module Name="::Role" Type="136" Size="464" Modified="2026-07-13 10:08:05" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::Role" Type="136" Size="872" Modified="2026-07-14 10:29:36" Version="1.0.0.0" ProjectDependent="1" />
 			<Module Name="::TCLang" Type="136" Size="2324" Modified="2026-07-13 10:08:05" Version="1.0.0.0" ProjectDependent="1" />
-			<Module Name="::Tanks" Type="17" Size="5192" Modified="2026-07-13 15:04:33" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::Tanks" Type="17" Size="8812" Modified="2026-07-14 10:53:10" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::UaCoal" Type="18" Size="56688" Modified="2026-03-19 12:42:49" Version="6.7.0.0" ProjectDependent="1" />
+			<Module Name="::UaCoalPrv" Type="18" Size="469820" Modified="2026-06-01 17:04:07" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
 			<Module Name="::UaCore" Type="18" Size="2755616" Modified="2026-06-01 16:41:41" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
-			<Module Name="::UaCsConfig" Type="136" Size="6372" Modified="2026-07-13 10:08:05" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
-			<Module Name="::User" Type="136" Size="1008" Modified="2026-07-13 10:08:05" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::UaCsConfig" Type="136" Size="6512" Modified="2026-07-14 10:58:16" Version="6.7.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::User" Type="136" Size="1784" Modified="2026-07-14 10:29:36" Version="1.0.0.0" ProjectDependent="1" />
 			<Module Name="::ashwac" Type="136" Size="236" Modified="2026-07-13 10:08:05" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::astime" Type="18" Size="25096" Modified="2026-06-15 07:56:51" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::iomap" Type="50" Size="7084" Modified="2026-07-13 10:08:06" Version="1.0.0.0" ProjectDependent="1" />
-			<Module Name="::mvConfig" Type="136" Size="2556" Modified="2026-07-13 13:07:41" Version="6.7.0.0" ProjectDependent="1" />
+			<Module Name="::mvConfig" Type="136" Size="2736" Modified="2026-07-14 10:58:16" Version="6.7.0.0" ProjectDependent="1" />
 			<Module Name="::mvLoader" Type="18" Size="57464" Modified="2026-06-02 14:15:29" Version="6.7.0.1" ProjectDependent="1" />
 			<Module Name="::runtime" Type="18" Size="15036" Modified="2026-06-15 08:08:52" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::standard" Type="18" Size="7340" Modified="2026-06-15 08:09:18" Version="6.7.6.0" ProjectDependent="1" />
+			<Module Name="::sys_lib" Type="18" Size="9768" Modified="2026-06-15 08:09:48" Version="6.7.6.0" ProjectDependent="1" />
 			<Module Name="::udbdef" Type="210" Size="70288" Modified="2023-06-15 15:47:03" Version="0.1.0.0" ProjectDependent="1" />
 		</Memory>
 	</Application>

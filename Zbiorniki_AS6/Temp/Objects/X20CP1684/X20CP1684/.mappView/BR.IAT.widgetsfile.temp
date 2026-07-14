@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.br-automation.com/iat2015/widgetListDefinition/v2">
+  <widget name="widgets.brease.AlarmHistory" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/AlarmHistory" />
+  <widget name="widgets.brease.AlarmHistoryItem" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/AlarmHistoryItem" />
+  <widget name="widgets.brease.AlarmHistoryStyle" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/AlarmHistoryStyle" />
   <widget name="widgets.brease.BasicSlider" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/BasicSlider" />
+  <widget name="widgets.brease.BusyIndicator" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/BusyIndicator" />
   <widget name="widgets.brease.Button" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/Button" />
   <widget name="widgets.brease.ButtonBar" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/ButtonBar" />
+  <widget name="widgets.brease.CheckBox" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/CheckBox" />
+  <widget name="widgets.brease.DataHandlerWidget" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/DataHandlerWidget" />
+  <widget name="widgets.brease.DateTimeInput" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/DateTimeInput" />
   <widget name="widgets.brease.DateTimePicker" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/DateTimePicker" />
   <widget name="widgets.brease.DialogWindow" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/DialogWindow" />
   <widget name="widgets.brease.DropDownBox" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/DropDownBox" />
+  <widget name="widgets.brease.GenericDialog" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/GenericDialog" />
+  <widget name="widgets.brease.Image" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/Image" />
   <widget name="widgets.brease.KeyBoard" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/KeyBoard" />
   <widget name="widgets.brease.Label" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/Label" />
   <widget name="widgets.brease.LanguageSelector" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/LanguageSelector" />
   <widget name="widgets.brease.Line" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/Line" />
+  <widget name="widgets.brease.Login" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/Login" />
   <widget name="widgets.brease.MessageBox" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/MessageBox" />
   <widget name="widgets.brease.NumericInput" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/NumericInput" />
   <widget name="widgets.brease.NumericOutput" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/NumericOutput" />
@@ -20,6 +30,9 @@
   <widget name="widgets.brease.RadioButtonGroup" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/RadioButtonGroup" />
   <widget name="widgets.brease.Rectangle" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/Rectangle" />
   <widget name="widgets.brease.SystemLogin" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/SystemLogin" />
+  <widget name="widgets.brease.TableColumnWidget" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/TableColumnWidget" />
+  <widget name="widgets.brease.TableWidget" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/TableWidget" />
+  <widget name="widgets.brease.TableWidgetStyle" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/TableWidgetStyle" />
   <widget name="widgets.brease.TextInput" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/TextInput" />
   <widget name="widgets.brease.TextOutput" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/TextOutput" />
   <widget name="widgets.brease.ToggleButton" path="C:/Program Files (x86)/BRAutomation/AS6/AS/TechnologyPackages/mappView/6.7.0/Widgets/brease/ToggleButton" />

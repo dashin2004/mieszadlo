@@ -1,0 +1,13 @@
+@use "mixins.scss";
+@use "sass:list";
+@use "sass:string";
+#ContentLogin_Login1 {	@include mixins.elemWidth(300);
+}
+#ContentLogin_Login1 {	@include mixins.elemHeight(160);
+}
+#ContentLogin_Login1 {	@include mixins.elemTop(80);
+}
+#ContentLogin_Login1 {	@include mixins.elemLeft(80);
+}
+#ContentLogin_Login1 {	z-index: 0;
+}

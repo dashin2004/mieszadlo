@@ -41,13 +41,15 @@
         <Group ID="UserIdentityTokens">
           <Property ID="AnonymousIdentityToken" Value="1" />
           <Property ID="UserNameIdentityToken" Value="1" />
-          <Property ID="X509IdentityToken" Value="1" />
+          <Property ID="X509IdentityToken" Value="0" />
         </Group>
       </Group>
       <Group ID="Authorization">
         <Group ID="AnonymousAccess">
           <Property ID="DefaultRole0" Value="BR_Anonymous" />
           <Property ID="UserRole0" Value="BR_Engineer" />
+          <Property ID="UserRole1" Value="br" />
+          <Property ID="UserRole2" Value="Operator" />
         </Group>
       </Group>
       <Property ID="AppCertificateTrustListValidation" Value="1" />

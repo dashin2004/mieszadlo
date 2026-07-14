@@ -60,5 +60,14 @@
 <Source xsi:type="opcUa" refId="::Tanks:TrybPracy" attribute="value" />
 <Target xsi:type="brease" contentRefId="HMIMainContent" widgetRefId="MieszanieButton" attribute="visible" />
 </Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Tanks:KrokMaszyny" attribute="value" />
+<Target xsi:type="brease" contentRefId="HMIMainContent" widgetRefId="TextOutputStanow" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXCore" attribute="link" />
+<Target xsi:type="brease" contentRefId="HMIMainContent" widgetRefId="AlarmHistory1" attribute="mpLink" />
+</Binding>
 </Bindings>
 </BindingsSet>

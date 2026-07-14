@@ -10,13 +10,18 @@
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="HMIMainContent" />
+    <EventBindingsSet refId="TopContent" />
+    <EventBindingsSet refId="ContentLogin" />
   </EventBindingsSets>
-  <EventScriptsSets>
-    <EventScriptsSet refId="HMIMainContent" />
-  </EventScriptsSets>
-  <Dialogs />
+  <EventScriptsSets />
+  <Dialogs>
+    <Dialog refId="LoginDialog" />
+  </Dialogs>
   <Contents>
     <Content refId="HMIMainContent" />
+    <Content refId="ContentLogin" />
+    <Content refId="TopContent" />
+    <Content refId="LeftContent" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />
