@@ -18,7 +18,7 @@ ATTENTION: I updated the file, since in the mappSafety CPU folder the file GLOBA
 /Zbiorniki_AS6/Binaries/
 
 # Ignore debugging configurations (Watch,...)
-
+/Zbiorniki_AS6/Temp/
 /Zbiorniki_AS6/Diagnosis/
 
 # But save the watch windows and task trace configurations (if it should stay in the repository) - optional, uncomment if needed
